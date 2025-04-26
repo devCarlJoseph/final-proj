@@ -1,11 +1,38 @@
-import SectionOne from '../components/Home/SectionOne'
-import SectionTwo from '../components/Home/SectionTwo';
+
+import { useEffect, useState } from "react";
+import Background from "../components/Home/Background/Background"
+import Hero from "../components/Home/Hero/Hero";
+import SectionTwo from '../components/Home/AboutPartial';
+import SectionThree from "../components/Home/MenuPartial";
+import SectionFour from "../components/Home/Offers";
+import SectionFive from "../components/Home/GlimpseOf";
 
 export default function Home() {
-    return (
-      <div>
-        <SectionOne />
-        <SectionTwo />
-      </div>
-    );
-  }
+  let heroData = [
+    { text1: "Delicous Dishes", text2: "Memorable Moments" },
+    { text1: "Exceptional", text2: "Dining Experience!" },
+    { text1: "A Culinary Experiece of", text2: "Elegance and Excellence" },
+  ]
+  const [heroCount, setHeroCount] = useState(0);
+ 
+  useEffect(()=> {
+   setInterval(() => {setHeroCount((count) => {return count===2?0:count+1})
+   }, 3000);
+  },[])
+
+
+  return (
+    <div>
+      <Background heroCount={heroCount} />
+      <Hero
+        heroData={heroData[heroCount]}
+        heroCount={heroCount}
+        setHeroCount={setHeroCount}
+      />
+      <SectionTwo />
+      <SectionThree />
+      <SectionFour />
+      <SectionFive />
+    </div>
+  );
+}
