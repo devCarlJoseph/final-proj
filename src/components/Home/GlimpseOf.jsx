@@ -3,14 +3,18 @@ import GlimpseH from "./Hero/GlimpseH"
 import { useState } from "react";
 import Wave from "react-wavify";
 
+
 export default function GlimpseOf() {
 
     const [playStatus, setPlayStatus] = useState(false);
 
+
+
+
     return (
         <div>
-            <div className="relative">
-                <div className='mb-[-7rem]'>
+            <div>
+                <div className='mb-[-3rem]'>
                     <Wave fill='#fdfbfa'
                         paused={false}
                         style={{
@@ -21,28 +25,40 @@ export default function GlimpseOf() {
                             height: 10,
                             amplitude: 30,
                             speed: 0.20,
-                            points: 10
+                            points: 15
                         }}
                     />
                 </div>
-                <div className="bg-[url('../../assets/pictures/workmates.png')] bg-cover h-[70rem] ">
-                    <div className="flex justify-center items-center pt-[10rem]">
-                        <Glimpse playStatus={playStatus} />
-                    </div>
-                    <div className="absolute top-[32rem] left-[47.1%]">
-                        <GlimpseH
-                            setPlayStatus={setPlayStatus}
-                            playStatus={playStatus}
-                        />
-                    </div>
-                    <div className="absolute top-[22rem] left-[20.65%]">
-                        <div class="flex justify-center items-center gap-1.5 text-primary pb-[1.5rem] max-xl:pb-[0.4rem]">
-                            <i class="fa-solid fa-diamond max-sm:text-[0.8rem] max-2xs:text-[0.6rem]"></i>
-                            <i class="fa-solid fa-diamond max-sm:text-[0.8rem] max-2xs:text-[0.6rem]"></i>
-                            <i class="fa-solid fa-diamond max-sm:text-[0.8rem] max-2xs:text-[0.6rem]"></i>
+                <div className="bg-mainH h-[38.65rem]">
+                    <div className="flex">
+                        <div className="bg-[url('../../assets/pictures/dining.jpg')] bg-cover h-[33.5rem] w-[50%]">
+                            <div>
+                                <Glimpse playStatus={playStatus} />
+                            </div>
                         </div>
-                        <div>
-                            <h1 className="text-[4rem] text-white font-medium text-center">Get a Glimpse of Our Dining Eperience</h1>
+                        <div className="h-[35.65rem] w-[50%] mt-[-4rem]">
+                            <div className="text-center max-xl:pt-[5.5rem] max-lg:pt-[4.5rem] max-sm:pt-[2.5rem]">
+                                <div className="flex justify-center items-center gap-1 ml-[-2.5rem] text-primary mt-[10rem] max-xl:mt-[8rem] max-lg:mt-[4rem]">
+                                    <i className="fa-solid fa-diamond max-sm:text-[0.8rem]"></i>
+                                    <i className="fa-solid fa-diamond max-sm:text-[0.8rem]"></i>
+                                    <i className="fa-solid fa-diamond max-sm:text-[0.8rem]"></i>
+                                </div>
+                                <div>
+                                    <h1 className="text-primary text-[2.5rem] font-medium max-2xl:text-[4.5rem] max-xl:text-[3rem] max-sm:text-[1.5rem]">Get a Glimpse of Our Dining Experience</h1>
+                                </div>
+                                <div>
+                                    <p className="p-6 text-justify text-text2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum cupiditate labore nulla ducimus harum iure deleniti commodi sequi totam veniam sunt necessitatibus eveniet voluptatum consequuntur similique recusandae, quod saepe impedit.
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, reiciendis cumque dolorem laudantium dolore recusandae, voluptatibus natus molestias tempore, fugit repellendus! Consequuntur blanditiis optio reiciendis cumque, molestias voluptates est recusandae!
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum pariatur assumenda illum, optio neque ullam velit, repudiandae nobis sit possimus error. Facere aperiam nisi reiciendis hic veniam amet qui enim?
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="flex justify-center items-center">
+                                <GlimpseH
+                                    setPlayStatus={setPlayStatus}
+                                    playStatus={playStatus}
+                                />
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -9,14 +9,14 @@ export default function SectionThree() {
     return (
         <div>
             <div className='mt-[-6rem]'>
-                <Wave fill='#f8ece4'
+                <Wave fill='#e4dcbe'
                     paused={false}
                     style={{ display: 'flex' }}
                     options={{
                         height: 20,
                         amplitude: 30,
                         speed: 0.20,
-                        points: 10
+                        points: 15
                     }}
                 />
             </div>

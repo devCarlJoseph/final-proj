@@ -6,6 +6,12 @@ import SectionTwo from '../components/Home/AboutPartial';
 import SectionThree from "../components/Home/MenuPartial";
 import SectionFour from "../components/Home/Offers";
 import SectionFive from "../components/Home/GlimpseOf";
+import SectionSix from "../components/Home/Chef";
+import SectionSeven from "../components/Home/Testimonial"
+import SectionEight from "../components/Home/News"
+import SectionNine from "../components/Home/WhyChoose"
+import SectionTen from "../components/Home/Gallery"
+import SectionEleven from "../components/Home/Reserve"
 
 export default function Home() {
   let heroData = [
@@ -14,11 +20,12 @@ export default function Home() {
     { text1: "A Culinary Experiece of", text2: "Elegance and Excellence" },
   ]
   const [heroCount, setHeroCount] = useState(0);
- 
-  useEffect(()=> {
-   setInterval(() => {setHeroCount((count) => {return count===2?0:count+1})
-   }, 3000);
-  },[])
+
+  useEffect(() => {
+    setInterval(() => {
+      setHeroCount((count) => { return count === 2 ? 0 : count + 1 })
+    }, 3000);
+  }, [])
 
 
   return (
@@ -33,6 +40,12 @@ export default function Home() {
       <SectionThree />
       <SectionFour />
       <SectionFive />
+      <SectionNine />
+      <SectionEleven />
+      <SectionSix />
+      <SectionTen />
+      <SectionEight />
+      <SectionSeven />
     </div>
   );
 }

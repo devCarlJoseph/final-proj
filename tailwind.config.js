@@ -9,11 +9,15 @@ export default {
       colors: {
         background: '#fcfaf9',
         text: '#0a0808',
-        primary: '#b08151',
-        secondary: '#ddbd9d',
-        tertiary: '#d9a36d',
-        mainH: '#f8ece4',
+        text2: '#8c8262',
+        primary: '#9a8f6d',
+        secondary: '#cac3a9',
+        tertiary: '#beb286',
+        mainH: '#e4dcbe',
         logo: '#52397b',
+      },
+      screens: {
+        '2xl' : '1540px',
       }
     },
   },

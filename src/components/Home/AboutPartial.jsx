@@ -12,7 +12,7 @@ export default function SectionTwo() {
                         height: 20,
                         amplitude: 50,
                         speed: 0.15,
-                        points: 10
+                        points: 15
                     }}
                 />
             </div>

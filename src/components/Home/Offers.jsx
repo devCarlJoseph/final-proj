@@ -13,11 +13,11 @@ export default function Offer() {
                         height: 20,
                         amplitude: 50,
                         speed: 0.15,
-                        points: 10
+                        points: 15
                     }}
                 />
             </div>
-            <div class="overflow-hidden bg-background h-[52rem] max-lg:h-[80rem] max-sm:h-[53rem] max-2xs:h-[45rem]">
+            <div class="overflow-hidden bg-background h-[40rem] max-lg:h-[80rem] max-sm:h-[53rem] max-2xs:h-[45rem]">
                 <div class="w-full">
                     <div class="text-center">
                         <div class="flex justify-center gap-2 pt-[2rem] text-center text-primary pb-[1rem] max-sm:pb-[0.5rem]">
