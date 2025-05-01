@@ -1,11 +1,12 @@
 import Wave from "react-wavify"
+import image from "../../assets/pictures/ambot.jpg"
 
 
 export default function Reserve() {
     return (
         <div>
             <div className='mt-[-4.5rem]'>
-                <Wave fill='#e4dcbe'
+                <Wave fill='#fef1e1'
                     paused={false}
                     style={{ display: 'flex' }}
                     options={{
@@ -16,7 +17,7 @@ export default function Reserve() {
                     }}
                 />
             </div>
-            <div className="bg-mainH h-[70rem]">
+            <div className="bg-secondary h-[70rem]">
                 <div>
                     <div class="pt-[6rem] text-center text-primary pb-[1rem]">
                         <i class="fa-solid fa-diamond max-sm:text-[0.9rem]"></i>
@@ -72,7 +73,7 @@ export default function Reserve() {
                             </div>
                         </div>
                     </div>
-                    <div class="bg-three bg-cover h-[35rem] w-[27rem] rounded-[1rem] mr-[22rem] max-2xl:mr-[12.5rem] max-xl:mr-[2.5rem] max-xl:h-[30rem] max-xl:w-[24rem] max-lg:hidden">
+                    <div class="bg-three bg-[url('../../assets/pictures/ambot.jpg')] bg-cover h-[35rem] w-[27rem] rounded-[1rem] mr-[22rem] max-2xl:mr-[12.5rem] max-xl:mr-[2.5rem] max-xl:h-[30rem] max-xl:w-[24rem] max-lg:hidden">
                         <div class="text-white text-justify mt-[1.5rem] ml-[1.5rem] ">
                             <h1 class="text-[1.5rem] font-medium max-lg:text-[1.2rem]">Address</h1>
                             <p class="pt-[0.5rem] text-gray-200">Cordova 2041 Ln. Yeh, New York Sandwich</p>

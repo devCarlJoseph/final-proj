@@ -33,7 +33,7 @@ export default function Testimonial() {
                             <h1 class="text-[2.5rem] text-white max-sm:text-[2rem] max-xs:text-[1.5rem]">Testimonials from Our <br /><span class="text-primary">Valued Guests</span></h1>
                         </div>
                     </div>
-                    <div class="flex justify-center items-center gap-4 mt-[2rem] max-lg:flex-col">
+                    <div class="flex justify-center items-center gap-4  max-lg:flex-col">
                         <div class="w-[35rem] h-[22.5rem] backdrop-blur-md bg-white/30 rounded-[1rem] border-1 border-white/20 max-xl:w-[28rem] max-lg:w-[32rem] max-lg:h-[20.5rem] max-sm:w-[22rem] max-sm:h-[18rem] max-xs:w-[20rem] max-xs:h-[17rem] max-2xs:w-[18rem] max-2xs:h-[16.5rem]">
                             <div class="ml-[1rem] mt-[1rem] max-xs:mt-[0.5rem]">
                                 <div class="text-[1.3rem] text-yellow-500 max-sm:text-[1rem]">
@@ -51,11 +51,11 @@ export default function Testimonial() {
                             </div>
                             <div class="flex items-center gap-3 relative mt-[2rem] ml-[1rem] max-xl:mt-[0.7rem] max-xs:mt-[0.5rem]">
                                 <img class="w-[4rem] h-[4rem] rounded-[50%] border-1 border-white max-xs:w-[3.5rem] max-xs:h-[3.5rem]" src="/assets/images/pp 1.jpg" />
-                                    <div class="w-[3.5rem] h-[3.5rem] border-2 border-white rounded-[50%] absolute top-1 left-[0.25rem]  max-xs:w-[3rem] max-xs:h-[3rem] max-sm:top-[0.25rem] max-2xs:top-[0.3rem]"></div>
-                                    <div class="mt-[0.3rem]">
-                                        <h1 class="text-white text-[1.2rem] max-xs:text-[1rem]">Theresa Webb</h1>
-                                        <p class="text-gray-200 max-xs:text-[0.8rem]">Happy Guest</p>
-                                    </div>
+                                <div class="w-[3.5rem] h-[3.5rem] border-2 border-white rounded-[50%] absolute top-1 left-[0.25rem]  max-xs:w-[3rem] max-xs:h-[3rem] max-sm:top-[0.25rem] max-2xs:top-[0.3rem]"></div>
+                                <div class="mt-[0.3rem]">
+                                    <h1 class="text-white text-[1.2rem] max-xs:text-[1rem]">Theresa Webb</h1>
+                                    <p class="text-gray-200 max-xs:text-[0.8rem]">Happy Guest</p>
+                                </div>
                             </div>
                         </div>
                         <div>
@@ -76,11 +76,11 @@ export default function Testimonial() {
                                 </div>
                                 <div class="flex items-center gap-3 relative mt-[2rem] ml-[1rem] max-xl:mt-[0.7rem] max-xs:mt-[0.5rem]">
                                     <img class="w-[4rem] h-[4rem] rounded-[50%] border-1 border-white max-xs:w-[3.5rem] max-xs:h-[3.5rem]" src="/assets/images/pp 1.jpg" />
-                                        <div class="w-[3.5rem] h-[3.5rem] border-2 border-white rounded-[50%] absolute top-1 left-[0.25rem] max-xs:w-[3rem] max-xs:h-[3rem] max-sm:top-[0.25rem] max-2xs:top-[0.3rem]"></div>
-                                        <div class="mt-[0.3rem]">
-                                            <h1 class="text-white text-[1.2rem] max-xs:text-[1rem]">Theresa Webb</h1>
-                                            <p class="text-gray-200 max-xs:text-[0.8rem]">Happy Guest</p>
-                                        </div>
+                                    <div class="w-[3.5rem] h-[3.5rem] border-2 border-white rounded-[50%] absolute top-1 left-[0.25rem] max-xs:w-[3rem] max-xs:h-[3rem] max-sm:top-[0.25rem] max-2xs:top-[0.3rem]"></div>
+                                    <div class="mt-[0.3rem]">
+                                        <h1 class="text-white text-[1.2rem] max-xs:text-[1rem]">Theresa Webb</h1>
+                                        <p class="text-gray-200 max-xs:text-[0.8rem]">Happy Guest</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>

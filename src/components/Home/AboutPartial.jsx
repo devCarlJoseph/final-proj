@@ -4,7 +4,7 @@ import Wave from 'react-wavify'
 export default function SectionTwo() {
     return (
         <div>
-            <div className='mt-[-9rem] z-10'>
+            <div className='mt-[-9rem]'>
                 <Wave fill='#fbfafb'
                     paused={false}
                     style={{ display: 'flex' }}
@@ -20,13 +20,13 @@ export default function SectionTwo() {
                 <div class="box-border">
                     <div class="flex justify-center items-center gap-[2rem] h-[40rem] max-xl:mt-[2rem] max-lg:mt-[0.5rem] max-lg:h-[30rem]">
                         <div class="relative">
-                            <div class="w-[5.5rem] h-[5.5rem] bg-tertiary rounded-[50%] absolute left-[38rem] z-[1] rotate-[-15deg] max-2xl:left-[32.05rem] max-xl:w-[4.5rem] max-xl:h-[4.5rem] max-xl:left-[19rem] max-lg:hidden">
+                            <div class="w-[5.5rem] h-[5.5rem] bg-primary rounded-[50%] absolute left-[38rem] z-[1] rotate-[-15deg] max-2xl:left-[32.05rem] max-xl:w-[4.5rem] max-xl:h-[4.5rem] max-xl:left-[19rem] max-lg:hidden">
                                 <h1 class="text-center text-white font-medium mt-[1.2rem] max-xl:text-[0.9rem] max-xl:mt-[0.85rem]">Since <br /> 2005</h1>
                             </div>
                             <div class="w-[5rem] h-[5rem] border-2 border-white rounded-[50%] absolute left-[38.3rem] top-[0.25rem] z-[2] max-2xl:left-[32.3rem] max-xl:w-[4rem] max-xl:h-[4rem] max-xl:left-[19.25rem] max-lg:hidden"></div>
                             <img src={Manager} class="rounded-[40%] w-[25rem] h-[30rem] ml-[20rem] max-2xl:ml-[15rem] max-xl:w-[20rem] max-xl:h-[25rem] max-xl:ml-[4rem] max-lg:hidden" />
                             <div class="w-[23rem] h-[28rem] border-[3px] border-white rounded-[40%] absolute top-[1rem] left-[21rem] max-2xl:left-[16rem] max-xl:w-[18rem] max-xl:h-[23rem] max-xl:left-[5rem] max-lg:hidden"></div>
-                            <div class="text-secondary max-lg:hidden">
+                            <div class="text-primary max-lg:hidden">
                                 <i class="fa-solid fa-star-of-life text-[4rem] absolute left-[21.5rem] top-[23.5rem] max-2xl:left-[16.5rem] max-xl:text-[3.5rem] max-xl:top-[19.5rem] max-xl:left-[5rem]"></i>
                                 <i class="fa-solid fa-star-of-life text-[2rem] absolute left-[18.5rem] top-[22rem] max-2xl:left-[13.5rem] max-xl:text-[1.5rem] max-xl:top-[18.5rem] max-xl:left-[3rem]"></i>
                                 <i class="fa-solid fa-star-of-life absolute left-[19.5rem] top-[26rem] max-2xl:left-[14.5rem] max-xl:text-[0.8rem] max-xl:top-[21.5rem] max-xl:left-[3.5rem]"></i>

@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <div>
       <div className='mt-[-4.5rem]'>
-        <Wave fill='#9a8f6d'
+        <Wave fill='#242424'
           paused={false}
           style={{ display: 'flex' }}
           options={{
@@ -16,7 +16,7 @@ export default function Footer() {
           }}
         />
       </div>
-      <div className="bg-primary">
+      <div className="bg-tertiary">
         <div>
           <div class="text-white flex justify-evenly  max-xl:hidden">
             <div>

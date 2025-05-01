@@ -29,7 +29,7 @@ export default function GlimpseOf() {
                         }}
                     />
                 </div>
-                <div className="bg-mainH h-[38.65rem]">
+                <div className="bg-secondary h-[38.65rem]">
                     <div className="flex">
                         <div className="bg-[url('../../assets/pictures/dining.jpg')] bg-cover h-[33.5rem] w-[50%]">
                             <div>

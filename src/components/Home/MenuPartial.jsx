@@ -1,15 +1,12 @@
 import Wave from 'react-wavify'
-import mozzarella from '../../assets/pictures/mozzarella stick.jpg'
-import spicedPotato from '../../assets/pictures/spiced potato.jpg'
-import garlicBread from '../../assets/pictures/garlic bread w cheese.jpg'
-import pepperoni from '../../assets/pictures/pepperoni.jpg'
-import greekFeta from '../../assets/pictures/greek feta salad.jpg'
+import Menu1 from "../../assets/pictures/pepperoni.jpg"
+
 
 export default function SectionThree() {
     return (
         <div>
             <div className='mt-[-6rem]'>
-                <Wave fill='#e4dcbe'
+                <Wave fill='#fef1e1'
                     paused={false}
                     style={{ display: 'flex' }}
                     options={{
@@ -20,269 +17,96 @@ export default function SectionThree() {
                     }}
                 />
             </div>
-            <div className="h-[78rem] bg-mainH">
-                <div class="flex justify-center gap-1.5 pt-[1.5rem] text-center text-primary pb-[1rem] max-sm:pt-[10rem] max-sm:pb-[0.6rem] max-xs:pb-[0.5rem]">
-                    <i class="fa-solid fa-diamond max-sm:text-[0.8rem] max-xs:text-[0.7rem]"></i>
-                    <i class="fa-solid fa-diamond max-sm:text-[0.8rem] max-xs:text-[0.7rem]"></i>
-                    <i class="fa-solid fa-diamond max-sm:text-[0.8rem] max-xs:text-[0.7rem]"></i>
-                </div>
-                <div class="text-center text-primary">
-                    <h1 class="text-[1.2rem] font-medium pb-[1rem] max-sm:text-[1rem] max-sm:pb-[0.6rem] max-xs:text-[0.9rem] max-xs:pb-[0.5rem]">FOOD MENU</h1>
-                </div>
-                <div class="text-center font-semibold">
-                    <h1 class="text-[2.5rem] max-sm:text-[1.5rem] max-xs:text-[1rem]">Timeless <span class="text-primary">Culinary Delights</span></h1>
-                </div>
-                <div className='flex justify-center items-center gap-[1.5rem] mt-[2rem]'>
-                    <div className='w-[19rem] h-[25rem] bg-background rounded-3xl shadow-md'>
-                        <div>
-                            <img className='w-[19rem] h-[16rem] rounded-t-3xl object-obtain' src={mozzarella} />
+            <div className='h-[73rem] bg-secondary'>
+                <div>
+                    <div class="flex justify-center items-center gap-1.5 text-primary pb-[1rem] max-sm:pt-[10rem] max-sm:pb-[0.6rem] max-xs:pb-[0.5rem]">
+                        <i className="fa-solid fa-diamond max-sm:text-[0.8rem] max-xs:text-[0.7rem]"></i>
+                        <i className="fa-solid fa-diamond max-sm:text-[0.8rem] max-xs:text-[0.7rem]"></i>
+                        <i className="fa-solid fa-diamond max-sm:text-[0.8rem] max-xs:text-[0.7rem]"></i>
+                    </div>
+                    <div>
+                        <div className="text-center">
+                            <h1 className="text-primary text-[1.5rem] font-semibold pb-[1rem] max-sm:text-[1rem] max-sm:pb-[0.6rem] max-xs:text-[0.9rem] max-xs:pb-[0.5rem]">FOOD MENU</h1>
                         </div>
-                        <div>
-                            <div className='flex justify-between mt-2 p-2.5'>
-                                <div className='ml-1'>
-                                    <h1 className='font-medium text-[1.1rem]'>Mozarella Sticks</h1>
-                                </div>
-                                <div className='text-yellow-500 mr-1'>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-regular fa-star"></i>
-                                </div>
-                            </div>
+                        <div className="text-center font-semibold">
+                            <div className="text-[2.5rem] max-sm:text-[1.5rem] max-xs:text-[1rem]">Timeless <span class="text-primary">Culinary Delights</span></div>
                         </div>
-                        <div>
-                            <p className='text-[0.8rem] pl-3.5 pr-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                        </div>
-                        <div>
-                            <h2 className='text-[1.3rem] font-bold text-primary pl-3.5'>$15</h2>
+                        <div className='text-center mt-[5.5rem]'>
+                            <div className='text-[2rem] font-semibold'>Top List</div>
+                            <span className='text-[1rem] text-text font-medium'>Our mainstay menu</span>
                         </div>
                     </div>
-                    <div className='w-[19rem] h-[25rem] bg-background rounded-3xl shadow-md'>
-                        <div>
-                            <img className='w-[19rem] h-[16rem] rounded-t-3xl object-obtain' src={spicedPotato} />
-                        </div>
-                        <div>
-                            <div className='flex justify-between mt-2 p-2.5'>
-                                <div className='ml-1'>
-                                    <h1 className='font-medium text-[1.1rem]'>Spicy Potato</h1>
+                    <div className='flex justify-center items-center gap-5'>
+                        <div className="mt-[5rem] w-[19rem] h-[22rem] bg-tertiary/80 rounded-3xl">
+                            {/* for image */}
+                            <div className='flex justify-center mt-[-3.5rem]'>
+                                <div className='flex justify-center w-[14.5rem] h-[14.5rem] bg-white/70 rounded-[50%]'>
+                                    <img className='mt-[0.2rem] w-[14rem] h-[14rem] rounded-[50%]' src={Menu1} />
                                 </div>
-                                <div className='text-yellow-500 mr-1'>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-regular fa-star"></i>
+                            </div>
+                            {/* for text */}
+                            <div>
+                                <div className="text-center pt-5">
+                                    <i className="fa-solid fa-star text-yellow-400 text-[1.2rem]"></i>
+                                    <span className='text-yellow-400 text-[1.2rem] font-semibold pl-2'>8.5</span>
+                                </div>
+                                <div className='text-white text-center'>
+                                    <div className='text-[1.2rem] font-semibold'>Pepperoni</div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore!</p>
+                                </div>
+                                <div className='text-center pt-2'>
+                                    <div className='text-[1.2rem] text-white font-semibold'>$15</div>
                                 </div>
                             </div>
                         </div>
-                        <div>
-                            <p className='text-[0.8rem] pl-3.5 pr-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <div className="mt-[5rem] w-[22rem] h-[27.5rem] bg-primary/80 rounded-3xl">
+                            {/* for image */}
+                            <div className='flex justify-center mt-[-3.5rem]'>
+                                <div className='flex justify-center w-[19.5rem] h-[19.5rem] bg-white/70 rounded-[50%]'>
+                                    <img className='mt-[0.2rem] w-[19rem] h-[19rem] rounded-[50%]' src={Menu1} />
+                                </div>
+                            </div>
+                            {/* for text */}
+                            <div>
+                                <div className="text-center pt-5">
+                                    <i className="fa-solid fa-star text-yellow-400 text-[1.2rem]"></i>
+                                    <span className='text-yellow-400 text-[1.2rem] font-semibold pl-2'>8.5</span>
+                                </div>
+                                <div className='text-white text-center'>
+                                    <div className='text-[1.2rem] font-semibold'>Pepperoni</div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore!</p>
+                                </div>
+                                <div className='text-center pt-2'>
+                                    <div className='text-[1.2rem] text-white font-semibold'>$15</div>
+                                </div>
+                            </div>
                         </div>
-                        <div>
-                            <h2 className='text-[1.3rem] font-bold text-primary pl-3.5'>$15</h2>
+                        <div className="mt-[5rem] w-[19rem] h-[22rem] bg-tertiary/80 rounded-3xl">
+                            {/* for image */}
+                            <div className='flex justify-center mt-[-3.5rem]'>
+                                <div className='flex justify-center w-[14.5rem] h-[14.5rem] bg-white/70 rounded-[50%]'>
+                                    <img className='mt-[0.2rem] w-[14rem] h-[14rem] rounded-[50%]' src={Menu1} />
+                                </div>
+                            </div>
+                            {/* for text */}
+                            <div>
+                                <div className="text-center pt-5">
+                                    <i className="fa-solid fa-star text-yellow-400 text-[1.2rem]"></i>
+                                    <span className='text-yellow-400 text-[1.2rem] font-semibold pl-2'>8.5</span>
+                                </div>
+                                <div className='text-white text-center'>
+                                    <div className='text-[1.2rem] font-semibold'>Pepperoni</div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore!</p>
+                                </div>
+                                <div className='text-center pt-2'>
+                                    <div className='text-[1.2rem] text-white font-semibold'>$15</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div className='w-[19rem] h-[25rem] bg-white rounded-3xl shadow-md'>
-                        <div>
-                            <img className='w-[19rem] h-[16rem] rounded-t-3xl object-obtain' src={garlicBread} />
-                        </div>
-                        <div>
-                            <div className='flex justify-between mt-2 p-2.5'>
-                                <div className='ml-1'>
-                                    <h1 className='font-medium text-[1.1rem]'>Garlic Bread</h1>
-                                </div>
-                                <div className='text-yellow-500 mr-1'>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-regular fa-star"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <p className='text-[0.8rem] pl-3.5 pr-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                        </div>
-                        <div>
-                            <h2 className='text-[1.3rem] font-bold text-primary pl-3.5'>$15</h2>
-                        </div>
-                    </div>
-                    <div className='w-[19rem] h-[25rem] bg-white rounded-3xl shadow-md'>
-                        <div>
-                            <img className='w-[19rem] h-[16rem] rounded-t-3xl object-obtain' src={pepperoni} />
-                        </div>
-                        <div>
-                            <div className='flex justify-between mt-2 p-2.5'>
-                                <div className='ml-1'>
-                                    <h1 className='font-medium text-[1.1rem]'>Pepperoni Pie</h1>
-                                </div>
-                                <div className='text-yellow-500 mr-1'>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-regular fa-star"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <p className='text-[0.8rem] pl-3.5 pr-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                        </div>
-                        <div>
-                            <h2 className='text-[1.3rem] font-bold text-primary pl-3.5'>$15</h2>
-                        </div>
-                    </div>
-                    <div className='w-[19rem] h-[25rem] bg-white rounded-3xl shadow-md'>
-                        <div>
-                            <img className='w-[19rem] h-[16rem] rounded-t-3xl object-obtain' src={greekFeta} />
-                        </div>
-                        <div>
-                            <div className='flex justify-between mt-2 p-2.5'>
-                                <div className='ml-1'>
-                                    <h1 className='font-medium text-[1.1rem]'>Greek Salad</h1>
-                                </div>
-                                <div className='text-yellow-500 mr-1'>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-regular fa-star"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <p className='text-[0.8rem] pl-3.5 pr-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                        </div>
-                        <div>
-                            <h2 className='text-[1.3rem] font-bold text-primary pl-3.5'>$15</h2>
-                        </div>
-                    </div>
-                </div>
-                <div className='flex justify-center items-center gap-[1.5rem] mt-[2rem]'>
-                    <div className='w-[19rem] h-[25rem] bg-background rounded-3xl shadow-md'>
-                        <div>
-                            <img className='w-[19rem] h-[16rem] rounded-t-3xl object-obtain' src={mozzarella} />
-                        </div>
-                        <div>
-                            <div className='flex justify-between mt-2 p-2.5'>
-                                <div className='ml-1'>
-                                    <h1 className='font-medium text-[1.1rem]'>Mozarella Sticks</h1>
-                                </div>
-                                <div className='text-yellow-500 mr-1'>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-regular fa-star"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <p className='text-[0.8rem] pl-3.5 pr-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                        </div>
-                        <div>
-                            <h2 className='text-[1.3rem] font-bold text-primary pl-3.5'>$15</h2>
-                        </div>
-                    </div>
-                    <div className='w-[19rem] h-[25rem] bg-background rounded-3xl shadow-md'>
-                        <div>
-                            <img className='w-[19rem] h-[16rem] rounded-t-3xl object-obtain' src={spicedPotato} />
-                        </div>
-                        <div>
-                            <div className='flex justify-between mt-2 p-2.5'>
-                                <div className='ml-1'>
-                                    <h1 className='font-medium text-[1.1rem]'>Mozarella Sticks</h1>
-                                </div>
-                                <div className='text-yellow-500 mr-1'>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-regular fa-star"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <p className='text-[0.8rem] pl-3.5 pr-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                        </div>
-                        <div>
-                            <h2 className='text-[1.3rem] font-bold text-primary pl-3.5'>$15</h2>
-                        </div>
-                    </div>
-                    <div className='w-[19rem] h-[25rem] bg-white rounded-3xl shadow-md'>
-                        <div>
-                            <img className='w-[19rem] h-[16rem] rounded-t-3xl object-obtain' src={garlicBread} />
-                        </div>
-                        <div>
-                            <div className='flex justify-between mt-2 p-2.5'>
-                                <div className='ml-1'>
-                                    <h1 className='font-medium text-[1.1rem]'>Mozarella Sticks</h1>
-                                </div>
-                                <div className='text-yellow-500 mr-1'>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-regular fa-star"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <p className='text-[0.8rem] pl-3.5 pr-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                        </div>
-                        <div>
-                            <h2 className='text-[1.3rem] font-bold text-primary pl-3.5'>$15</h2>
-                        </div>
-                    </div>
-                    <div className='w-[19rem] h-[25rem] bg-white rounded-3xl shadow-md'>
-                        <div>
-                            <img className='w-[19rem] h-[16rem] rounded-t-3xl object-obtain' src={pepperoni} />
-                        </div>
-                        <div>
-                            <div className='flex justify-between mt-2 p-2.5'>
-                                <div className='ml-1'>
-                                    <h1 className='font-medium text-[1.1rem]'>Mozarella Sticks</h1>
-                                </div>
-                                <div className='text-yellow-500 mr-1'>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-regular fa-star"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <p className='text-[0.8rem] pl-3.5 pr-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                        </div>
-                        <div>
-                            <h2 className='text-[1.3rem] font-bold text-primary pl-3.5'>$15</h2>
-                        </div>
-                    </div>
-                    <div className='w-[19rem] h-[25rem] bg-white rounded-3xl shadow-md'>
-                        <div>
-                            <img className='w-[19rem] h-[16rem] rounded-t-3xl object-obtain' src={greekFeta} />
-                        </div>
-                        <div>
-                            <div className='flex justify-between mt-2 p-2.5'>
-                                <div className='ml-1'>
-                                    <h1 className='font-medium text-[1.1rem]'>Mozarella Sticks</h1>
-                                </div>
-                                <div className='text-yellow-500 mr-1'>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-regular fa-star"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <p className='text-[0.8rem] pl-3.5 pr-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                        </div>
-                        <div>
-                            <h2 className='text-[1.3rem] font-bold text-primary pl-3.5'>$15</h2>
+                    <div className='flex justify-center items-center mt-[2.2rem]'>
+                        <div className='w-[10rem] h-[2.7rem] text-center bg-primary rounded-3xl hover:bg-tertiary'>
+                            <button className='text-white mt-[0.5rem] font-semibold'>Browse Full Menu</button>
                         </div>
                     </div>
                 </div>
