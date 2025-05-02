@@ -1,10 +1,11 @@
 import Wave from 'react-wavify'
 import Menu1 from "../../assets/pictures/pepperoni.jpg"
+import { Link } from 'react-router-dom';
 
 
 export default function SectionThree() {
     return (
-        <div>
+        <div className='box-border w-full'>
             <div className='mt-[-6rem]'>
                 <Wave fill='#fef1e1'
                     paused={false}
@@ -17,7 +18,7 @@ export default function SectionThree() {
                     }}
                 />
             </div>
-            <div className='h-[73rem] bg-secondary'>
+            <div className='h-[73rem] bg-secondary box-border'>
                 <div>
                     <div class="flex justify-center items-center gap-1.5 text-primary pb-[1rem] max-sm:pt-[10rem] max-sm:pb-[0.6rem] max-xs:pb-[0.5rem]">
                         <i className="fa-solid fa-diamond max-sm:text-[0.8rem] max-xs:text-[0.7rem]"></i>
@@ -106,7 +107,7 @@ export default function SectionThree() {
                     </div>
                     <div className='flex justify-center items-center mt-[2.2rem]'>
                         <div className='w-[10rem] h-[2.7rem] text-center bg-primary rounded-3xl hover:bg-tertiary'>
-                            <button className='text-white mt-[0.5rem] font-semibold'>Browse Full Menu</button>
+                            <button className='text-white mt-[0.5rem] font-semibold'><Link to="/menu" >Browse Full Menu</Link></button>
                         </div>
                     </div>
                 </div>
