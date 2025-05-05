@@ -6,7 +6,7 @@ export default function Offer() {
     return (
         <div>
             <div className='mt-[-9rem] z-10'>
-                <Wave fill='#fdfbfa'
+                <Wave fill='#faf8f7'
                     paused={false}
                     style={{ display: 'flex' }}
                     options={{

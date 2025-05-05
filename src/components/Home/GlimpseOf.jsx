@@ -15,7 +15,7 @@ export default function GlimpseOf() {
         <div>
             <div>
                 <div className='mb-[-3rem]'>
-                    <Wave fill='#fdfbfa'
+                    <Wave fill='#faf8f7'
                         paused={false}
                         style={{
                             display: 'flex',

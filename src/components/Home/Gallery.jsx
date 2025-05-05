@@ -5,7 +5,7 @@ export default function Gallery() {
     return (
         <div>
             <div className='mb-[-4rem]'>
-                <Wave fill='#fdfbfa'
+                <Wave fill='#faf8f7'
                     paused={false}
                     style={{
                         display: 'flex',

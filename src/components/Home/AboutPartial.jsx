@@ -5,7 +5,7 @@ export default function SectionTwo() {
     return (
         <div>
             <div className='mt-[-9rem]'>
-                <Wave fill='#fbfafb'
+                <Wave fill='#faf8f7'
                     paused={false}
                     style={{ display: 'flex' }}
                     options={{

@@ -7,7 +7,7 @@ export default function Dine() {
     return (
         <div>
             <div className='mt-[-9.5rem]'>
-                <Wave fill='#fcfaf9'
+                <Wave fill='#faf8f7'
                     paused={false}
                     style={{ display: 'flex' }}
                     options={{

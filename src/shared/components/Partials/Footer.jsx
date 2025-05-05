@@ -84,7 +84,7 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div class="border-b-1 border-b-white w-[82.7%] mt-[4rem] ml-[11.5rem] max-2xl:ml-[8.5rem] max-xl:hidden"></div>
+          <div class="border-b-[1px] border-b-white w-[82.7%] mt-[4rem] ml-[11.5rem] max-2xl:ml-[8.5rem] max-xl:hidden"></div>
           <div class="flex justify-between items-center mt-[3rem] max-xl:mt-[1rem] max-sm:justify-center">
             <div class="text-white ml-[11.5rem] max-xl:ml-[5rem] max-lg:ml-[2rem] max-sm:ml-0">
               <h1>Copyright 2025</h1>
