@@ -3,7 +3,7 @@ import Main from "./Main/MainList"
 import Dessert from "./Desserts/DessertList"
 import Beverages from "./Beverages/Beverages"
 
-export default function Test123({ heroCount }) {
+export default function MenuItems({ heroCount }) {
     if (heroCount === 0) {
         return (
             <Appetizer />

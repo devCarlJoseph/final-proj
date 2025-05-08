@@ -1,6 +1,7 @@
 import Wave from 'react-wavify'
 import Menu1 from "../../assets/pictures/pepperoni.jpg"
-import { Link } from 'react-router-dom';
+import Button from './Button'
+
 
 
 export default function SectionThree() {
@@ -36,7 +37,7 @@ export default function SectionThree() {
                             <div className='text-[2rem] font-semibold'>Top List</div>
                             <span className='text-[1rem] text-text font-medium'>Our mainstay menu</span>
                         </div>
-                    </div>
+                    </div>  
                     <div className='flex justify-center items-center gap-5'>
                         <div className="mt-[5rem] w-[19rem] h-[22rem] bg-tertiary/80 rounded-3xl">
                             {/* for image */}
@@ -105,11 +106,7 @@ export default function SectionThree() {
                             </div>
                         </div>
                     </div>
-                    <div className='flex justify-center items-center mt-[2.2rem]'>
-                        <div className='w-[10rem] h-[2.7rem] text-center bg-primary rounded-3xl hover:bg-tertiary'>
-                            <button className='text-white mt-[0.5rem] font-semibold'><Link to="/menu">Browse Full Menu</Link></button>
-                        </div>
-                    </div>
+                    <Button />
                 </div>
             </div>
         </div>

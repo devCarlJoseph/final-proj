@@ -1,7 +1,7 @@
 
 
 
-export default function SweetsItems({ setHeroCount, heroCount, }) {
+export default function SweetsItems({ setHeroCount, heroCount }) {
     return (
         <div className="h-[18rem] bg-background">
             <div className="text-center pt-[4rem]">

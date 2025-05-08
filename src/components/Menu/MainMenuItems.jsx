@@ -1,6 +1,6 @@
 import { useState } from "react";
 import ItemList from "./MenuItems/ItemList";
-import Test123 from "./MenuItems/MenuItems";
+import MenuItems from "./MenuItems/MenuItems";
 
 
 export default function MainMenuItems() {
@@ -9,10 +9,10 @@ export default function MainMenuItems() {
 
     return (
         <div>
-            < ItemList
+            <ItemList
                 heroCount={heroCount}
                 setHeroCount={setHeroCount} />
-            <Test123 heroCount={heroCount} />
+            <MenuItems heroCount={heroCount} />
         </div>
     )
 }

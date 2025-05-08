@@ -12,6 +12,7 @@ import SectionEight from "../components/Home/News"
 import SectionNine from "../components/Home/WhyChoose"
 import SectionTen from "../components/Home/Gallery"
 import SectionEleven from "../components/Home/Reserve"
+import Faq from "../components/Home/Faq";
 
 export default function Home() {
   let heroData = [
@@ -19,6 +20,7 @@ export default function Home() {
     { text1: "Exceptional", text2: "Dining Experience!" },
     { text1: "A Culinary Experiece of", text2: "Elegance and Excellence" },
   ]
+  
   const [heroCount, setHeroCount] = useState(0);
 
   useEffect(() => {
@@ -43,9 +45,10 @@ export default function Home() {
       <SectionNine />
       <SectionEleven />
       <SectionSix />
-      <SectionTen />
-      <SectionEight />
       <SectionSeven />
+      <SectionEight />
+      <Faq />
+      <SectionTen />
     </div>
   );
 }
