@@ -1,7 +1,9 @@
-
+import FaqList from "./FaqList/FaqList"
 
 
 export default function Faq() {
+
+
     return (
         <div>
             <div class="bg-secondary h-[80rem] overflow-hidden max-xl::h-[95rem] max-sm:h-[70rem] max-2xs:h-[60rem]">
@@ -286,7 +288,7 @@ export default function Faq() {
                                 </div>
                             </div>
                             <div class="flex flex-col items-center sticky">
-                                <div class="bg-[url('../../assets/pictures/ambot.jpg')] h-[20rem] w-[27rem] bg-cover rounded-[1rem] max-sm:w-[20rem] max-sm:h-[15rem] max-2xs:w-[18rem]">
+                                <div class="bg-three h-[20rem] w-[27rem] bg-cover rounded-[1rem] max-sm:w-[20rem] max-sm:h-[15rem] max-2xs:w-[18rem]">
                                     <div class="text-center">
                                         <div class="relative">
                                             <i class="fa-solid fa-comment-dots text-primary text-[3.5rem] mt-[2rem] max-sm:text-[2.5rem] max-sm:mt-[1rem]"></i>

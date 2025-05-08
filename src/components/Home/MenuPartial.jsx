@@ -20,7 +20,7 @@ export default function SectionThree() {
                 />
             </div>
             <div className='h-[73rem] bg-secondary box-border'>
-                <div>
+                <div className=''>
                     <div class="flex justify-center items-center gap-1.5 text-primary pb-[1rem] max-sm:pt-[10rem] max-sm:pb-[0.6rem] max-xs:pb-[0.5rem]">
                         <i className="fa-solid fa-diamond max-sm:text-[0.8rem] max-xs:text-[0.7rem]"></i>
                         <i className="fa-solid fa-diamond max-sm:text-[0.8rem] max-xs:text-[0.7rem]"></i>

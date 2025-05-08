@@ -8,6 +8,7 @@ import OurAward from "../components/About/OurAward";
 import Chef from "../components/Home/Chef";
 import GlimpseOf from "../components/Home/GlimpseOf"
 import Footer from "../shared/components/Partials/Footer";
+import Testimonial from "../components/Home/Testimonial/Testimonial";
 
 
 export default function About() {
@@ -22,6 +23,7 @@ export default function About() {
       <OurAward />
       <Chef />
       <GlimpseOf />
+      <Testimonial />
       <Footer />
     </div>
   );
