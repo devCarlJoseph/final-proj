@@ -1,7 +1,7 @@
 
 
 
-export default function ItemsOne() {
+export default function One() {
     return (
         <div>
             <div class="flex justify-center items-center gap-4 mt-[3rem] max-lg:flex-col">

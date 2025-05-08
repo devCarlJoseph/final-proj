@@ -1,11 +1,11 @@
 import Wave from "react-wavify"
-import TestimonialList from "./Testimonial/TestimonialList";
-import TestimonialMain from "./Testimonial/TestimonialMain";
+import List from "./TestimonialList/List"
+import Items from "./TestimonialList/Items"
 import { useState } from "react";
 
 export default function Testimonial() {
 
-    const [testCount, testimonialCount] = useState(0);
+    const [heroCount, setHeroCount] = useState(0);
 
     return (
         <div>
@@ -40,14 +40,10 @@ export default function Testimonial() {
                         </div>
                     </div>
                 </div>
-                <div>
-                    <TestimonialMain
-                        testCount={testCount}
-                        testimonialCount={testimonialCount} />
-                    <TestimonialList
-                        testCount={testCount}
-                    />
-                </div>
+                <Items heroCount={heroCount} />
+                <List heroCount={heroCount}
+                    setHeroCount={setHeroCount}
+                />
             </div>
         </div>
     )

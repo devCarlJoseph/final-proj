@@ -3,7 +3,6 @@ import AboutIntro from "../components/About/AboutIntro";
 import AboutPartial from "../components/Home/AboutPartial";
 import Mission from "../components/About/Mission";
 import WhyChoose from "../components/Home/WhyChoose";
-import Testimonial from "../components/Home/Testimonial";
 import Reserve from "../components/Home/Reserve";
 import OurAward from "../components/About/OurAward";
 import Chef from "../components/Home/Chef";
@@ -19,7 +18,6 @@ export default function About() {
       <AboutPartial />
       <Mission />
       <WhyChoose />
-      <Testimonial />
       <Reserve />
       <OurAward />
       <Chef />
