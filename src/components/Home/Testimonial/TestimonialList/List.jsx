@@ -1,4 +1,4 @@
-
+{/* List 1 */}
 
 
 export default function List({ setHeroCount, heroCount }) {
