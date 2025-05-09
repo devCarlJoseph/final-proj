@@ -6,7 +6,6 @@ import App from './App';
 import Menu from './pages/Menu'
 import About from './pages/About'
 import Gallery from './pages/Gallery'
-import Blog from './pages/Blog'
 import Contact from './pages/Contact'
 import MenuIntro from './components/Menu/MenuIntro'
 
@@ -27,10 +26,6 @@ const router = createBrowserRouter([
   {
     path: "gallery",
     element: <Gallery />,
-  },
-  {
-    path: "blog",
-    element: <Blog />,
   },
   {
     path: "Contact",

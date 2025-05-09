@@ -21,7 +21,6 @@ export default function Header() {
                             <li class="hover:border-mainH hover:border-b-[1px]"><Link to="/menu" >Menu</Link></li>
                             <li class="hover:border-mainH hover:border-b-[1px]"><Link to="/about" >About Us</Link></li>
                             <li class="hover:border-mainH hover:border-b-[1px]"><Link to="/gallery" >Gallery</Link></li>
-                            <li class="hover:border-mainH hover:border-b-[1px]"><Link to="/blog" >Blogs</Link></li>
                             <li class="hover:border-mainH hover:border-b-[1px]"><Link to="/contact" >Contact Us</Link></li>
                         </ul>
                     </div>
