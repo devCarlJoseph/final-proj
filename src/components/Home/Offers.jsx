@@ -32,8 +32,8 @@ export default function Offer() {
                             <h1 class="text-[2.5rem] max-sm:text-[1.5rem]">Exclusive <span class="text-primary">Dining Offers</span></h1>
                         </div>
                     </div>
-                    <div class="flex justify-center items-center gap-[2.5rem] max-lg:flex-col">
-                        <div class="w-[35rem] h-[23rem] bg-secondary mt-[2.5rem] ml-[23.5rem] rounded-[1rem] relative overflow-hidden max-2xl:ml-[15.5rem] max-xl:ml-[3.5rem] max-lg:w-[27rem] max-lg:ml-[0] max-sm:mt-[1.5rem] max-sm:w-[20rem] max-sm:h-[17rem] max-2xs:w-[15rem] max-2xs:h-[12.5rem]">
+                    <div class="flex justify-center items-center gap-[1.5rem] max-lg:flex-col">
+                        <div class="w-[36rem] h-[23rem] bg-secondary mt-[2.5rem] ml-[10.5rem] rounded-[1rem] relative overflow-hidden max-xl:ml-[3.5rem] max-lg:w-[27rem] max-lg:ml-[0] max-sm:mt-[1.5rem] max-sm:w-[20rem] max-sm:h-[17rem] max-2xs:w-[15rem] max-2xs:h-[12.5rem]">
                             <div class="w-[6rem] h-[6rem] bg-primary rounded-[50%] absolute top-[-0.5rem] left-[2rem] rotate-[-10deg] max-sm:hidden">
                                 <h1 class="text-white text-center text-[1.3rem] font-semibold mt-[1rem]">20%<br /><span class="text-[1.2srem] font-sm">Off</span></h1>
                             </div>
@@ -50,10 +50,10 @@ export default function Offer() {
                             <div>
                                 <div class="w-[9rem] h-[9rem] bg-primary rounded-[50%] opacity-[15%] absolute top-[-2.5rem] left-[18rem] max-sm:left-[14.5rem] max-2xs:w-[4rem] max-2xs:h-[4rem] max-2xs:top-[-1.5rem] max-2xs:left-[10.5rem]"></div>
                                 <div class="w-[6rem] h-[6rem] bg-primary rounded-[50%] opacity-[15%] absolute top-[22.5rem] left-[2rem] max-sm:top-[13.5rem] max-2xs:top-[10rem] max-2xs:left-[2.5rem]"></div>
-                                <img class="w-[22rem] top-[-0.5rem] left-[13rem] absolute max-sm:hidden" src={OfferOne} />
+                                <img class="w-[22rem] top-[-0.5rem] left-[14rem] absolute max-sm:hidden" src={OfferOne} />
                             </div>
                         </div>
-                        <div class="w-[35rem] h-[23rem] bg-primary mt-[2.5rem] mr-[23.5rem] rounded-[1rem] relative overflow-hidden max-2xl:mr-[15.5rem] max-xl:mr-[3.5rem] max-lg:w-[27rem] max-lg:mr-[0] max-lg:mt-[0] max-sm:w-[20rem] max-sm:h-[17rem] max-2xs:w-[15rem] max-2xs:h-[12.5rem]">
+                        <div class="w-[36rem] h-[23rem] bg-primary mt-[2.5rem] mr-[10.5rem] rounded-[1rem] relative overflow-hidden max-xl:mr-[3.5rem] max-lg:w-[27rem] max-lg:mr-[0] max-lg:mt-[0] max-sm:w-[20rem] max-sm:h-[17rem] max-2xs:w-[15rem] max-2xs:h-[12.5rem]">
                             <div class="w-[6rem] h-[6rem] bg-white rounded-[50%] absolute top-[-0.5rem] left-[2rem] rotate-[-10deg] max-sm:hidden">
                                 <h1 class="text-primary text-center text-[1.3rem] font-semibold mt-[1rem]">20%<br /><span class="text-[1.2srem] font-sm">Off</span></h1>
                             </div>

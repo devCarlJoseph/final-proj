@@ -12,7 +12,7 @@ import SectionEight from "../components/Home/News"
 import SectionNine from "../components/Home/WhyChoose"
 import SectionTen from "../components/Home/Gallery"
 import SectionEleven from "../components/Home/Reserve"
-import Faq from "../components/Home/Faq/Faq";
+import Faq from "../components/Home/Faq";
 
 export default function Home() {
   let heroData = [

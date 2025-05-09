@@ -20,10 +20,10 @@ export default function News() {
                     }}
                 />
             </div>
-            <div className="bg-background h-[50rem] ">
+            <div className="bg-background h-[47rem] ">
                 <div>
                     <div>
-                        <div className="pt-[6rem] text-center text-primary pb-[1rem]">
+                        <div className="flex justify-center items-center gap-1 pt-[1rem] text-center text-primary pb-[1rem]">
                             <i className="fa-solid fa-diamond"></i>
                             <i className="fa-solid fa-diamond"></i>
                             <i className="fa-solid fa-diamond"></i>
@@ -37,14 +37,14 @@ export default function News() {
                     </div>
                     <div>
                         <div className="flex justify-center items-center mt-[2rem] gap-[4rem] max-lg:flex-col max-lg:gap-[2rem]">
-                            <div className="ml-[16rem] relative max-xl:ml-[3rem] max-lg:ml-0 max-sm:ml-[1.3rem] max-xs:ml-[0.75rem] max-2xs:ml-[0.5rem]">
+                            <div className="ml-[10rem] relative max-xl:ml-[3rem] max-lg:ml-0 max-sm:ml-[1.3rem] max-xs:ml-[0.75rem] max-2xs:ml-[0.5rem]">
                                 <img className="w-[25rem] h-[18rem] rounded-[1.5rem] object-cover max-xl:w-[22rem] max-lg:w-[40rem] max-lg:h-[20rem] max-sm:w-[24rem] max-sm:h-[18rem] max-xs:w-[22rem] max-2xs:w-[19rem] max-2xs:h-[16.5rem]" src={Experience} />
                                 <div className="w-[10rem] h-[2.5rem] backdrop-blur-md bg-white/10 border-2 border-white text-center absolute top-[14.5rem] left-[1rem] rounded-[1.5rem] cursor-pointer hover:bg-primary/50 max-lg:top-[16.5rem] max-sm:top-[14.5rem] max-2xs:top-[13rem]">
                                     <button className="mt-[0.3rem] text-white cursor-pointer font-medium">Dining Experience</button>
                                 </div>
                                 <div>
                                     <h1 className="text-gray-500 font-sm mt-[0.7rem] max-xs:text-[0.9rem]">BY JENNY LIM <span className="text-primary ml-[1rem] mr-[1rem] text-[1.2rem]">•</span> FEB 19, 2025</h1>
-                                    <h1 className="mt-[0.3rem] font-medium text-[1.35rem] max-lg:text-[2rem]  max-sm:text-[1.09rem] max-2xs:text-[1rem]">5 Tips for the Perfect Romantic Dinner: <br /> Creating an Unforgettable Experience</h1>
+                                    <h1 className="mt-[0.3rem] font-medium text-[1.25rem] max-lg:text-[2rem] max-sm:text-[1.09rem] max-2xs:text-[1rem]">5 Tips for the Perfect Romantic Dinner: <br /> Creating an Unforgettable Experience</h1>
                                     <p className="mt-[0.5rem] mb-[0.7rem] text-gray-500 max-sm:text-[0.95rem] max-xs:text-[0.9rem] max-2xs:text-[0.75rem]">Lorem ipsum dolor sit amet consectetur adipisicing <br className="max-lg:hidden" /> elit, assumenda hic magnam!</p>
                                     <div className="flex gap-3">
                                         <ins className="text-primary cursor-pointer max-2xs:text-[0.8rem]">Read More</ins>
@@ -60,7 +60,7 @@ export default function News() {
                                     </div>
                                     <div>
                                         <h1 className="text-gray-500 font-sm mt-[0.7rem] max-xs:text-[0.9rem]">BY JENNY LIM <span className="text-primary ml-[1rem] mr-[1rem] text-[1.2rem]">•</span> FEB 19, 2025</h1>
-                                        <h1 className="mt-[0.3rem] font-medium text-[1.35rem] max-lg:text-[2rem]  max-sm:text-[1.09rem] max-2xs:text-[1rem]">5 Tips for the Perfect Romantic Dinner: <br /> Creating an Unforgettable Experience</h1>
+                                        <h1 className="mt-[0.3rem] font-medium text-[1.25rem] max-lg:text-[2rem]  max-sm:text-[1.09rem] max-2xs:text-[1rem]">5 Tips for the Perfect Romantic Dinner: <br /> Creating an Unforgettable Experience</h1>
                                         <p className="mt-[0.5rem] mb-[0.7rem] text-gray-500 max-sm:text-[0.95rem] max-xs:text-[0.9rem] max-2xs:text-[0.75rem]">Lorem ipsum dolor sit amet consectetur adipisicing <br className="max-lg:hidden" /> elit, assumenda hic magnam!</p>
                                         <div className="flex gap-3">
                                             <ins className="text-primary cursor-pointer max-2xs:text-[0.8rem]">Read More</ins>
@@ -69,14 +69,14 @@ export default function News() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="mr-[16rem] relative max-xl:mr-[3rem] max-lg:mr-0 max-sm:ml-[1.3rem] max-xs:ml-[0.75rem] max-2xs:ml-[0.5rem]">
+                            <div className="mr-[10rem] relative max-xl:mr-[3rem] max-lg:mr-0 max-sm:ml-[1.3rem] max-xs:ml-[0.75rem] max-2xs:ml-[0.5rem]">
                                 <img className="w-[25rem] h-[18rem] rounded-[1.5rem] object-cover max-xl:w-[22rem] max-lg:w-[40rem] max-lg:h-[20rem]  max-sm:w-[24rem] max-sm:h-[18rem] max-xs:w-[22rem] max-2xs:w-[19rem] max-2xs:h-[16.5rem]" src={Experience2} />
-                                <div className="w-[10rem] h-[2.5rem]  backdrop-blur-md bg-white/10 border-2 border-white text-center absolute top-[14.5rem] left-[1rem] rounded-[1.5rem] cursor-pointer hover:bg-primary/50 max-lg:top-[16.5rem] max-sm:top-[14.5rem] max-2xs:top-[13rem]">
+                                <div className="w-[10rem] h-[2.5rem] backdrop-blur-md bg-white/10 border-2 border-white text-center absolute top-[14.5rem] left-[1rem] rounded-[1.5rem] cursor-pointer hover:bg-primary/50 max-lg:top-[16.5rem] max-sm:top-[14.5rem] max-2xs:top-[13rem]">
                                     <button className="mt-[0.3rem] text-white cursor-pointer font-medium">Dining Experience</button>
                                 </div>
                                 <div>
                                     <h1 className="text-gray-500 font-sm mt-[0.7rem] max-xs:text-[0.9rem]">BY JENNY LIM <span className="text-primary ml-[1rem] mr-[1rem] text-[1.2rem]">•</span> FEB 19, 2025</h1>
-                                    <h1 className="mt-[0.3rem] font-medium text-[1.35rem]  max-lg:text-[2rem] max-sm:text-[1.09rem] max-2xs:text-[1rem]">5 Tips for the Perfect Romantic Dinner: <br /> Creating an Unforgettable Experience</h1>
+                                    <h1 className="mt-[0.3rem] font-medium text-[1.25rem]  max-lg:text-[2rem] max-sm:text-[1.09rem] max-2xs:text-[1rem]">5 Tips for the Perfect Romantic Dinner: <br /> Creating an Unforgettable Experience</h1>
                                     <p className="mt-[0.5rem] mb-[0.7rem] text-gray-500 max-sm:text-[0.95rem] max-xs:text-[0.9rem] max-2xs:text-[0.75rem]">Lorem ipsum dolor sit amet consectetur adipisicing <br className="max-lg:hidden" /> elit, assumenda hic magnam!</p>
                                     <div className="flex gap-3">
                                         <ins className="text-primary cursor-pointer max-2xs:text-[0.8rem]">Read More</ins>

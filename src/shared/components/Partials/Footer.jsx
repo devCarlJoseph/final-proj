@@ -4,7 +4,7 @@ import Wave from "react-wavify"
 export default function Footer() {
   return (
     <div>
-      <div className='mb-[-0.5rem]'>
+      <div className='mt-[-6.5rem] bg-backround'>
         <Wave fill='#242424'
           paused={false}
           style={{ display: 'flex' }}
@@ -16,7 +16,7 @@ export default function Footer() {
           }}
         />
       </div>
-      <div className="bg-tertiary">
+      <div className="bg-tertiary mt-[-0.5rem]">
         <div>
           <div class="text-white flex justify-evenly max-xl:hidden pt-[1rem]">
             <div>

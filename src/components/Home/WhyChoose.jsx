@@ -21,8 +21,8 @@ export default function WhyChoose() {
                     }}
                 />
             </div>
-            <div className="bg-background h-[50rem]">
-                <div class="pt-[2rem] text-center text-primary pb-[1rem] max-2xl:pt-[4rem] max-sm:pt-[2rem] max-sm:pb-[0.5rem]">
+            <div className="bg-background h-[53rem]">
+                <div class="flex justify-center items-center gap-1 pt-[1rem] text-center text-primary pb-[1rem]  max-sm:pt-[2rem] max-sm:pb-[0.5rem]">
                     <i class="fa-solid fa-diamond max-sm:text-[0.9rem] max-2xs:text-[0.7rem]"></i>
                     <i class="fa-solid fa-diamond max-sm:text-[0.9rem] max-2xs:text-[0.7rem]"></i>
                     <i class="fa-solid fa-diamond max-sm:text-[0.9rem] max-2xs:text-[0.7rem]"></i>
@@ -34,18 +34,18 @@ export default function WhyChoose() {
                     <h1 class="text-[2.5rem] max-sm:text-[2rem] max-2xs:text-[1.5rem]">Why <span class="text-primary">Dine With Us?</span></h1>
                 </div>
                 <div class="flex justify-center items-center box-border gap-[1.5rem] mt-[3rem] max-lg:flex-col max-sm:mt-[2rem] max-2xs:mt-[1.5rem]">
-                    <div class="relative w-[23%] max-2xl:w-[25%] max-xl:w-[37.5%] max-lg:w-[50%] max-sm:w-[80%]">
+                    <div class="relative w-[25%] max-xl:w-[37.5%] max-lg:w-[50%] max-sm:w-[80%]">
                         <img src={image1} class="w-[30rem] h-[30rem] rounded-[40%] object-cover max-sm:h-[25rem] max-2xs:h-[20rem]" />
-                        <div class="w-[25.5rem] h-[28rem] border-[3px] border-white rounded-[40%] absolute top-[1rem] left-[1rem] max-2xl:w-[22.5rem] max-2xl:h-[27.9rem] max-2xl:left-[0.8rem] max-sm:h-[23rem] max-sm:w-[19.75rem] max-xs:w-[17.3rem] max-2xs:h-[18.8rem] max-2xs:w-[14.95rem] max-2xs:top-[0.6rem] max-2xs:left-[0.5rem]"></div>
-                        <div class="w-[17rem] h-[6rem] bg-primary rounded-[1.2rem] border-[5px] border-white absolute top-[25.5rem] left-[5.3rem] max-2xl:left-[3.8rem] max-sm:w-[14rem] max-sm:h-[5rem] max-sm:left-[4rem] max-sm:top-[19rem] max-xs:w-[13rem] max-xs:left-[3.2rem] max-2xs:w-[12rem] max-2xs:h-[4rem] max-2xs:top-[16rem] max-2xs:left-[2rem]">
+                        <div class="w-[22rem] h-[28rem] border-[3px] border-white rounded-[40%] absolute top-[1rem] left-[0.9rem] max-sm:h-[23rem] max-sm:w-[19.75rem] max-xs:w-[17.3rem] max-2xs:h-[18.8rem] max-2xs:w-[14.95rem] max-2xs:top-[0.6rem] max-2xs:left-[0.5rem]"></div>
+                        <div class="w-[17rem] h-[6rem] bg-primary rounded-[1.2rem] border-[5px] border-white absolute top-[25.5rem] left-[3.5rem] max-sm:w-[14rem] max-sm:h-[5rem] max-sm:left-[4rem] max-sm:top-[19rem] max-xs:w-[13rem] max-xs:left-[3.2rem] max-2xs:w-[12rem] max-2xs:h-[4rem] max-2xs:top-[16rem] max-2xs:left-[2rem]">
                             <div class="relative">
                                 <div>
-                                    <img src={person1} class="w-[3rem] h-[3rem] rounded-[50%] border-[3px] border-white absolute top-[1rem] left-[1.5rem] max-sm:left-[0.8rem] max-sm:top-[0.65rem] max-2xs:w-[2.5rem] max-2xs:h-[2.5rem] max-xs:left-[0.6rem] max-2xs:left-[0.5rem] max-2xs:top-[0.45rem]" />
-                                    <img src={person2} class="w-[3rem] h-[3rem] rounded-[50%] border-[3px] border-white absolute top-[1rem] left-[3rem] max-sm:left-[2.3rem] max-sm:top-[0.65rem] max-2xs:w-[2.5rem] max-2xs:h-[2.5rem] max-xs:left-[2.1rem] max-2xs:left-[2rem] max-2xs:top-[0.45rem]" />
-                                    <img src={person3} class="w-[3rem] h-[3rem] rounded-[50%] border-[3px] border-white absolute top-[1rem] left-[4.5rem] max-sm:left-[3.8rem] max-sm:top-[0.65rem] max-2xs:w-[2.5rem] max-2xs:h-[2.5rem] max-xs:left-[3.6rem] max-2xs:left-[3.5rem] max-2xs:top-[0.45rem]" />
+                                    <img src={person1} class="w-[3.5rem] h-[3.5rem] rounded-[50%] border-[3px] border-white absolute top-[1rem] left-[1rem] max-sm:left-[0.8rem] max-sm:top-[0.65rem] max-2xs:w-[2.5rem] max-2xs:h-[2.5rem] max-xs:left-[0.6rem] max-2xs:left-[0.5rem] max-2xs:top-[0.45rem]" />
+                                    <img src={person2} class="w-[3.5rem] h-[3.5rem] rounded-[50%] border-[3px] border-white absolute top-[1rem] left-[2.5rem] max-sm:left-[2.3.5rem] max-sm:top-[0.65rem] max-2xs:w-[2.5rem] max-2xs:h-[2.5rem] max-xs:left-[2.1rem] max-2xs:left-[2rem] max-2xs:top-[0.45rem]" />
+                                    <img src={person3} class="w-[3.5rem] h-[3.5rem] rounded-[50%] border-[3px] border-white absolute top-[1rem] left-[4rem] max-sm:left-[3.8rem] max-sm:top-[0.65rem] max-2xs:w-[2.5rem] max-2xs:h-[2.5rem] max-xs:left-[3.6rem] max-2xs:left-[3.5rem] max-2xs:top-[0.45rem]" />
                                 </div>
-                                <div class="w-[3rem] h-[3rem] bg-black rounded-[50%] border-[3px] border-white text-center absolute top-[1rem] left-[6rem] max-sm:left-[5.3rem] max-sm:top-[0.65rem] max-2xs:w-[2.5rem] max-2xs:h-[2.5rem] max-xs:left-[5.1rem] max-2xs:left-[5rem] max-2xs:top-[0.45rem]">
-                                    <i class="fa-solid fa-plus text-primary text-[1.2rem] mt-[0.7rem] max-2xs:mt-[0.5rem]"></i>
+                                <div class="w-[3.5rem] h-[3.5rem] bg-black rounded-[50%] border-[3px] border-white text-center absolute top-[1rem] left-[5.5rem] max-sm:left-[5.3rem] max-sm:top-[0.65rem] max-2xs:w-[2.5rem] max-2xs:h-[2.5rem] max-xs:left-[5.1rem] max-2xs:left-[5rem] max-2xs:top-[0.45rem]">
+                                    <i class="fa-solid fa-plus text-primary text-[1.2rem] mt-[1rem] max-2xs:mt-[0.5rem]"></i>
                                 </div>
                                 <div class="absolute top-[1rem] left-[10.5rem] max-sm:left-[8.9rem] max-sm:top-[0.65rem] max-xs:left-[8.5rem] max-2xs:left-[8rem]">
                                     <h1 class="text-[1.2rem] font-medium text-white max-sm:text-[1rem] max-2xs:text-[0.8rem]">4.9 Star</h1>
@@ -54,10 +54,10 @@ export default function WhyChoose() {
                             </div>
                         </div>
                     </div>
-                    <div class="w-[14%] relative ml-[rem] max-2xl:w-[17%] box-border max-xl:hidden">
+                    <div class="w-[17%] relative box-border max-xl:hidden">
                         <div>
                             <img src={image2} class="w-[30rem] h-[30rem] rounded-[40%] object-cover" />
-                            <div class="w-[15.2rem] h-[28rem] border-[3px] border-white rounded-[40%] absolute top-[1rem] left-[0.75rem] max-2xl:w-[14.8rem]"></div>
+                            <div class="w-[14.8rem] h-[28rem] border-[3px] border-white rounded-[40%] absolute top-[1rem] left-[0.75rem]"></div>
                         </div>
                     </div>
                     <div class="flex flex-col w-[30%] max-2xl:w-[33%] max-xl:w-[46%] max-lg:w-[70%] max-xl:mt-[1.5rem] max-sm:w-[85%] max-sm:mt-[0] max-2xs:mt-[-1rem]">

@@ -16,9 +16,6 @@ export default {
         mainH: '#e4dcbe',
         logo: '#52397b',
       },
-      screens: {
-        '2xl' : '1540px',
-      }
     },
   },
   plugins: [],

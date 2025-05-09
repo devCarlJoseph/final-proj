@@ -29,9 +29,9 @@ export default function GlimpseOf() {
                         }}
                     />
                 </div>
-                <div className="bg-secondary h-[38.65rem]">
+                <div className="bg-secondary h-[32.65rem]">
                     <div className="flex">
-                        <div className="bg-[url('../../assets/pictures/dining.jpg')] bg-cover h-[33.5rem] w-[50%]">
+                        <div className="bg-[url('../../assets/pictures/dining.jpg')] bg-cover h-[26.75rem] w-[50%]">
                             <div>
                                 <Glimpse playStatus={playStatus} />
                             </div>
@@ -44,13 +44,11 @@ export default function GlimpseOf() {
                                     <i className="fa-solid fa-diamond max-sm:text-[0.8rem]"></i>
                                 </div>
                                 <div>
-                                    <h1 className="text-primary text-[2.5rem] font-medium max-2xl:text-[4.5rem] max-xl:text-[3rem] max-sm:text-[1.5rem]">Get a Glimpse of Our Dining Experience</h1>
+                                    <h1 className="text-primary text-[2rem] pt-[0.5rem] font-medium max-2xl:text-[4.5rem] max-xl:text-[3rem] max-sm:text-[1.5rem]">Get a Glimpse of Our Dining Experience</h1>
                                 </div>
                                 <div>
-                                    <p className="p-6 text-justify text-text2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum cupiditate labore nulla ducimus harum iure deleniti commodi sequi totam veniam sunt necessitatibus eveniet voluptatum consequuntur similique recusandae, quod saepe impedit.
-                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, reiciendis cumque dolorem laudantium dolore recusandae, voluptatibus natus molestias tempore, fugit repellendus! Consequuntur blanditiis optio reiciendis cumque, molestias voluptates est recusandae!
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum pariatur assumenda illum, optio neque ullam velit, repudiandae nobis sit possimus error. Facere aperiam nisi reiciendis hic veniam amet qui enim?
-                                    </p>
+                                    <p className="p-4 text-justify text-text2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum cupiditate labore nulla ducimus harum iure deleniti commodi sequi totam veniam sunt necessitatibus eveniet voluptatum consequuntur similique recusandae, quod saepe impedit.
+                                        Lorem</p>
                                 </div>
                             </div>
                             <div className="flex justify-center items-center">
