@@ -7,7 +7,7 @@ import Menu from './pages/Menu'
 import About from './pages/About'
 import Gallery from './pages/Gallery'
 import Contact from './pages/Contact'
-import MenuIntro from './components/Menu/MenuIntro'
+import Book from './pages/Book';
 
 
 const router = createBrowserRouter([
@@ -32,8 +32,8 @@ const router = createBrowserRouter([
     element: <Contact />,
   },
   {
-    path: "MenuIntro",
-    element: <MenuIntro />,
+    path: "Book",
+    element: <Book />,
   }
 ]);
 

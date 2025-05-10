@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Link } from 'react-router-dom';
 
 export default function Header() {
@@ -26,7 +26,7 @@ export default function Header() {
                     </div>
                     <div className='flex'>
                         <div className='bg-background/20 border-[1px] border-white h-[3rem] w-[10rem] hover:bg-tertiary/80 rounded-[1.5rem] mt-[0.8rem] max-lg:hidden'>
-                            <button className='p-2.5 text-white pl-[1.7rem] cursor-pointer'>BOOK A TABLE</button>
+                            <Link to="/book"><button className='p-2.5 text-white pl-[1.7rem] cursor-pointer'>BOOK A TABLE</button></Link>
                         </div>
                     </div>
                 </div>

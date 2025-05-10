@@ -84,12 +84,12 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div class="border-b-[1px] border-b-white w-[82.7%] mt-[4rem] ml-[11.5rem] max-2xl:ml-[8.5rem] max-xl:hidden"></div>
-          <div class="flex justify-between items-center mt-[3rem] max-xl:mt-[1rem] max-sm:justify-center">
-            <div class="text-white ml-[11.5rem] max-xl:ml-[5rem] max-lg:ml-[2rem] max-sm:ml-0">
+          <div class="border-b-[1px] border-b-white w-[85%] mt-[4rem] ml-[7rem] max-2xl:ml-[8.5rem] max-xl:hidden"></div>
+          <div class="flex justify-between items-center mt-[2rem] pb-[4rem] max-xl:mt-[1rem] max-sm:justify-center">
+            <div class="text-white ml-[7rem] max-xl:ml-[5rem] max-lg:ml-[2rem] max-sm:ml-0">
               <h1>Copyright 2025</h1>
             </div>
-            <div class="text-white mr-[11.5rem] max-xl:mr-[5rem] max-lg:mr-[2rem] max-sm:hidden">
+            <div class="text-white mr-[7rem] max-xl:mr-[5rem] max-lg:mr-[2rem] max-sm:hidden">
               <h1>User Terms & Condition | Privacy Policy</h1>
             </div>
           </div>

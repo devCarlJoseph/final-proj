@@ -26,7 +26,7 @@ export default function Gallery() {
                     }}
                 />
             </div>
-            <div className="h-[90rem] bg-background">
+            <div className="h-[90rem] bg-background mt-[-0.5rem]">
                 <div>
                     <div class="flex justify-center gap-1 pt-[2rem] text-center text-primary pb-[1rem] max-sm:pt-[3rem]">
                         <i class="fa-solid fa-diamond"></i>
