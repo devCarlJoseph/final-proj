@@ -1,46 +1,51 @@
 import Wave from "react-wavify"
 import { useState } from "react";
-
+import emailjs from '@emailjs/browser'
 
 
 export default function Reserve() {
 
-    const [formData, setFormData] = useState({
-        name: "",
-        email: "",
-        number: "",
-        guest: "",
-        date: "",
-        time: "",
-        message: "",
-    });
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [number, setNumber] = useState('');
+    const [guest, setGuest] = useState('');
+    const [date, setDate] = useState('');
+    const [time, setTime] = useState('');
+    const [message, setMessage] = useState('');
 
-    const handleChange = (e) => {
-        const { name, value } = e.target;
-        setFormData((prev) => ({
-            ...prev,
-            [name]: value,
-        }));
-    };
-
-    const sendGMail = (e) => {
+    const handleSubmit = (e) => {
         e.preventDefault();
 
-        emailjs.send('service_h91cy5f', 'template_6qn8cid', formData)
-            .then((res) => {
-                console.log(res);
-                setFormData({
-                    name: "",
-                    email: "",
-                    number: "",
-                    guest: "",
-                    date: "",
-                    time: "",
-                    message: "",
-                });
+        const serviceId = 'service_ji6s02i';
+        const templateId = 'template_eqogmgk';
+        const publicKey = 'kQ8BLqVB0qJ7ip772';
+
+        const templateParams = {
+            name: name,
+            email: email,
+            number: number,
+            guest: guest,
+            date: date,
+            time: time,
+            message: message,
+        };
+
+        emailjs.send(serviceId, templateId, templateParams, publicKey)
+            .then((response) => {
+                console.log('Email sent succesfully!', response);
+                setName('');
+                setEmail('');
+                setNumber('');
+                setGuest('');
+                setDate('');
+                setTime('');
+                setMessage('');
             })
-            .catch((err) => console.log(err));
-    };
+            .catch((error) => {
+                console.log('Error sending email:', error)
+            })
+
+    }
 
     return (
         <div>
@@ -72,41 +77,41 @@ export default function Reserve() {
                 </div>
                 <div class="flex justify-evenly items-center box-border mt-[2.5rem] max-lg:mt-[1rem] max-sm:mt-[0]">
                     <div class="w-[35%] ml-[19rem] max-xl:w-[50%] max-xl:ml-[3rem] max-lg:w-[70%] max-lg:ml-0 max-lg:mt-[2rem]">
-                        <form onSubmit={sendGMail}>
+                        <form onSubmit={handleSubmit}>
                             <div class="flex justify-evenly items-center gap-3 max-lg:flex-col">
                                 <div>
                                     <div>
-                                        <label class="text-justify font-medium" for="name">Your Name</label>
-                                        <input class="bg-white w-[16rem] h-[3rem] pl-[1rem] rounded-[1rem] mt-[1rem] outline-none shadow-sm  max-xl:w-[14rem] max-lg:w-[35rem] max-sm:w-[20rem] max-2xs:w-[17rem]" name="name" value={formData.name} onChange={handleChange} placeholder="Ex. Juan Dela Cruz" type="text" />
+                                        <label class="text-justify font-medium">Your Name</label>
+                                        <input class="bg-white w-[16rem] h-[3rem] pl-[1rem] rounded-[1rem] mt-[1rem] outline-none shadow-sm  max-xl:w-[14rem] max-lg:w-[35rem] max-sm:w-[20rem] max-2xs:w-[17rem]" value={name} onChange={(e) => setName(e.target.value)} placeholder="Ex. Juan Dela Cruz" type="text" />
                                     </div>
                                     <div class="mt-[1.5rem]">
-                                        <label class="text-justify font-medium mt-[1.5rem]" for="number">Phone Number</label>
-                                        <input class="bg-white w-[16rem] h-[3rem] pl-[1rem] rounded-[1rem] mt-[1rem] outline-none shadow-sm  max-xl:w-[14rem] max-lg:w-[35rem] max-sm:w-[20rem] max-2xs:w-[17rem]" placeholder="Enter Phone Number" type="text" id="number" />
+                                        <label class="text-justify font-medium mt-[1.5rem]">Phone Number</label>
+                                        <input class="bg-white w-[16rem] h-[3rem] pl-[1rem] rounded-[1rem] mt-[1rem] outline-none shadow-sm  max-xl:w-[14rem] max-lg:w-[35rem] max-sm:w-[20rem] max-2xs:w-[17rem]" value={number} onChange={(e) => setNumber(e.target.value)} placeholder="Enter Phone Number" type="text" />
                                     </div>
                                     <div class="mt-[1.5rem]">
-                                        <label class="text-justify font-medium mt-[1.5rem]" for="date">Date of Reservation</label>
-                                        <input class="bg-white w-[16rem] h-[3rem] pl-[1rem] rounded-[1rem] mt-[1rem] outline-none shadow-sm  max-xl:w-[14rem] max-lg:w-[35rem] max-sm:w-[20rem] max-2xs:w-[17rem]" placeholder="MM/DD/YYYY" type="text" id="date" />
+                                        <label class="text-justify font-medium mt-[1.5rem]">Date of Reservation</label>
+                                        <input class="bg-white w-[16rem] h-[3rem] pl-[1rem] rounded-[1rem] mt-[1rem] outline-none shadow-sm  max-xl:w-[14rem] max-lg:w-[35rem] max-sm:w-[20rem] max-2xs:w-[17rem]" value={date} onChange={(e) => setDate(e.target.value)} placeholder="MM/DD/YYYY" type="text" />
                                     </div>
                                 </div>
                                 <div>
                                     <div>
                                         <label class="text-justify font-medium mt-[1.5rem]" for="email">Email</label>
-                                        <input class="bg-white w-[16rem] h-[3rem] pl-[1rem] rounded-[1rem] mt-[1rem] outline-none shadow-sm  max-xl:w-[14rem] max-lg:w-[35rem] max-sm:w-[20rem] max-2xs:w-[17rem]" placeholder="test123@gmail.com" type="email" id="email" />
+                                        <input class="bg-white w-[16rem] h-[3rem] pl-[1rem] rounded-[1rem] mt-[1rem] outline-none shadow-sm  max-xl:w-[14rem] max-lg:w-[35rem] max-sm:w-[20rem] max-2xs:w-[17rem]" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="test123@gmail.com" type="email" />
                                     </div>
                                     <div class="mt-[1.5rem]">
                                         <label class="text-justify font-medium" for="guest">Number of Guests</label>
-                                        <input class="bg-white w-[16rem] h-[3rem] pl-[1rem] pr-[0.5rem] rounded-[1rem] mt-[1rem] outline-none shadow-sm  max-xl:w-[14rem] max-lg:w-[35rem] max-sm:w-[20rem] max-2xs:w-[17rem]" placeholder="Enter Number of Guest(s)" type="text" id="guest" />
+                                        <input class="bg-white w-[16rem] h-[3rem] pl-[1rem] pr-[0.5rem] rounded-[1rem] mt-[1rem] outline-none shadow-sm  max-xl:w-[14rem] max-lg:w-[35rem] max-sm:w-[20rem] max-2xs:w-[17rem]" value={guest} onChange={(e) => setGuest(e.target.value)} placeholder="Enter Number of Guest(s)" type="text" />
                                     </div>
                                     <div class="mt-[1.5rem]">
                                         <label class="text-justify font-medium mt-[1.5rem]" for="time">Time of Reservation</label>
-                                        <input class="bg-white w-[16rem] h-[3rem] pl-[1rem] pr-[0.5rem] rounded-[1rem] mt-[1rem] outline-none shadow-sm max-xl:w-[14rem] max-lg:w-[35rem] max-sm:w-[20rem] max-2xs:w-[17rem] cursor-pointer" placeholder="07:00 A.M" id="time" />
+                                        <input class="bg-white w-[16rem] h-[3rem] pl-[1rem] pr-[0.5rem] rounded-[1rem] mt-[1rem] outline-none shadow-sm max-xl:w-[14rem] max-lg:w-[35rem] max-sm:w-[20rem] max-2xs:w-[17rem] cursor-pointer" value={time} onChange={(e) => setTime(e.target.value)} placeholder="07:00 A.M" id="time" />
                                     </div>
                                 </div>
                             </div>
                             <div class="flex flex-col items-center">
                                 <div class="w-full mt-[1.5rem]">
                                     <label class="text-justify font-medium" for="message">Send us Message</label>
-                                    <input class="bg-white w-full h-[5rem] pl-[1rem] pb-[3rem] rounded-[1rem] mt-[1rem]" type="text" id="message" placeholder="Enter Here" />
+                                    <input class="bg-white w-full h-[5rem] pl-[1rem] pb-[3rem] rounded-[1rem] mt-[1rem]" value={message} onChange={(e) => setMessage(e.target.value)} type="text" placeholder="Enter Here" />
                                 </div>
                                 <div class="w-[10rem] h-[3rem] bg-primary rounded-[1.5rem] mt-[1.5rem] cursor-pointer hover:bg-tertiary/70">
                                     <button type="submit" class="mt-[0.7rem] font-medium text-white pl-[1.5rem] cursor-pointer">BOOK A TABLE</button>
