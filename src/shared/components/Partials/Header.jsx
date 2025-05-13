@@ -16,7 +16,8 @@ export default function Header() {
                         </div>
                     </div>
                     <div className='mt-[1.5rem] mb-[0.7rem]'>
-                        <ul className='flex gap-[2rem] cursor-pointer text-background max-lg:hidden font-medium'>
+                        <i class="fa-solid fa-bars text-[1.3rem] ml-[31rem] text-white cursor-pointer hidden tablet:block cp:ml-[12rem]"></i>
+                        <ul className='flex gap-[2rem] cursor-pointer text-background tablet:hidden font-medium'>
                             <li class="hover:border-mainH hover:border-b-[1px]"><Link to="/" >Home</Link></li>
                             <li class="hover:border-mainH hover:border-b-[1px]"><Link to="/menu" >Menu</Link></li>
                             <li class="hover:border-mainH hover:border-b-[1px]"><Link to="/about" >About Us</Link></li>
@@ -25,7 +26,7 @@ export default function Header() {
                         </ul>
                     </div>
                     <div className='flex'>
-                        <div className='bg-background/20 border-[1px] border-white h-[3rem] w-[10rem] hover:bg-tertiary/80 rounded-[1.5rem] mt-[0.8rem] max-lg:hidden'>
+                        <div className='bg-background/20 border-[1px] border-white h-[3rem] w-[10rem] hover:bg-tertiary/80 rounded-[1.5rem] mt-[0.8rem] tablet:hidden'>
                             <Link to="/book"><button className='p-2.5 text-white pl-[1.7rem] cursor-pointer'>BOOK A TABLE</button></Link>
                         </div>
                     </div>

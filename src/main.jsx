@@ -8,7 +8,8 @@ import About from './pages/About'
 import Gallery from './pages/Gallery'
 import Contact from './pages/Contact'
 import Book from './pages/Book';
-
+import Chef from './pages/Chef'
+import ChefOne from './pages/ChefOne'
 
 const router = createBrowserRouter([
   {
@@ -34,6 +35,14 @@ const router = createBrowserRouter([
   {
     path: "Book",
     element: <Book />,
+  },
+  {
+    path: "Chef",
+    element: <Chef />,
+  },
+  {
+    path: "ChefOne",
+    element: <ChefOne/>,
   }
 ]);
 

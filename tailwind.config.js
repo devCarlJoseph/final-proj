@@ -16,6 +16,10 @@ export default {
         mainH: '#e4dcbe',
         logo: '#52397b',
       },
+      screens: {
+        'tablet': { 'max': '768px' }, 
+        'cp' : {'max': '426px'},
+      }
     },
   },
   plugins: [],
