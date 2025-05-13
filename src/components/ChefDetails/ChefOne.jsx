@@ -1,49 +1,70 @@
 import ChefImage from "../../assets/pictures/executive.jpg"
+import Wave from "react-wavify"
 
 
 export default function ChefOne() {
     return (
-        <div className="bg-background h-[50rem]">
-            <div>
-                <div>
-                    <img src={ChefImage} className="w-[10rem]" />
-                </div>
-                <div>
+        <div>
+            <div className='mt-[-9.5rem]'>
+                <Wave fill='#faf8f7'
+                    paused={false}
+                    style={{ display: 'flex' }}
+                    options={{
+                        height: 20,
+                        amplitude: 30,
+                        speed: 0.20,
+                        points: 15
+                    }}
+                />
+            </div>
+            <div className="bg-background h-[50rem]">
+                <div className="flex justify-center items-center gap-[2rem] mt-[-0.5rem]">
                     <div>
-                        <h1>Manang Linda</h1>
-                        <p>Executive Chef</p>
+                        <img src={ChefImage} className="w-[32rem] h-[32rem] rounded-[1rem] object-cover rounded-t-[50%]" />
                     </div>
-                    <div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa tenetur, saepe quia tempora aliquam neque quasi, a maxime nobis fugiat consequuntur vitae doloribus reiciendis odio nihil earum, sed obcaecati iusto.</p>
-                    </div>
-                    <div>
+                    <div className="w-[40rem] mt-[1.3rem]">
                         <div>
-                            <div></div>
-                            <p>exaple@gmail.com</p>
+                            <h1 className="text-[2.3rem]">Manang Linda</h1>
+                            <p className="text-[1.2rem] pt-[0.5rem] text-primary">Executive Chef</p>
+                        </div>
+                        <div className="pt-[1.2rem]">
+                            <p className="text-gray-500">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa tenetur, saepe quia tempora aliquam neque quasi, a maxime nobis fugiat consequuntur vitae doloribus reiciendis odio nihil earum, sed obcaecati iusto.</p>
                         </div>
                         <div>
-                            <div></div>
-                            <p>(000)000-000</p>
+                            <div className="pt-[1.5rem] flex items-center gap-[0.5rem]">
+                                <div className="flex justify-center items-center w-[2rem] h-[2rem] bg-primary rounded-[50%]">
+                                    <i class="fa-solid fa-envelope text-white"></i>
+                                </div>
+                                <p>exaple@gmail.com</p>
+                            </div>
+                            <div className="pt-[1rem] flex items-center gap-[0.5rem]">
+                                <div className="flex justify-center items-center w-[2rem] h-[2rem] bg-primary rounded-[50%]">
+                                    <i class="fa-solid fa-phone text-white"></i>
+                                </div>
+                                <p>(000)000-000</p>
+                            </div>
+                            <div className="pt-[1rem] flex items-center gap-[0.5rem]">
+                                <div className="flex justify-center items-center w-[2rem] h-[2rem] bg-primary rounded-[50%]">
+                                    <i class="fa-solid fa-briefcase text-white"></i>
+                                </div>
+                                <p>18+ Years of Experience</p>
+                            </div>
                         </div>
-                        <div>
-                            <div></div>
-                            <p>18+ Years of Experience</p>
-                        </div>
-                    </div>
-                    <div>
-                        <h1>Connect Now</h1>
-                        <div>
-                            <div>
-                                i
-                            </div>
-                            <div>
-                                i
-                            </div>
-                            <div>
-                                i
-                            </div>
-                            <div>
-                                i
+                        <div className="mt-[1.3rem]">
+                            <h1 className="text-[1.4rem]">Connect Now</h1>
+                            <div className="flex gap-[0.5rem] mt-[0.7rem]">
+                                <div className="flex justify-center items-center w-[2rem] h-[2rem] bg-primary rounded-[50%]">
+                                    <i class="fa-brands fa-facebook-f text-white"></i>
+                                </div>
+                                <div className="flex justify-center items-center w-[2rem] h-[2rem] bg-primary rounded-[50%]">
+                                    <i class="fa-brands fa-x-twitter text-white"></i>
+                                </div>
+                                <div className="flex justify-center items-center w-[2rem] h-[2rem] bg-primary rounded-[50%]">
+                                    <i class="fa-brands fa-pinterest-p text-white"></i>
+                                </div>
+                                <div className="flex justify-center items-center w-[2rem] h-[2rem] bg-primary rounded-[50%]">
+                                    <i class="fa-brands fa-instagram text-white"></i>
+                                </div>
                             </div>
                         </div>
                     </div>
