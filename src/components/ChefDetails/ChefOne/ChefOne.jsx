@@ -1,4 +1,4 @@
-import ChefImage from "../../assets/pictures/executive.jpg"
+import ChefImage from "../../../assets/pictures/executive.jpg"
 import Wave from "react-wavify"
 
 
@@ -17,7 +17,7 @@ export default function ChefOne() {
                     }}
                 />
             </div>
-            <div className="bg-background h-[50rem]">
+            <div className="bg-background h-[35.5rem]">
                 <div className="flex justify-center items-center gap-[2rem] mt-[-0.5rem]">
                     <div>
                         <img src={ChefImage} className="w-[32rem] h-[32rem] rounded-[1rem] object-cover rounded-t-[50%]" />

@@ -17,7 +17,7 @@ export default function SectionThree() {
     return (
         <div className='box-border w-full'>
             <div className='mt-[-6rem]'>
-                <Wave fill='#fef1e1'
+                <Wave fill='#edeceb'
                     paused={false}
                     style={{ display: 'flex' }}
                     options={{

@@ -33,7 +33,7 @@ export default function Offer() {
                         </div>
                     </div>
                     <div class="flex justify-center items-center gap-[1.5rem] max-lg:flex-col">
-                        <div class="w-[36rem] h-[23rem] bg-secondary mt-[2.5rem] ml-[10.5rem] rounded-[1rem] relative overflow-hidden max-xl:ml-[3.5rem] max-lg:w-[27rem] max-lg:ml-[0] max-sm:mt-[1.5rem] max-sm:w-[20rem] max-sm:h-[17rem] max-2xs:w-[15rem] max-2xs:h-[12.5rem]">
+                        <div class="w-[36rem] h-[23rem] bg-card mt-[2.5rem] ml-[10.5rem] rounded-[1rem] relative overflow-hidden max-xl:ml-[3.5rem] max-lg:w-[27rem] max-lg:ml-[0] max-sm:mt-[1.5rem] max-sm:w-[20rem] max-sm:h-[17rem] max-2xs:w-[15rem] max-2xs:h-[12.5rem]">
                             <div class="w-[6rem] h-[6rem] bg-primary rounded-[50%] absolute top-[-0.5rem] left-[2rem] rotate-[-10deg] max-sm:hidden">
                                 <h1 class="text-white text-center text-[1.3rem] font-semibold mt-[1rem]">20%<br /><span class="text-[1.2srem] font-sm">Off</span></h1>
                             </div>

@@ -10,10 +10,9 @@ export default function SectionTwo() {
                     style={{ display: 'flex' }}
                     options={{
                         height: 20,
-                        amplitude: 50,
+                        amplitude: 20,
                         speed: 0.15,
-
-                        points: 15
+                        points: 10
                     }}
                 />
             </div>
