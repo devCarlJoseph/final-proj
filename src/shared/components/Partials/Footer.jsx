@@ -59,7 +59,7 @@ export default function Footer() {
                     <li className="mt-[1rem] cursor-pointer hover:text-primary"><a href="/Chef">Our Staff</a></li>
                     <li className="mt-[1rem] cursor-pointer hover:text-primary">Contact Us</li>
                     <li className="mt-[1rem] cursor-pointer hover:text-primary">About Us</li>
-                    <li className="mt-[1rem] cursor-pointer hover:text-primary">Testimonials</li>
+                    <li className="mt-[1rem] cursor-pointer hover:text-primary"><a href="/Testimonial">Testimonials</a></li>
                   </ul>
                 </div>
               </div>

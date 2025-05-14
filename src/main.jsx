@@ -10,6 +10,7 @@ import Contact from './pages/Contact'
 import Book from './pages/Book';
 import Chef from './pages/Chef'
 import ChefOne from './pages/ChefOne'
+import Testimonial from './pages/Testimonial'
 
 const router = createBrowserRouter([
   {
@@ -43,6 +44,10 @@ const router = createBrowserRouter([
   {
     path: "ChefOne",
     element: <ChefOne/>,
+  },
+  {
+    path: "Testimonial",
+    element: <Testimonial />
   }
 ]);
 
