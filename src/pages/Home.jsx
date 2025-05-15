@@ -5,10 +5,8 @@ import Hero from "../components/Home/Hero/Hero";
 import SectionTwo from '../components/Home/AboutPartial';
 import SectionThree from "../components/Home/MenuPartial";
 import SectionFour from "../components/Home/Offers";
-import SectionFive from "../components/Home/GlimpseOf";
 import SectionSix from "../components/Home/Chef";
 import SectionSeven from "../components/Home/Testimonial/Testimonial"
-import SectionEight from "../components/Home/News"
 import SectionNine from "../components/Home/WhyChoose"
 import SectionTen from "../components/Home/Gallery"
 import SectionEleven from "../components/Home/Reserve"
@@ -41,12 +39,10 @@ export default function Home() {
       <SectionTwo />
       <SectionThree />
       <SectionFour />
-      <SectionFive />
+      <SectionSeven />
       <SectionNine />
       <SectionEleven />
       <SectionSix />
-      <SectionSeven />
-      <SectionEight />
       <Faq />
       <SectionTen />
     </div>

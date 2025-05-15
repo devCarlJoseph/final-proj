@@ -28,7 +28,7 @@ export default function SectionThree() {
                     }}
                 />
             </div>
-            <div className='h-[80rem] bg-secondary box-border mt-[-1rem]'>
+            <div className='h-[80rem] bg-secondary box-border mt-[-1rem] tablet:h-[130rem]'>
                 <div className=''>
                     <div class="flex justify-center items-center gap-1.5 text-primary pb-[1rem] max-sm:pt-[10rem] max-sm:pb-[0.6rem] max-xs:pb-[0.5rem]">
                         <i className="fa-solid fa-diamond max-sm:text-[0.8rem] max-xs:text-[0.7rem]"></i>
@@ -43,7 +43,7 @@ export default function SectionThree() {
                             <div className="text-[2.5rem] max-sm:text-[1.5rem] max-xs:text-[1rem]">Timeless <span class="text-primary">Culinary Delights</span></div>
                         </div>
                     </div>
-                    <div className="flex justify-center items-center gap-[3rem] mt-[4rem] box-border">
+                    <div className="flex justify-center items-center gap-[3rem] mt-[4rem] box-border tablet:flex-col">
                         <div className="flex flex-col gap-5">
                             <div className="w-[34rem] h-[8.5rem] bg-white shadow-sm">
                                 <div className="flex gap-1">

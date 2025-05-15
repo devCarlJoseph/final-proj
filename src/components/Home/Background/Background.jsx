@@ -5,15 +5,15 @@ import image3 from "../../../assets/pictures/experience2.jpg"
 
 export default function Background({ heroCount }) {
      if (heroCount===0) {
-        return <img className="w-screen h-[55rem] object-cover" src={image1} />
+        return <img className="w-screen h-[55rem] object-cover tablet:h-[32rem]" src={image1} />
 
     }
     else if (heroCount===1) {
-        return <img className="w-screen h-[55rem] object-cover" src={image2} />
+        return <img className="w-screen h-[55rem] object-cover tablet:h-[32rem]" src={image2} />
 
     }
     else if (heroCount===2) {
-        return <img className="w-screen h-[55rem] object-cover" src={image3} />
+        return <img className="w-screen h-[55rem] object-cover tablet:h-[32rem]" src={image3} />
 
     }
 }   

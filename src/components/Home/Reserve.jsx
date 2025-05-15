@@ -61,7 +61,7 @@ export default function Reserve() {
                     }}
                 />
             </div>
-            <div className="bg-secondary h-[70rem]">
+            <div className="bg-secondary h-[70rem] tablet:h-[120rem]">
                 <div>
                     <div class="flex justify-center items-center gap-1 pt-[1rem] text-center text-primary pb-[1rem]">
                         <i class="fa-solid fa-diamond max-sm:text-[0.9rem]"></i>
@@ -75,51 +75,51 @@ export default function Reserve() {
                         <h1 class="text-[2.5rem] max-sm:text-[2rem]">Dine With Us <span class="text-primary">- <br class="hidden max-sm:block" />Reserve Now</span></h1>
                     </div>
                 </div>
-                <div class="flex justify-evenly items-center box-border mt-[2.5rem] max-lg:mt-[1rem] max-sm:mt-[0]">
-                    <div class="w-[35%] ml-[19rem] max-xl:w-[50%] max-xl:ml-[3rem] max-lg:w-[70%] max-lg:ml-0 max-lg:mt-[2rem]">
+                <div class="flex justify-evenly items-center box-border mt-[2.5rem] tablet:flex-col-reverse">
+                    <div class="w-[35%] ml-[19rem] tablet:ml-0 ">
                         <form onSubmit={handleSubmit}>
-                            <div class="flex justify-evenly items-center gap-3 max-lg:flex-col">
+                            <div class="flex justify-evenly items-center gap-3 tablet:flex-col tablet:mt-[1.5rem]">
                                 <div>
                                     <div>
                                         <label class="text-justify font-medium">Your Name</label>
-                                        <input class="bg-white w-[16rem] h-[3rem] pl-[1rem] rounded-[1rem] mt-[1rem] outline-none shadow-sm  max-xl:w-[14rem] max-lg:w-[35rem] max-sm:w-[20rem] max-2xs:w-[17rem]" value={name} onChange={(e) => setName(e.target.value)} placeholder="Ex. Juan Dela Cruz" type="text" />
+                                        <input class="bg-white w-[16rem] h-[3rem] pl-[1rem] rounded-[1rem] mt-[1rem] outline-none shadow-sm  tablet:w-[35rem]" value={name} onChange={(e) => setName(e.target.value)} placeholder="Ex. Juan Dela Cruz" type="text" />
                                     </div>
                                     <div class="mt-[1.5rem]">
                                         <label class="text-justify font-medium mt-[1.5rem]">Phone Number</label>
-                                        <input class="bg-white w-[16rem] h-[3rem] pl-[1rem] rounded-[1rem] mt-[1rem] outline-none shadow-sm  max-xl:w-[14rem] max-lg:w-[35rem] max-sm:w-[20rem] max-2xs:w-[17rem]" value={number} onChange={(e) => setNumber(e.target.value)} placeholder="Enter Phone Number" type="text" />
+                                        <input class="bg-white w-[16rem] h-[3rem] pl-[1rem] rounded-[1rem] mt-[1rem] outline-none shadow-sm  tablet:w-[35rem]" value={number} onChange={(e) => setNumber(e.target.value)} placeholder="Enter Phone Number" type="text" />
                                     </div>
                                     <div class="mt-[1.5rem]">
                                         <label class="text-justify font-medium mt-[1.5rem]">Date of Reservation</label>
-                                        <input class="bg-white w-[16rem] h-[3rem] pl-[1rem] rounded-[1rem] mt-[1rem] outline-none shadow-sm  max-xl:w-[14rem] max-lg:w-[35rem] max-sm:w-[20rem] max-2xs:w-[17rem]" value={date} onChange={(e) => setDate(e.target.value)} placeholder="MM/DD/YYYY" type="text" />
+                                        <input class="bg-white w-[16rem] h-[3rem] pl-[1rem] rounded-[1rem] mt-[1rem] outline-none shadow-sm  tablet:w-[35rem]" value={date} onChange={(e) => setDate(e.target.value)} placeholder="MM/DD/YYYY" type="text" />
                                     </div>
                                 </div>
                                 <div>
                                     <div>
                                         <label class="text-justify font-medium mt-[1.5rem]" for="email">Email</label>
-                                        <input class="bg-white w-[16rem] h-[3rem] pl-[1rem] rounded-[1rem] mt-[1rem] outline-none shadow-sm  max-xl:w-[14rem] max-lg:w-[35rem] max-sm:w-[20rem] max-2xs:w-[17rem]" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="test123@gmail.com" type="email" />
+                                        <input class="bg-white w-[16rem] h-[3rem] pl-[1rem] rounded-[1rem] mt-[1rem] outline-none shadow-sm  tablet:w-[35rem]" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="test123@gmail.com" type="email" />
                                     </div>
                                     <div class="mt-[1.5rem]">
                                         <label class="text-justify font-medium" for="guest">Number of Guests</label>
-                                        <input class="bg-white w-[16rem] h-[3rem] pl-[1rem] pr-[0.5rem] rounded-[1rem] mt-[1rem] outline-none shadow-sm  max-xl:w-[14rem] max-lg:w-[35rem] max-sm:w-[20rem] max-2xs:w-[17rem]" value={guest} onChange={(e) => setGuest(e.target.value)} placeholder="Enter Number of Guest(s)" type="text" />
+                                        <input class="bg-white w-[16rem] h-[3rem] pl-[1rem] pr-[0.5rem] rounded-[1rem] mt-[1rem] outline-none shadow-sm  tablet:w-[35rem]" value={guest} onChange={(e) => setGuest(e.target.value)} placeholder="Enter Number of Guest(s)" type="text" />
                                     </div>
                                     <div class="mt-[1.5rem]">
                                         <label class="text-justify font-medium mt-[1.5rem]" for="time">Time of Reservation</label>
-                                        <input class="bg-white w-[16rem] h-[3rem] pl-[1rem] pr-[0.5rem] rounded-[1rem] mt-[1rem] outline-none shadow-sm max-xl:w-[14rem] max-lg:w-[35rem] max-sm:w-[20rem] max-2xs:w-[17rem] cursor-pointer" value={time} onChange={(e) => setTime(e.target.value)} placeholder="07:00 A.M" id="time" />
+                                        <input class="bg-white w-[16rem] h-[3rem] pl-[1rem] pr-[0.5rem] rounded-[1rem] mt-[1rem] outline-none shadow-sm tablet:w-[35rem] cursor-pointer" value={time} onChange={(e) => setTime(e.target.value)} placeholder="07:00 A.M" id="time" />
                                     </div>
                                 </div>
                             </div>
-                            <div class="flex flex-col items-center">
+                            <div class="flex flex-col items-center tablet:ml-[-9rem]">
                                 <div class="w-full mt-[1.5rem]">
                                     <label class="text-justify font-medium" for="message">Send us Message</label>
-                                    <input class="bg-white w-full h-[5rem] pl-[1rem] pb-[3rem] rounded-[1rem] mt-[1rem]" value={message} onChange={(e) => setMessage(e.target.value)} type="text" placeholder="Enter Here" />
+                                    <input class="bg-white w-[16rem] h-[5rem] pl-[1rem] pb-[3rem] rounded-[1rem] mt-[1rem] tablet:w-[35rem]" value={message} onChange={(e) => setMessage(e.target.value)} type="text" placeholder="Enter Here" />
                                 </div>
-                                <div class="w-[10rem] h-[3rem] bg-primary rounded-[1.5rem] mt-[1.5rem] cursor-pointer hover:bg-tertiary/70">
-                                    <button type="submit" class="mt-[0.7rem] font-medium text-white pl-[1.5rem] cursor-pointer">BOOK A TABLE</button>
+                                <div class="w-[10rem] h-[3rem] bg-primary rounded-[1.5rem] text-center mt-[1.5rem] cursor-pointer hover:bg-tertiary/70 ml-[-15rem]">
+                                    <button type="submit" class="mt-[0.7rem] font-medium text-white cursor-pointer ">BOOK A TABLE</button>
                                 </div>
                             </div>
                         </form>
                     </div>
-                    <div class="bg-three bg-[url('../../assets/pictures/ambot.jpg')] bg-cover h-[35rem] w-[27rem] rounded-[1rem] mr-[12.5rem] max-xl:mr-[2.5rem] max-xl:h-[30rem] max-xl:w-[24rem] max-lg:hidden">
+                    <div class="bg-three bg-[url('../../assets/pictures/ambot.jpg')] bg-cover h-[35rem] w-[27rem] rounded-[1rem] mr-[12.5rem] tablet:mr-0">
                         <div class="text-white text-justify mt-[1.5rem] ml-[1.5rem] ">
                             <h1 class="text-[1.5rem] font-medium max-lg:text-[1.2rem]">Address</h1>
                             <p class="pt-[0.5rem] text-gray-200">Cordova 2041 Ln. Yeh, New York Sandwich</p>

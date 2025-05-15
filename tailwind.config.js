@@ -7,13 +7,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: '#faf8f7',
+        background: '#faf9f7',
         text: '#0a0808',
         text2: '#8c8262',
-        primary: '#808a2b',
-        secondary: '#edeceb',
-        card: '#e5a243',
-        tertiary: '#5a3e36',
+        primary: '#e44125',
+        secondary: '#f9f3ee',
+        tertiary: '#212121',
         mainH: '#e4dcbe',
         logo: '#52397b',
       },

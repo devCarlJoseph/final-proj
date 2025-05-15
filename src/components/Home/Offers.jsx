@@ -17,7 +17,7 @@ export default function Offer() {
                     }}
                 />
             </div>
-            <div class="overflow-hidden bg-background h-[40rem] max-lg:h-[80rem] max-sm:h-[53rem] max-2xs:h-[45rem]">
+            <div class="overflow-hidden bg-background h-[40rem] tablet:h-[70rem]">
                 <div class="w-full">
                     <div class="text-center">
                         <div class="flex justify-center gap-2 pt-[2rem] text-center text-primary pb-[1rem] max-sm:pb-[0.5rem]">
@@ -32,8 +32,8 @@ export default function Offer() {
                             <h1 class="text-[2.5rem] max-sm:text-[1.5rem]">Exclusive <span class="text-primary">Dining Offers</span></h1>
                         </div>
                     </div>
-                    <div class="flex justify-center items-center gap-[1.5rem] max-lg:flex-col">
-                        <div class="w-[36rem] h-[23rem] bg-card mt-[2.5rem] ml-[10.5rem] rounded-[1rem] relative overflow-hidden max-xl:ml-[3.5rem] max-lg:w-[27rem] max-lg:ml-[0] max-sm:mt-[1.5rem] max-sm:w-[20rem] max-sm:h-[17rem] max-2xs:w-[15rem] max-2xs:h-[12.5rem]">
+                    <div class="flex justify-center items-center gap-[1.5rem] tablet:flex-col">
+                        <div class="w-[36rem] h-[25rem] bg-secondary mt-[2.5rem] ml-[10.5rem] rounded-[1rem] relative overflow-hidden tablet:ml-0">
                             <div class="w-[6rem] h-[6rem] bg-primary rounded-[50%] absolute top-[-0.5rem] left-[2rem] rotate-[-10deg] max-sm:hidden">
                                 <h1 class="text-white text-center text-[1.3rem] font-semibold mt-[1rem]">20%<br /><span class="text-[1.2srem] font-sm">Off</span></h1>
                             </div>
@@ -53,7 +53,7 @@ export default function Offer() {
                                 <img class="w-[22rem] top-[-0.5rem] left-[14rem] absolute max-sm:hidden" src={OfferOne} />
                             </div>
                         </div>
-                        <div class="w-[36rem] h-[23rem] bg-primary mt-[2.5rem] mr-[10.5rem] rounded-[1rem] relative overflow-hidden max-xl:mr-[3.5rem] max-lg:w-[27rem] max-lg:mr-[0] max-lg:mt-[0] max-sm:w-[20rem] max-sm:h-[17rem] max-2xs:w-[15rem] max-2xs:h-[12.5rem]">
+                        <div class="w-[36rem] h-[25rem] bg-primary mt-[2.5rem] mr-[10.5rem] rounded-[1rem] relative overflow-hidden tablet:mr-0">
                             <div class="w-[6rem] h-[6rem] bg-white rounded-[50%] absolute top-[-0.5rem] left-[2rem] rotate-[-10deg] max-sm:hidden">
                                 <h1 class="text-primary text-center text-[1.3rem] font-semibold mt-[1rem]">20%<br /><span class="text-[1.2srem] font-sm">Off</span></h1>
                             </div>

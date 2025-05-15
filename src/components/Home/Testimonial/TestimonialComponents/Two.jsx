@@ -6,7 +6,7 @@ import GuestTwo from "../../../../assets/pictures/pp 2.jpg"
 export default function Two() {
     return (
         <div>
-            <div class="flex justify-center items-center gap-4 mt-[3rem] max-lg:flex-col">
+            <div class="flex justify-center items-center gap-4 mt-[3rem] tablet:flex-col">
                 <div class="w-[35rem] h-[20.3rem] backdrop-blur-md bg-white/20 rounded-[1rem] border-1 border-white/20 max-xl:w-[28rem] max-lg:w-[32rem] max-lg:h-[20.5rem] max-sm:w-[22rem] max-sm:h-[18rem] max-xs:w-[20rem] max-xs:h-[17rem] max-2xs:w-[18rem] max-2xs:h-[16.5rem]">
                     <div class="flex gap-2 ml-[1rem] mt-[1rem] max-xs:mt-[0.5rem]">
                         <div class="flex gap-1 items-center text-[1.3rem] text-yellow-500 max-sm:text-[1rem]">

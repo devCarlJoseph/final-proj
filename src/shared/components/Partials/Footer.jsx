@@ -4,7 +4,7 @@ import Wave from "react-wavify"
 export default function Footer() {
   return (
     <div>
-      <div className='mt-[-6.5rem] bg-backround'>
+      <div className='mt-[-6.5rem]'>
         <Wave fill='#242424'
           paused={false}
           style={{ display: 'flex' }}
@@ -16,9 +16,9 @@ export default function Footer() {
           }}
         />
       </div>
-      <div className="bg-tertiary mt-[-0.5rem]">
+      <div className="bg-tertiary mt-[-0.5rem] tablet:mt-[-4.5rem]">
         <div>
-          <div className="text-white flex justify-evenly max-xl:hidden pt-[1rem]">
+          <div className="text-white flex justify-evenly tablet:hidden pt-[1rem]">
             <div>
               <div className="flex justify-start items-start text-white gap-2">
                 <div className="w-[3rem] h-[3rem] bg-primary rounded-[50%]">
@@ -55,10 +55,9 @@ export default function Footer() {
                 <h1>Links</h1>
                 <div className="mt-[2rem] text-gray-300">
                   <ul>
-                    <li className="cursor-pointer hover:text-primary">FAQs</li>
                     <li className="mt-[1rem] cursor-pointer hover:text-primary"><a href="/Chef">Our Staff</a></li>
-                    <li className="mt-[1rem] cursor-pointer hover:text-primary">Contact Us</li>
-                    <li className="mt-[1rem] cursor-pointer hover:text-primary">About Us</li>
+                    <li className="mt-[1rem] cursor-pointer hover:text-primary"><a href="/Contact">Contact Us</a></li>
+                    <li className="mt-[1rem] cursor-pointer hover:text-primary"><a href="/about">About Us</a></li>
                     <li className="mt-[1rem] cursor-pointer hover:text-primary"><a href="/Testimonial">Testimonials</a></li>
                   </ul>
                 </div>
@@ -78,7 +77,7 @@ export default function Footer() {
               <div>
                 <h1>Get the latest information</h1>
                 <div className="mt-[2rem] relative">
-                  <input className="w-[20rem] h-[3rem] backdrop-blur-xl bg-white/40 text-white pl-[1rem] rounded-[0.8rem]" type="text" placeholder="Email address" />
+                  <input className="w-[20rem] h-[3rem] backdrop-blur-xl bg-white/40 text-white pl-[1rem] rounded-[0.8rem] tablet:w-[18.5rem]" type="text" placeholder="Email address" />
                   <div className="w-[3rem] h-[3rem] bg-primary rounded-r-[0.8rem] absolute top-0 right-0">
                     <i className="fa-solid fa-caret-right text-[3.5rem] mt-[-0.3rem] ml-[0.3rem] ab"></i>
                   </div>

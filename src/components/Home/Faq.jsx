@@ -21,7 +21,7 @@ export default function Faq() {
                     }}
                 />
             </div>
-            <div className="bg-secondary h-[68rem] overflow-hidden max-xl::h-[95rem] max-sm:h-[70rem] max-2xs:h-[60rem]">
+            <div className="bg-secondary h-[68rem] overflow-hidden tablet:h-[95rem] max-sm:h-[70rem] max-2xs:h-[60rem]">
                 <div>
                     <div>
                         <div className="flex justify-center items-center gap-1 pt-[8rem] text-center text-primary pb-[1rem] max-sm:pt-[3rem]">
@@ -35,7 +35,7 @@ export default function Faq() {
                         <div className="text-center font-semibold">
                             <h1 className="text-[2.5rem] max-xs:text-[2rem] max-2xs:text-[1.5rem]">Question?<span className="text-primary ml-[0.5rem]">Look here.</span></h1>
                         </div>
-                        <div className="flex justify-center items-center gap-7 mt-[2rem] max-xl:flex-col-reverse">
+                        <div className="flex justify-center items-center gap-7 mt-[2rem] tablet:flex-col-reverse">
                             <div>
                                 <div className="w-[40rem] h-[4.5rem] bg-white rounded-[1rem] flex justify-between items-center shadow-sm relative max-sm:w-[25rem] max-xs:w-[22rem] max-2xs:w-[18.5rem] max-2xs:h-[3.5rem]">
                                     <h1 className="text-[1.1rem] font-medium ml-[1rem] max-xs:text-[1rem] max-2xs:text-[0.8rem]">Where is your restaurant located?</h1>

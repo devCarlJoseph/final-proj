@@ -18,7 +18,7 @@ export default function Dine() {
                     }}
                 />
             </div>
-            <div className="bg-background h-[50rem]">
+            <div className="bg-background h-[50rem] tablet:h-[100rem]">
             <div>
                     <div>
                         <div class="flex justify-center items-center gap-1 pt-[1rem] text-center text-primary pb-[1rem] max-lg:pt-[4.5rem] max-sm:pt-[3rem]">
@@ -33,8 +33,8 @@ export default function Dine() {
                             <h1 class="text-[2.5rem] text-primary max-sm:text-[1.5rem] max-2xs:text-[1.25rem]">The Master <span class="text-black">Behind the Menu</span></h1>
                         </div> 
                     </div>
-                    <div class="flex justify-evenly gap-[1.5rem] items-center mt-[3rem] max-lg:flex-col max-lg:gap-[2rem] max-2xs:mt-[2rem]">
-                        <div class="ml-[7.5rem] relative max-xl:ml-[0.5rem] max-lg:ml-0">
+                    <div class="flex justify-center gap-[1.5rem] items-center mt-[3rem] tablet:flex-col">
+                        <div class="relative max-xl:ml-[0.5rem] max-lg:ml-0">
                             <a href="/ChefOne"><img class="w-[25rem] h-[25rem] rounded-t-[50%] rounded-[1rem] object-cover max-xl:w-[20rem] max-xl:h-[20rem] max-2xs:w-[18rem] max-2xs:h-[18rem]" src={ChefOne} /></a>
                             <div class="flex gap-[1.2rem] absolute bottom-[7.5rem] left-[2.7rem] max-xl:left-[2.3rem] max-xl:bottom-[6rem]" >
                                 <div class="w-[4rem] h-[4rem] backdrop-blur-xl bg-white/40 border-2 border-white rounded-[50%] text-center">
@@ -62,7 +62,7 @@ export default function Dine() {
                                 <h1 class="text-primary">Sous Chef</h1>
                             </div>
                         </div>
-                        <div class="mr-[7.5rem] max-xl:mr-[0.5rem] max-lg:mr-0">
+                        <div class="max-xl:mr-[0.5rem] max-lg:mr-0">
                             <a href="/"><img class="w-[25rem] h-[25rem] rounded-[2rem] object-cover max-xl:w-[20rem] max-xl:h-[20rem] max-2xs:w-[18rem] max-2xs:h-[18rem]" src={ChefThree} /></a>
                             <div class="text-center pt-[1rem]">
                                 <h1 class="text-[1.5rem] font-medium">Manang Linda</h1>
