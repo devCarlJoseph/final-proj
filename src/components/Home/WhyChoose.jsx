@@ -21,7 +21,7 @@ export default function WhyChoose() {
                     }}
                 />
             </div>
-            <div className="bg-background h-[53rem] tablet:h-[80rem]">
+            <div className="bg-background overflow-hidden h-[53rem] tablet:h-[80rem]">
                 <div class="flex justify-center items-center gap-1 pt-[1rem] text-center text-primary pb-[1rem]  max-sm:pt-[2rem] max-sm:pb-[0.5rem]">
                     <i class="fa-solid fa-diamond max-sm:text-[0.9rem] max-2xs:text-[0.7rem]"></i>
                     <i class="fa-solid fa-diamond max-sm:text-[0.9rem] max-2xs:text-[0.7rem]"></i>

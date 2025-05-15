@@ -43,7 +43,7 @@ export default function SectionThree() {
                             <div className="text-[2.5rem] max-sm:text-[1.5rem] max-xs:text-[1rem]">Timeless <span class="text-primary">Culinary Delights</span></div>
                         </div>
                     </div>
-                    <div className="flex justify-center items-center gap-[3rem] mt-[4rem] box-border tablet:flex-col">
+                    <div className="flex justify-center items-center gap-[3rem] mt-[4rem] box-border tablet:flex-col cp:w-[10rem]">
                         <div className="flex flex-col gap-5">
                             <div className="w-[34rem] h-[8.5rem] bg-white shadow-sm">
                                 <div className="flex gap-1">

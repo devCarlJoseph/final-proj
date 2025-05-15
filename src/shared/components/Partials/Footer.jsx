@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <div>
       <div className='mt-[-6.5rem]'>
-        <Wave fill='#242424'
+        <Wave fill='#212121'
           paused={false}
           style={{ display: 'flex' }}
           options={{
@@ -18,21 +18,21 @@ export default function Footer() {
       </div>
       <div className="bg-tertiary mt-[-0.5rem] tablet:mt-[-4.5rem]">
         <div>
-          <div className="text-white flex justify-evenly tablet:hidden pt-[1rem]">
+          <div className="text-white flex justify-evenly pt-[1rem] tablet:flex-col tablet:items-center">
             <div>
               <div className="flex justify-start items-start text-white gap-2">
                 <div className="w-[3rem] h-[3rem] bg-primary rounded-[50%]">
                   <i className="fa-solid fa-bowl-food text-[2rem] ml-[0.5rem] mt-[0.45rem]"></i>
                 </div>
                 <div>
-                  <h1 className="text-[1.5rem] font-bold">CjCo</h1>
+                  <h1 className="text-[1.5rem] font-bold tabv">CjCo</h1>
                   <h1 className="text-[0.7rem] text-gray-300">RESTAURANT</h1>
                 </div>
               </div>
-              <div className="text-justify mt-[2rem] text-gray-300">
+              <div className="text-justify mt-[2rem] text-gray-300 tablet:hidden">
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br /> adipisicing elit, sed do sadamsad awdasdadasdasf sa <br /> asdaqaswdas dhdgasdjgasd asdawds dsad magna.</p>
               </div>
-              <div className="flex justify-evenly items-start mt-[2.5rem] ml-[-1.5rem]">
+              <div className="flex justify-evenly items-start mt-[2.5rem] ml-[-1.5rem] tablet:hidden">
                 <div className="w-[3rem] h-[3rem] backdrop-blur-xl bg-white/40 border-2 border-white rounded-[50%] text-center">
                   <i className="fa-brands fa-facebook text-[2rem] text-white hover:text-tertiary mt-[0.4rem] cursor-pointer"></i>
                 </div>
@@ -52,9 +52,9 @@ export default function Footer() {
             </div>
             <div>
               <div>
-                <h1>Links</h1>
-                <div className="mt-[2rem] text-gray-300">
-                  <ul>
+                <h1 className="tablet:text-center tablet:mt-[2rem] font-semibold">Links</h1>
+                <div className="mt-[2rem] text-gray-300 tablet:mt-0">
+                  <ul className="tablet:flex gap-[1rem]">
                     <li className="mt-[1rem] cursor-pointer hover:text-primary"><a href="/Chef">Our Staff</a></li>
                     <li className="mt-[1rem] cursor-pointer hover:text-primary"><a href="/Contact">Contact Us</a></li>
                     <li className="mt-[1rem] cursor-pointer hover:text-primary"><a href="/about">About Us</a></li>
@@ -64,7 +64,7 @@ export default function Footer() {
               </div>
             </div>
             <div>
-              <div>
+              <div className="tablet:hidden">
                 <h1>Contact Info</h1>
                 <div className="mt-[2rem] text-gray-300">
                   <h1 className="cursor-pointer hover:text-primary">(123) 456-78910 </h1>
@@ -73,7 +73,7 @@ export default function Footer() {
                 </div>
               </div>
             </div>
-            <div>
+            <div className="tablet:hidden">
               <div>
                 <h1>Get the latest information</h1>
                 <div className="mt-[2rem] relative">
@@ -85,12 +85,12 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div className="border-b-[1px] border-b-white w-[85%] mt-[4rem] ml-[7rem] max-2xl:ml-[8.5rem] max-xl:hidden"></div>
-          <div className="flex justify-between items-center mt-[2rem] pb-[4rem] max-xl:mt-[1rem] max-sm:justify-center">
-            <div className="text-white ml-[7rem] max-xl:ml-[5rem] max-lg:ml-[2rem] max-sm:ml-0">
+          <div className="border-b-[1px] border-b-white w-[85%] mt-[4rem] ml-[7rem] max-2xl:ml-[8.5rem] tablet:mt-[1rem] tablet:ml-[3.7rem]"></div>
+          <div className="flex justify-between items-center mt-[2rem] pb-[4rem] max-xl:mt-[1rem] max-sm:justify-center tablet:pb-[2rem]">
+            <div className="text-white ml-[7rem] tablet:ml-[3.7rem]">
               <h1>Copyright 2025</h1>
             </div>
-            <div className="text-white mr-[7rem] max-xl:mr-[5rem] max-lg:mr-[2rem] max-sm:hidden">
+            <div className="text-white mr-[7rem] tablet:mr-[3.7rem]">
               <h1>User Terms & Condition | Privacy Policy</h1>
             </div>
           </div>

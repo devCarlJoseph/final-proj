@@ -61,7 +61,7 @@ export default function Reserve() {
                     }}
                 />
             </div>
-            <div className="bg-secondary h-[70rem] tablet:h-[120rem]">
+            <div className="bg-secondary h-[70rem] tablet:h-[120rem] overflow-hidden">
                 <div>
                     <div class="flex justify-center items-center gap-1 pt-[1rem] text-center text-primary pb-[1rem]">
                         <i class="fa-solid fa-diamond max-sm:text-[0.9rem]"></i>
