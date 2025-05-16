@@ -24,7 +24,7 @@ export default function Testimonial() {
                     }}
                 />
             </div>
-            <div className="bg-[url('../../assets/pictures/testimonials.jpg')] bg-cover h-[60rem] tablet:h-[90rem]">
+            <div className="bg-[url('../../assets/pictures/testimonials.jpg')] bg-cover h-[60rem] tablet:h-[90rem] cp:h-[69.5rem]">
                 <div>
                     <div class="pt-[8rem]">
                         <div class="flex justify-center gap-1.5 text-center text-primary pb-[1rem]">

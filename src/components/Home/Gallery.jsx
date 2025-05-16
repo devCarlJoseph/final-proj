@@ -26,7 +26,7 @@ export default function Gallery() {
                     }}
                 />
             </div>
-            <div className="h-[90rem] bg-background mt-[-0.5rem] tablet:h-[60rem]">
+            <div className="h-[90rem] bg-background mt-[-0.5rem] tablet:h-[60rem] cp:h-[110rem]">
                 <div>
                     <div class="flex justify-center gap-1 pt-[2rem] text-center text-primary pb-[1rem] max-sm:pt-[3rem]">
                         <i class="fa-solid fa-diamond"></i>
@@ -41,7 +41,7 @@ export default function Gallery() {
                     </div>
                 </div>
                 <div>
-                    <div className="flex justify-center items-center gap-[1.5rem] pt-[3rem] tablet:gap-[1rem]">
+                    <div className="flex justify-center items-center gap-[1.5rem] pt-[3rem] tablet:gap-[1rem] cp:flex-col">
                         <div className="flex justify-center items-center w-[24.5rem] h-[24.5rem] bg-primary/80 rounded-3xl tablet:w-[14.5rem] tablet:h-[14.5rem]">
                             <img className="w-[24rem] h-[24rem] rounded-3xl object-cover tablet:w-[14rem] tablet:h-[14rem]" src={Image1} alt="" />
                         </div>
@@ -54,7 +54,7 @@ export default function Gallery() {
                     </div>
                 </div>
                 <div>
-                    <div className="flex justify-center items-center gap-[1.5rem] mt-[2rem]">
+                    <div className="flex justify-center items-center gap-[1.5rem] mt-[2rem] cp:flex-col">
                         <div className="flex justify-center items-center w-[43rem] h-[23rem] bg-tertiary rounded-3xl tablet:w-[21.7rem] tablet:h-[18rem]">
                             <img className="w-[42.5rem] h-[22.5rem] rounded-3xl tablet:w-[21.2rem] tablet:h-[17.5rem]" src={Image4} alt="" />
                         </div>
