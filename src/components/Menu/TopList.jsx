@@ -1,5 +1,4 @@
 import Wave from "react-wavify"
-import Menu1 from "../../assets/pictures/pepperoni.jpg"
 
 
 export default function Sweets() {
@@ -19,77 +18,23 @@ export default function Sweets() {
                     }}
                 />
             </div>
-            <div className="h-[50rem] bg-white">
-                <div className='text-center'>
-                    <div className='text-[2rem] font-semibold'>Top List</div>
-                    <span className='text-[1rem] text-text font-medium'>Our mainstay menu</span>
+            <div className="h-[48rem]">
+                <div className="flex justify-center items-center">
+                    <div className="w-[50rem] text-center">
+                        <h1 className="text-[2.7rem] text-primary font-semibold">Special
+                            <br />
+                            <span className="text-black">Menu Today</span></h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo saepe incidunt, voluptate minus optio impedit recusandae earum consequuntur iusto quam!</p>
+                    </div>
                 </div>
-                <div className='flex justify-center items-center gap-5'>
-                    <div className="mt-[5rem] w-[19rem] h-[22rem] bg-tertiary/80 rounded-3xl">
-                        {/* for image */}
-                        <div className='flex justify-center mt-[-3.5rem]'>
-                            <div className='flex justify-center w-[14.5rem] h-[14.5rem] bg-white/70 rounded-[50%]'>
-                                <img className='mt-[0.2rem] w-[14rem] h-[14rem] rounded-[50%]' src={Menu1} />
-                            </div>
-                        </div>
-                        {/* for text */}
-                        <div>
-                            <div className="text-center pt-5">
-                                <i className="fa-solid fa-star text-yellow-400 text-[1.2rem]"></i>
-                                <span className='text-yellow-400 text-[1.2rem] font-semibold pl-2'>8.5</span>
-                            </div>
-                            <div className='text-white text-center'>
-                                <div className='text-[1.2rem] font-semibold'>Pepperoni</div>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore!</p>
-                            </div>
-                            <div className='text-center pt-2'>
-                                <div className='text-[1.2rem] text-white font-semibold'>$15</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="mt-[5rem] w-[22rem] h-[27.5rem] bg-primary/80 rounded-3xl">
-                        {/* for image */}
-                        <div className='flex justify-center mt-[-3.5rem]'>
-                            <div className='flex justify-center w-[19.5rem] h-[19.5rem] bg-white/70 rounded-[50%]'>
-                                <img className='mt-[0.2rem] w-[19rem] h-[19rem] rounded-[50%]' src={Menu1} />
-                            </div>
-                        </div>
-                        {/* for text */}
-                        <div>
-                            <div className="text-center pt-5">
-                                <i className="fa-solid fa-star text-yellow-400 text-[1.2rem]"></i>
-                                <span className='text-yellow-400 text-[1.2rem] font-semibold pl-2'>8.5</span>
-                            </div>
-                            <div className='text-white text-center'>
-                                <div className='text-[1.2rem] font-semibold'>Pepperoni</div>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore!</p>
-                            </div>
-                            <div className='text-center pt-2'>
-                                <div className='text-[1.2rem] text-white font-semibold'>$15</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="mt-[5rem] w-[19rem] h-[22rem] bg-tertiary/80 rounded-3xl">
-                        {/* for image */}
-                        <div className='flex justify-center mt-[-3.5rem]'>
-                            <div className='flex justify-center w-[14.5rem] h-[14.5rem] bg-white/70 rounded-[50%]'>
-                                <img className='mt-[0.2rem] w-[14rem] h-[14rem] rounded-[50%]' src={Menu1} />
-                            </div>
-                        </div>
-                        {/* for text */}
-                        <div>
-                            <div className="text-center pt-5">
-                                <i className="fa-solid fa-star text-yellow-400 text-[1.2rem]"></i>
-                                <span className='text-yellow-400 text-[1.2rem] font-semibold pl-2'>8.5</span>
-                            </div>
-                            <div className='text-white text-center'>
-                                <div className='text-[1.2rem] font-semibold'>Pepperoni</div>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore!</p>
-                            </div>
-                            <div className='text-center pt-2'>
-                                <div className='text-[1.2rem] text-white font-semibold'>$15</div>
-                            </div>
-                        </div>
+                <div className="text-center">
+                    <div className="text-[1.5rem] mt-[1rem]">-Featured-</div>
+                </div>
+                <div>
+                    <div className="flex justify-center items-center gap-[1rem] mt-[1.5rem]">
+                        <div className="w-[20rem] h-[20rem] bg-red-200 rounded-3xl"></div>
+                        <div className="w-[20rem] h-[20rem] bg-red-200 rounded-3xl"></div>
+                        <div className="w-[20rem] h-[20rem] bg-red-200 rounded-3xl"></div>
                     </div>
                 </div>
             </div>

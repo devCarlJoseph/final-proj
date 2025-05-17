@@ -55,11 +55,11 @@ export default function Gallery() {
                 </div>
                 <div>
                     <div className="flex justify-center items-center gap-[1.5rem] mt-[2rem] cp:flex-col">
-                        <div className="flex justify-center items-center w-[43rem] h-[23rem] bg-tertiary rounded-3xl tablet:w-[21.7rem] tablet:h-[18rem]">
-                            <img className="w-[42.5rem] h-[22.5rem] rounded-3xl tablet:w-[21.2rem] tablet:h-[17.5rem]" src={Image4} alt="" />
+                        <div className="flex justify-center items-center w-[43rem] h-[23rem] bg-tertiary rounded-3xl tablet:w-[21.7rem] tablet:h-[18rem] cp:w-[18.5rem]">
+                            <img className="w-[42.5rem] h-[22.5rem] rounded-3xl tablet:w-[21.2rem] tablet:h-[17.5rem] cp:w-[18rem]" src={Image4} alt="" />
                         </div>
-                        <div className="flex justify-center items-center w-[31.85rem] h-[22.5rem] bg-tertiary rounded-3xl tablet:w-[21.7rem] tablet:h-[18rem]">
-                            <img className="w-[31.35rem] h-[22rem] rounded-3xl tablet:w-[21.2rem] tablet:h-[17.5rem]" src={Image5} alt="" />
+                        <div className="flex justify-center items-center w-[31.85rem] h-[22.5rem] bg-tertiary rounded-3xl tablet:w-[21.7rem] tablet:h-[18rem] cp:w-[18.5rem]">
+                            <img className="w-[31.35rem] h-[22rem] rounded-3xl tablet:w-[21.2rem] tablet:h-[17.5rem] cp:w-[18rem]" src={Image5} alt="" />
                         </div>
                     </div>
                 </div>

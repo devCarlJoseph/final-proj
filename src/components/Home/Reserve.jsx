@@ -108,12 +108,12 @@ export default function Reserve() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="flex flex-col justify-center items-center">
+                            <div className="flex flex-col justify-center items-start cp:items-center">
                                 <div className="mt-[1.5rem] flex flex-col">
                                     <label class="text-justify font-medium tablet:ml-[-9rem] cp:ml-0" for="message">Send us Message</label>
-                                    <input class="bg-white w-[16rem] h-[5rem] pl-[1rem] pb-[3rem] ml-0 rounded-[1rem] mt-[1rem] tablet:w-[35rem] tablet:ml-[-9rem] cp:w-[19rem] cp:ml-0" value={message} onChange={(e) => setMessage(e.target.value)} type="text" placeholder="Enter Here" />
+                                    <input class="bg-white w-[32.8rem] h-[5rem] pl-[1rem] pb-[3rem] ml-0 rounded-[1rem] mt-[1rem] outline-none shadow-sm tablet:w-[35rem] tablet:ml-[-9rem] cp:w-[19rem] cp:ml-0" value={message} onChange={(e) => setMessage(e.target.value)} type="text" placeholder="Enter Here" />
                                 </div>
-                                <div class="w-[10rem] h-[3rem] bg-primary rounded-[1.5rem] text-center mt-[1.5rem] cursor-pointer hover:bg-tertiary/70 ml-[-15rem] tablet:ml-[-9rem]">
+                                <div class="w-[10rem] h-[3rem] bg-primary rounded-[1.5rem] text-center mt-[1.5rem] cursor-pointer hover:bg-tertiary/70 tablet:ml-[-9rem]">
                                     <button type="submit" class="mt-[0.7rem] font-medium text-white cursor-pointer ">BOOK A TABLE</button>
                                 </div>
                             </div>
