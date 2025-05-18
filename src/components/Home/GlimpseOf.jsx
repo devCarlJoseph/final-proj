@@ -8,9 +8,6 @@ export default function GlimpseOf() {
 
     const [playStatus, setPlayStatus] = useState(false);
 
-
-
-
     return (
         <div>
             <div>

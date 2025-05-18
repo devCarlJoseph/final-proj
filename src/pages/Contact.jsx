@@ -8,7 +8,7 @@ import Footer from "../shared/components/Partials/Footer";
 
 export default function Contact() {
   return (
-    <div>
+    <div className="overflow-hidden">
       <Header />
       <Intro />
       <Content />

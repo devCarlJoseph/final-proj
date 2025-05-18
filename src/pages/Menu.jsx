@@ -9,7 +9,7 @@ export default function Menu() {
 
  
   return (
-    <div>
+    <div className="overflow-hidden">
       <Header />
       <Hero />
       <Sweets />

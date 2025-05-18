@@ -18,8 +18,8 @@ export default {
       },
       screens: {
         'tablet': { 'max': '768px' }, 
-        'cp' : {'max': '426px'},
-      }
+        'cp' : {'max': '431px'},
+      } 
     },
   },
   plugins: [],
