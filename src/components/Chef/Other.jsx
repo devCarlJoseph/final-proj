@@ -9,9 +9,9 @@ import ChefNine from "../../assets/pictures/sous2.webp"
 export default function Other() {
     return (
         <div>
-            <div className="bg-background mt-[-9.5rem] h-[75rem]">
-                <div class="flex justify-evenly gap-[1.5rem] items-center mt-[3rem] max-lg:flex-col max-lg:gap-[2rem] max-2xs:mt-[2rem]">
-                    <div class="ml-[7.5rem] relative max-xl:ml-[0.5rem] max-lg:ml-0">
+            <div className="bg-background mt-[-9.5rem] h-[75rem] tablet:h-[200rem]">
+                <div class="flex justify-center items-center gap-[1.5rem] items-center mt-[3rem] tablet:mt-[15rem] tablet:flex-col">
+                    <div class="relative">
                         <a href="/Chef"><img class="w-[25rem] h-[25rem] rounded-[2rem] object-cover max-xl:w-[20rem] max-xl:h-[20rem] max-2xs:w-[18rem] max-2xs:h-[18rem]" src={ChefSeven} /></a>
                         <div class="text-center pt-[1rem]">
                             <h1 class="text-[1.5rem] font-medium">Manang Linda</h1>
@@ -25,7 +25,7 @@ export default function Other() {
                             <h1 class="text-primary">Sous Chef</h1>
                         </div>
                     </div>
-                    <div class="mr-[7.5rem] max-xl:mr-[0.5rem] max-lg:mr-0">
+                    <div class="">
                         <a href="/"><img class="w-[25rem] h-[25rem] rounded-[2rem] object-cover max-xl:w-[20rem] max-xl:h-[20rem] max-2xs:w-[18rem] max-2xs:h-[18rem]" src={ChefNine} /></a>
                         <div class="text-center pt-[1rem]">
                             <h1 class="text-[1.5rem] font-medium">Manang Linda</h1>
@@ -33,8 +33,8 @@ export default function Other() {
                         </div>
                     </div>
                 </div>
-                <div class="flex justify-evenly gap-[1.5rem] items-center mt-[3rem] max-lg:flex-col max-lg:gap-[2rem] max-2xs:mt-[2rem]">
-                    <div class="ml-[7.5rem] relative max-xl:ml-[0.5rem] max-lg:ml-0">
+                <div class="flex justify-center items-center gap-[1.5rem] items-center mt-[3rem] tablet:flex-col">
+                    <div class="relative">
                         <a href="/"><img class="w-[25rem] h-[25rem] rounded-[2rem] object-cover max-xl:w-[20rem] max-xl:h-[20rem] max-2xs:w-[18rem] max-2xs:h-[18rem]" src={ChefFour} /></a>
                         <div class="text-center pt-[1rem]">
                             <h1 class="text-[1.5rem] font-medium">Manang Linda</h1>
@@ -48,7 +48,7 @@ export default function Other() {
                             <h1 class="text-primary">Sous Chef</h1>
                         </div>
                     </div>
-                    <div class="mr-[7.5rem] max-xl:mr-[0.5rem] max-lg:mr-0">
+                    <div class="">
                         <a href="/"><img class="w-[25rem] h-[25rem] rounded-[2rem] object-cover max-xl:w-[20rem] max-xl:h-[20rem] max-2xs:w-[18rem] max-2xs:h-[18rem]" src={ChefSix} /></a>
                         <div class="text-center pt-[1rem]">
                             <h1 class="text-[1.5rem] font-medium">Manang Linda</h1>

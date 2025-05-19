@@ -23,10 +23,10 @@ export default function Mission() {
                     }}
                 />
             </div>
-            <div class="bg-secondary h-[100rem] overflow-hidden tablet:h-[60rem]">
+            <div class="bg-secondary h-[100rem] overflow-hidden tablet:h-[60rem] cp:h-[68rem]">
                 <div class="relative">
                     <div>
-                        <div class="flex justify-center items-center gap-[2rem] mt-[2rem] tablet:gap-[1rem]">
+                        <div class="flex justify-center items-center gap-[2rem] mt-[2rem] tablet:gap-[1rem] cp:flex-col">
                             <div class="bg-primary w-[37rem] h-[12.5rem] rounded-[1.5rem] relative overflow-hidden tablet:w-[22.5rem] tablet:h-[17rem]">
                                 <div class="absolute right-[-0.5rem] top-[-1rem]">
                                     <i class="fa-solid fa-rocket text-white/40 text-[5.8rem] pt-[0.9rem]"></i>
@@ -63,7 +63,7 @@ export default function Mission() {
                     </div>
                     <div>
                         <div class="flex justify-center items-center mt-[5rem]">
-                            <img class="w-[76rem] h-[43.8rem] rounded-[1.5rem] object-obtain tablet:w-[45rem] tablet:h-[25rem]" src={image1} />
+                            <img class="w-[75.5rem] h-[43.8rem] rounded-[1.5rem] object-obtain tablet:w-[45rem] tablet:h-[25rem] cp:w-[25rem] cp:h-[14rem]" src={image1} />
                             <div>
                                 <Video playStatus={playStatus} />
                             </div>
@@ -77,7 +77,7 @@ export default function Mission() {
                         </div>
                     </div>
                     <div>
-                        <div class="w-[78%] h-[13rem] bg-tertiary ml-[22%] absolute bottom-[-6.5rem] rounded-l-[1.5rem] z-[1] tablet:h-[8rem] tablet:bottom-[-1.3rem]">
+                        <div class="w-[78%] h-[13rem] bg-tertiary ml-[22%] absolute bottom-[-6.5rem] rounded-l-[1.5rem] z-[1] tablet:h-[8rem] tablet:bottom-[-1.3rem] cp:hidden">
                             <div class="flex justify-evenly">
                                 <div class="mt-[3rem] tablet:text-center tablet:mt-[1.5rem]">
                                     <h1 class="text-primary text-[2.5rem] tablet:text-[2rem]">150+</h1>

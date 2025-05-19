@@ -3,7 +3,7 @@ import Wave from 'react-wavify'
 
 export default function SectionTwo() {
     return (
-        <div className='bg-background'>
+        <div>
             <div className='mt-[-9rem] tablet:mt-[-5rem]'>
                 <Wave fill='#faf8f7'
                     paused={false}

@@ -62,7 +62,7 @@ export default function BookATable() {
                     }}
                 />
             </div>
-            <div className="bg-background h-[63rem]">
+            <div className="bg-background h-[63rem] cp:h-[95rem]">
                 <div>
                     <div class="flex justify-center items-center gap-1 pt-[1rem] text-center text-primary pb-[1rem]">
                         <i class="fa-solid fa-diamond cp:text-[0.9rem]"></i>

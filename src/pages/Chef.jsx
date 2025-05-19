@@ -7,7 +7,7 @@ import Footer from "../shared/components/Partials/Footer"
 
 export default function Chef() {
     return (
-        <div>
+        <div className="bg-background">
             <Header />
             <ChefIntro />
             <Chefs />

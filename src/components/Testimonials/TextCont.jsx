@@ -18,7 +18,7 @@ export default function TextCont() {
                     }}
                 />
             </div>
-            <div className="bg-background h-[125rem] tablet:h-[180rem]">
+            <div className="bg-background h-[125rem] tablet:h-[240rem]">
                 <div>
                     <div>
                         <div class="pt-[1.5rem]">
@@ -37,9 +37,9 @@ export default function TextCont() {
                     </div>
                 </div>
                 <div>
-                    <div className="flex justify-center items-center gap-[2rem] mt-[2rem] ">
+                    <div className="flex justify-center items-center gap-[2rem] mt-[2rem] tablet:flex-col">
                         <div className="flex flex-col gap-[2rem]">
-                            <div class="w-[35rem] h-[20.3rem] border-[1px] border-gray-500 backdrop-blur-md bg-white shadow-sm rounded-[1rem] border-1 border-white/20 tablet:w-[25rem] tablet:h-[15.3rem]">
+                            <div class="w-[35rem] h-[20.3rem] border-[1px] border-gray-500 backdrop-blur-md bg-white shadow-sm rounded-[1rem] border-1 border-white/20 tablet:w-[29rem] tablet:h-[19.3rem]">
                                 <div class="flex gap-2 ml-[1rem] mt-[1rem] max-xs:mt-[0.5rem]">
                                     <div class="flex gap-1 items-center text-[1.3rem] text-yellow-500 max-sm:text-[1rem]">
                                         <i class="fa-solid fa-star tablet:text-[0.9rem]"></i>
@@ -52,7 +52,7 @@ export default function TextCont() {
                                 </div>
                                 <div class="ml-[1rem] mt-[1rem] max-xs:mt-[0.5rem]">
                                     <h1 class="text-[1.5rem] text-text font-medium tablet:text-[1.25rem]">Fresh, flavorful, and unforgettable.</h1>
-                                    <p class="text-text pr-5 mt-[0.5rem] tablet:text-[0.9rem] tablet:px-1">Every bite of our meal was packed with flavor and made from the freshest ingredients. You can tell the kitchen takes pride in what they serve. The presentation was beautiful without being overdone. The service was prompt and professional, adding to the overall experience. I’m still thinking about the pasta it was that good. </p>
+                                    <p class="text-text pr-5 mt-[0.5rem] tablet:text-[0.9rem] tablet:pr-5">Every bite of our meal was packed with flavor and made from the freshest ingredients. You can tell the kitchen takes pride in what they serve. The presentation was beautiful without being overdone. The service was prompt and professional, adding to the overall experience. I’m still thinking about the pasta it was that good. </p>
                                 </div>
                                 <div class="flex items-center gap-3 relative mt-[1rem] ml-[1rem] max-xl:mt-[0.7rem] max-xs:mt-[0.5rem]">
                                     <img class="w-[4rem] h-[4rem] rounded-[50%] border-1 border-white max-xs:w-[3.5rem] max-xs:h-[3.5rem]" />
@@ -63,7 +63,7 @@ export default function TextCont() {
                                     </div>
                                 </div>
                             </div>
-                            <div class="w-[35rem] h-[20.3rem] border-[1px] border-gray-500 backdrop-blur-md bg-white shadow-sm rounded-[1rem] border-1 border-white/20 tablet:w-[25rem] tablet:h-[15.3rem]">
+                            <div class="w-[35rem] h-[20.3rem] border-[1px] border-gray-500 backdrop-blur-md bg-white shadow-sm rounded-[1rem] border-1 border-white/20 tablet:w-[29rem] tablet:h-[19.3rem]">
                                 <div class="flex gap-2 ml-[1rem] mt-[1rem] max-xs:mt-[0.5rem]">
                                     <div class="flex gap-1 items-center text-[1.3rem] text-yellow-500 max-sm:text-[1rem]">
                                         <i class="fa-solid fa-star tablet:text-[0.9rem]"></i>
@@ -76,7 +76,7 @@ export default function TextCont() {
                                 </div>
                                 <div class="ml-[1rem] mt-[1rem] max-xs:mt-[0.5rem]">
                                     <h1 class="text-[1.5rem] text-text font-medium tablet:text-[1.25rem]">Fresh, flavorful, and unforgettable.</h1>
-                                    <p class="text-text pr-5 mt-[0.5rem] tablet:text-[0.9rem] tablet:px-1">Every bite of our meal was packed with flavor and made from the freshest ingredients. You can tell the kitchen takes pride in what they serve. The presentation was beautiful without being overdone. The service was prompt and professional, adding to the overall experience. I’m still thinking about the pasta it was that good. </p>
+                                    <p class="text-text pr-5 mt-[0.5rem] tablet:text-[0.9rem] tablet:pr-5">Every bite of our meal was packed with flavor and made from the freshest ingredients. You can tell the kitchen takes pride in what they serve. The presentation was beautiful without being overdone. The service was prompt and professional, adding to the overall experience. I’m still thinking about the pasta it was that good. </p>
                                 </div>
                                 <div class="flex items-center gap-3 relative mt-[1rem] ml-[1rem] max-xl:mt-[0.7rem] max-xs:mt-[0.5rem]">
                                     <img class="w-[4rem] h-[4rem] rounded-[50%] border-1 border-white max-xs:w-[3.5rem] max-xs:h-[3.5rem]" />
@@ -87,7 +87,7 @@ export default function TextCont() {
                                     </div>
                                 </div>
                             </div>
-                            <div class="w-[35rem] h-[20.3rem] border-[1px] border-gray-500 backdrop-blur-md bg-white shadow-sm rounded-[1rem] border-1 border-white/20 tablet:w-[25rem] tablet:h-[15.3rem]">
+                            <div class="w-[35rem] h-[20.3rem] border-[1px] border-gray-500 backdrop-blur-md bg-white shadow-sm rounded-[1rem] border-1 border-white/20 tablet:w-[29rem] tablet:h-[19.3rem]">
                                 <div class="flex gap-2 ml-[1rem] mt-[1rem] max-xs:mt-[0.5rem]">
                                     <div class="flex gap-1 items-center text-[1.3rem] text-yellow-500 max-sm:text-[1rem]">
                                         <i class="fa-solid fa-star tablet:text-[0.9rem]"></i>
@@ -100,7 +100,7 @@ export default function TextCont() {
                                 </div>
                                 <div class="ml-[1rem] mt-[1rem] max-xs:mt-[0.5rem]">
                                     <h1 class="text-[1.5rem] text-text font-medium tablet:text-[1.25rem]">Fresh, flavorful, and unforgettable.</h1>
-                                    <p class="text-text pr-5 mt-[0.5rem] tablet:text-[0.9rem] tablet:px-1">Every bite of our meal was packed with flavor and made from the freshest ingredients. You can tell the kitchen takes pride in what they serve. The presentation was beautiful without being overdone. The service was prompt and professional, adding to the overall experience. I’m still thinking about the pasta it was that good. </p>
+                                    <p class="text-text pr-5 mt-[0.5rem] tablet:text-[0.9rem] tablet:pr-5">Every bite of our meal was packed with flavor and made from the freshest ingredients. You can tell the kitchen takes pride in what they serve. The presentation was beautiful without being overdone. The service was prompt and professional, adding to the overall experience. I’m still thinking about the pasta it was that good. </p>
                                 </div>
                                 <div class="flex items-center gap-3 relative mt-[1rem] ml-[1rem] max-xl:mt-[0.7rem] max-xs:mt-[0.5rem]">
                                     <img class="w-[4rem] h-[4rem] rounded-[50%] border-1 border-white max-xs:w-[3.5rem] max-xs:h-[3.5rem]" />
@@ -111,7 +111,7 @@ export default function TextCont() {
                                     </div>
                                 </div>
                             </div>
-                            <div class="w-[35rem] h-[20.3rem] border-[1px] border-gray-500 backdrop-blur-md bg-white shadow-sm rounded-[1rem] border-1 border-white/20 tablet:w-[25rem] tablet:h-[15.3rem]">
+                            <div class="w-[35rem] h-[20.3rem] border-[1px] border-gray-500 backdrop-blur-md bg-white shadow-sm rounded-[1rem] border-1 border-white/20 tablet:w-[29rem] tablet:h-[19.3rem]">
                                 <div class="flex gap-2 ml-[1rem] mt-[1rem] max-xs:mt-[0.5rem]">
                                     <div class="flex gap-1 items-center text-[1.3rem] text-yellow-500 max-sm:text-[1rem]">
                                         <i class="fa-solid fa-star tablet:text-[0.9rem]"></i>
@@ -124,7 +124,7 @@ export default function TextCont() {
                                 </div>
                                 <div class="ml-[1rem] mt-[1rem] max-xs:mt-[0.5rem]">
                                     <h1 class="text-[1.5rem] text-text font-medium tablet:text-[1.25rem]">Fresh, flavorful, and unforgettable.</h1>
-                                    <p class="text-text pr-5 mt-[0.5rem] tablet:text-[0.9rem] tablet:px-1">Every bite of our meal was packed with flavor and made from the freshest ingredients. You can tell the kitchen takes pride in what they serve. The presentation was beautiful without being overdone. The service was prompt and professional, adding to the overall experience. I’m still thinking about the pasta it was that good. </p>
+                                    <p class="text-text pr-5 mt-[0.5rem] tablet:text-[0.9rem] tablet:pr-5">Every bite of our meal was packed with flavor and made from the freshest ingredients. You can tell the kitchen takes pride in what they serve. The presentation was beautiful without being overdone. The service was prompt and professional, adding to the overall experience. I’m still thinking about the pasta it was that good. </p>
                                 </div>
                                 <div class="flex items-center gap-3 relative mt-[1rem] ml-[1rem] max-xl:mt-[0.7rem] max-xs:mt-[0.5rem]">
                                     <img class="w-[4rem] h-[4rem] rounded-[50%] border-1 border-white max-xs:w-[3.5rem] max-xs:h-[3.5rem]" />
@@ -135,7 +135,7 @@ export default function TextCont() {
                                     </div>
                                 </div>
                             </div>
-                            <div class="w-[35rem] h-[20.3rem] border-[1px] border-gray-500 backdrop-blur-md bg-white shadow-sm rounded-[1rem] border-1 border-white/20 tablet:w-[25rem] tablet:h-[15.3rem]">
+                            <div class="w-[35rem] h-[20.3rem] border-[1px] border-gray-500 backdrop-blur-md bg-white shadow-sm rounded-[1rem] border-1 border-white/20 tablet:w-[29rem] tablet:h-[19.3rem]">
                                 <div class="flex gap-2 ml-[1rem] mt-[1rem] max-xs:mt-[0.5rem]">
                                     <div class="flex gap-1 items-center text-[1.3rem] text-yellow-500 max-sm:text-[1rem]">
                                         <i class="fa-solid fa-star tablet:text-[0.9rem]"></i>
@@ -148,7 +148,7 @@ export default function TextCont() {
                                 </div>
                                 <div class="ml-[1rem] mt-[1rem] max-xs:mt-[0.5rem]">
                                     <h1 class="text-[1.5rem] text-text font-medium tablet:text-[1.25rem]">Fresh, flavorful, and unforgettable.</h1>
-                                    <p class="text-text pr-5 mt-[0.5rem] tablet:text-[0.9rem] tablet:px-1">Every bite of our meal was packed with flavor and made from the freshest ingredients. You can tell the kitchen takes pride in what they serve. The presentation was beautiful without being overdone. The service was prompt and professional, adding to the overall experience. I’m still thinking about the pasta it was that good. </p>
+                                    <p class="text-text pr-5 mt-[0.5rem] tablet:text-[0.9rem] tablet:pr-5">Every bite of our meal was packed with flavor and made from the freshest ingredients. You can tell the kitchen takes pride in what they serve. The presentation was beautiful without being overdone. The service was prompt and professional, adding to the overall experience. I’m still thinking about the pasta it was that good. </p>
                                 </div>
                                 <div class="flex items-center gap-3 relative mt-[1rem] ml-[1rem] max-xl:mt-[0.7rem] max-xs:mt-[0.5rem]">
                                     <img class="w-[4rem] h-[4rem] rounded-[50%] border-1 border-white max-xs:w-[3.5rem] max-xs:h-[3.5rem]" />
@@ -161,7 +161,7 @@ export default function TextCont() {
                             </div>
                         </div>
                         <div className="flex flex-col gap-[2rem]">
-                            <div class="w-[35rem] h-[20.3rem] border-[1px] border-gray-500 backdrop-blur-md bg-white shadow-sm rounded-[1rem] border-1 border-white/20 tablet:w-[25rem] tablet:h-[15.3rem]">
+                            <div class="w-[35rem] h-[20.3rem] border-[1px] border-gray-500 backdrop-blur-md bg-white shadow-sm rounded-[1rem] border-1 border-white/20 tablet:w-[29rem] tablet:h-[19.3rem]">
                                 <div class="flex gap-2 ml-[1rem] mt-[1rem] max-xs:mt-[0.5rem]">
                                     <div class="flex gap-1 items-center text-[1.3rem] text-yellow-500 max-sm:text-[1rem]">
                                         <i class="fa-solid fa-star tablet:text-[0.9rem]"></i>
@@ -174,7 +174,7 @@ export default function TextCont() {
                                 </div>
                                 <div class="ml-[1rem] mt-[1rem] max-xs:mt-[0.5rem]">
                                     <h1 class="text-[1.5rem] text-text font-medium tablet:text-[1.25rem]">Fresh, flavorful, and unforgettable.</h1>
-                                    <p class="text-text pr-5 mt-[0.5rem] tablet:text-[0.9rem] tablet:px-1">Every bite of our meal was packed with flavor and made from the freshest ingredients. You can tell the kitchen takes pride in what they serve. The presentation was beautiful without being overdone. The service was prompt and professional, adding to the overall experience. I’m still thinking about the pasta it was that good. </p>
+                                    <p class="text-text pr-5 mt-[0.5rem] tablet:text-[0.9rem] tablet:pr-5">Every bite of our meal was packed with flavor and made from the freshest ingredients. You can tell the kitchen takes pride in what they serve. The presentation was beautiful without being overdone. The service was prompt and professional, adding to the overall experience. I’m still thinking about the pasta it was that good. </p>
                                 </div>
                                 <div class="flex items-center gap-3 relative mt-[1rem] ml-[1rem] max-xl:mt-[0.7rem] max-xs:mt-[0.5rem]">
                                     <img class="w-[4rem] h-[4rem] rounded-[50%] border-1 border-white max-xs:w-[3.5rem] max-xs:h-[3.5rem]" />
@@ -185,7 +185,7 @@ export default function TextCont() {
                                     </div>
                                 </div>
                             </div>
-                            <div class="w-[35rem] h-[20.3rem] border-[1px] border-gray-500 backdrop-blur-md bg-white shadow-sm rounded-[1rem] border-1 border-white/20 tablet:w-[25rem] tablet:h-[15.3rem]">
+                            <div class="w-[35rem] h-[20.3rem] border-[1px] border-gray-500 backdrop-blur-md bg-white shadow-sm rounded-[1rem] border-1 border-white/20 tablet:w-[29rem] tablet:h-[19.3rem]">
                                 <div class="flex gap-2 ml-[1rem] mt-[1rem] max-xs:mt-[0.5rem]">
                                     <div class="flex gap-1 items-center text-[1.3rem] text-yellow-500 max-sm:text-[1rem]">
                                         <i class="fa-solid fa-star tablet:text-[0.9rem]"></i>
@@ -198,7 +198,7 @@ export default function TextCont() {
                                 </div>
                                 <div class="ml-[1rem] mt-[1rem] max-xs:mt-[0.5rem]">
                                     <h1 class="text-[1.5rem] text-text font-medium tablet:text-[1.25rem]">Fresh, flavorful, and unforgettable.</h1>
-                                    <p class="text-text pr-5 mt-[0.5rem] tablet:text-[0.9rem] tablet:px-1">Every bite of our meal was packed with flavor and made from the freshest ingredients. You can tell the kitchen takes pride in what they serve. The presentation was beautiful without being overdone. The service was prompt and professional, adding to the overall experience. I’m still thinking about the pasta it was that good. </p>
+                                    <p class="text-text pr-5 mt-[0.5rem] tablet:text-[0.9rem] tablet:pr-5">Every bite of our meal was packed with flavor and made from the freshest ingredients. You can tell the kitchen takes pride in what they serve. The presentation was beautiful without being overdone. The service was prompt and professional, adding to the overall experience. I’m still thinking about the pasta it was that good. </p>
                                 </div>
                                 <div class="flex items-center gap-3 relative mt-[1rem] ml-[1rem] max-xl:mt-[0.7rem] max-xs:mt-[0.5rem]">
                                     <img class="w-[4rem] h-[4rem] rounded-[50%] border-1 border-white max-xs:w-[3.5rem] max-xs:h-[3.5rem]" />
@@ -209,7 +209,7 @@ export default function TextCont() {
                                     </div>
                                 </div>
                             </div>
-                            <div class="w-[35rem] h-[20.3rem] border-[1px] border-gray-500 backdrop-blur-md bg-white shadow-sm rounded-[1rem] border-1 border-white/20 tablet:w-[25rem] tablet:h-[15.3rem]">
+                            <div class="w-[35rem] h-[20.3rem] border-[1px] border-gray-500 backdrop-blur-md bg-white shadow-sm rounded-[1rem] border-1 border-white/20 tablet:w-[29rem] tablet:h-[19.3rem]">
                                 <div class="flex gap-2 ml-[1rem] mt-[1rem] max-xs:mt-[0.5rem]">
                                     <div class="flex gap-1 items-center text-[1.3rem] text-yellow-500 max-sm:text-[1rem]">
                                         <i class="fa-solid fa-star tablet:text-[0.9rem]"></i>
@@ -222,7 +222,7 @@ export default function TextCont() {
                                 </div>
                                 <div class="ml-[1rem] mt-[1rem] max-xs:mt-[0.5rem]">
                                     <h1 class="text-[1.5rem] text-text font-medium tablet:text-[1.25rem]">Fresh, flavorful, and unforgettable.</h1>
-                                    <p class="text-text pr-5 mt-[0.5rem] tablet:text-[0.9rem] tablet:px-1">Every bite of our meal was packed with flavor and made from the freshest ingredients. You can tell the kitchen takes pride in what they serve. The presentation was beautiful without being overdone. The service was prompt and professional, adding to the overall experience. I’m still thinking about the pasta it was that good. </p>
+                                    <p class="text-text pr-5 mt-[0.5rem] tablet:text-[0.9rem] tablet:pr-5">Every bite of our meal was packed with flavor and made from the freshest ingredients. You can tell the kitchen takes pride in what they serve. The presentation was beautiful without being overdone. The service was prompt and professional, adding to the overall experience. I’m still thinking about the pasta it was that good. </p>
                                 </div>
                                 <div class="flex items-center gap-3 relative mt-[1rem] ml-[1rem] max-xl:mt-[0.7rem] max-xs:mt-[0.5rem]">
                                     <img class="w-[4rem] h-[4rem] rounded-[50%] border-1 border-white max-xs:w-[3.5rem] max-xs:h-[3.5rem]" />
@@ -233,7 +233,7 @@ export default function TextCont() {
                                     </div>
                                 </div>
                             </div>
-                            <div class="w-[35rem] h-[20.3rem] border-[1px] border-gray-500 backdrop-blur-md bg-white shadow-sm rounded-[1rem] border-1 border-white/20 tablet:w-[25rem] tablet:h-[15.3rem]">
+                            <div class="w-[35rem] h-[20.3rem] border-[1px] border-gray-500 backdrop-blur-md bg-white shadow-sm rounded-[1rem] border-1 border-white/20 tablet:w-[29rem] tablet:h-[19.3rem]">
                                 <div class="flex gap-2 ml-[1rem] mt-[1rem] max-xs:mt-[0.5rem]">
                                     <div class="flex gap-1 items-center text-[1.3rem] text-yellow-500 max-sm:text-[1rem]">
                                         <i class="fa-solid fa-star tablet:text-[0.9rem]"></i>
@@ -246,7 +246,7 @@ export default function TextCont() {
                                 </div>
                                 <div class="ml-[1rem] mt-[1rem] max-xs:mt-[0.5rem]">
                                     <h1 class="text-[1.5rem] text-text font-medium tablet:text-[1.25rem]">Fresh, flavorful, and unforgettable.</h1>
-                                    <p class="text-text pr-5 mt-[0.5rem] tablet:text-[0.9rem] tablet:px-1">Every bite of our meal was packed with flavor and made from the freshest ingredients. You can tell the kitchen takes pride in what they serve. The presentation was beautiful without being overdone. The service was prompt and professional, adding to the overall experience. I’m still thinking about the pasta it was that good. </p>
+                                    <p class="text-text pr-5 mt-[0.5rem] tablet:text-[0.9rem] tablet:pr-5">Every bite of our meal was packed with flavor and made from the freshest ingredients. You can tell the kitchen takes pride in what they serve. The presentation was beautiful without being overdone. The service was prompt and professional, adding to the overall experience. I’m still thinking about the pasta it was that good. </p>
                                 </div>
                                 <div class="flex items-center gap-3 relative mt-[1rem] ml-[1rem] max-xl:mt-[0.7rem] max-xs:mt-[0.5rem]">
                                     <img class="w-[4rem] h-[4rem] rounded-[50%] border-1 border-white max-xs:w-[3.5rem] max-xs:h-[3.5rem]" />
@@ -257,7 +257,7 @@ export default function TextCont() {
                                     </div>
                                 </div>
                             </div>
-                            <div class="w-[35rem] h-[20.3rem] border-[1px] border-gray-500 backdrop-blur-md bg-white shadow-sm rounded-[1rem] border-1 border-white/20 tablet:w-[25rem] tablet:h-[15.3rem]">
+                            <div class="w-[35rem] h-[20.3rem] border-[1px] border-gray-500 backdrop-blur-md bg-white shadow-sm rounded-[1rem] border-1 border-white/20 tablet:w-[29rem] tablet:h-[19.3rem]">
                                 <div class="flex gap-2 ml-[1rem] mt-[1rem] max-xs:mt-[0.5rem]">
                                     <div class="flex gap-1 items-center text-[1.3rem] text-yellow-500 max-sm:text-[1rem]">
                                         <i class="fa-solid fa-star tablet:text-[0.9rem]"></i>
@@ -270,7 +270,7 @@ export default function TextCont() {
                                 </div>
                                 <div class="ml-[1rem] mt-[1rem] max-xs:mt-[0.5rem]">
                                     <h1 class="text-[1.5rem] text-text font-medium tablet:text-[1.25rem]">Fresh, flavorful, and unforgettable.</h1>
-                                    <p class="text-text pr-5 mt-[0.5rem] tablet:text-[0.9rem] tablet:px-1">Every bite of our meal was packed with flavor and made from the freshest ingredients. You can tell the kitchen takes pride in what they serve. The presentation was beautiful without being overdone. The service was prompt and professional, adding to the overall experience. I’m still thinking about the pasta it was that good. </p>
+                                    <p class="text-text pr-5 mt-[0.5rem] tablet:text-[0.9rem] tablet:pr-5">Every bite of our meal was packed with flavor and made from the freshest ingredients. You can tell the kitchen takes pride in what they serve. The presentation was beautiful without being overdone. The service was prompt and professional, adding to the overall experience. I’m still thinking about the pasta it was that good. </p>
                                 </div>
                                 <div class="flex items-center gap-3 relative mt-[1rem] ml-[1rem] max-xl:mt-[0.7rem] max-xs:mt-[0.5rem]">
                                     <img class="w-[4rem] h-[4rem] rounded-[50%] border-1 border-white max-xs:w-[3.5rem] max-xs:h-[3.5rem]" />
