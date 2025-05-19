@@ -11,7 +11,7 @@ export default function MenuSlide() {
     const foods = [food1,  food3, food4, food5]
     return (
         <div className="mt-[-6rem] w-full box-border overflow-hidden container mx-auto py-20 flex flex-row items-center">
-            <div className="w-[18.75rem] h-[10rem] shrink-0 px-4 text-gray-600 border-l-4 border-blue-500 bg-white py-2 z-10 sm:text-base text-xl font-semibold text-left tablet:w-[13rem] tablet:h-[7rem] cp:w-[10rem]">Sweets</div>
+            <div className="w-[18.75rem] h-[10rem] shrink-0 px-4 text-gray-600 border-l-4 border-primary bg-white pt-[4rem] text-center py-2 z-10 sm:text-base text-xl font-semibold text-left tablet:w-[13rem] tablet:h-[7rem] cp:w-[10rem] tablet:pt-[2rem] cp:text-[0.9rem] cp:pt-[1rem]">A taste of our passion, served just for you.</div>
 
             <div className="flex animate-marquee whitespace-nowrap">
                 {foods.map((food, index) => (

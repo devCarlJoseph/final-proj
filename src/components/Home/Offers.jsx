@@ -10,10 +10,10 @@ export default function Offer() {
                     paused={false}
                     style={{ display: 'flex' }}
                     options={{
-                        height: 20,
-                        amplitude: 50,
+                        height: 100,
+                        amplitude: 10,
                         speed: 0.15,
-                        points: 15
+                        points: 10
                     }}
                 />
             </div>

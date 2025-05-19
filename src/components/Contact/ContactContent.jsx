@@ -6,20 +6,20 @@ import Image from "../../assets/pictures/gallery6.png"
 export default function ContactContent() {
     return (
         <div>
-            <div className='mt-[-9rem] z-10'>
+            <div className='mt-[-9rem]'>
                 <Wave fill='#faf8f7'
                     paused={false}
                     style={{ display: 'flex' }}
                     options={{
-                        height: 20,
-                        amplitude: 50,
+                        height: 100,
+                        amplitude: 10,
                         speed: 0.15,
-                        points: 15
+                        points: 10
                     }}
                 />
             </div>
             <div className="h-[55rem] bg-background tablet:h-[95rem]">
-                <div class="flex justify-center items-center gap-1 pt-[1rem] text-center text-primary pb-[1rem]  max-sm:pt-[2rem] max-sm:pb-[0.5rem]">
+                <div class="flex justify-center items-center gap-1 pt-[1rem] text-center text-primary pb-[1rem] max-sm:pt-[2rem] max-sm:pb-[0.5rem]">
                     <i class="fa-solid fa-diamond tablet:text-[0.9rem]"></i>
                     <i class="fa-solid fa-diamond tablet:text-[0.9rem]"></i>
                     <i class="fa-solid fa-diamond tablet:text-[0.9rem]"></i>

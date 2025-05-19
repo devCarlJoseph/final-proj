@@ -24,7 +24,7 @@ export default function Beverages() {
                             {/*For Text*/}
                             <div className="w-[25rem]">
                                 <div className="flex justify-between items-center px-2 pt-3.5 text-primary">
-                                    <div className="font-semibold text-[1.05rem] cp:text-[1rem]">Pesto Zucchini Noodles</div>
+                                    <div className="font-semibold text-[1.05rem] cp:text-[1rem]">Affogato</div>
                                     <div className="text-[1.2rem] font-bold mr-2.5 cp:text-[0.9rem]">$35.00</div>
                                 </div>
                                 <div>
@@ -45,7 +45,7 @@ export default function Beverages() {
                             {/*For Text*/}
                             <div className="w-[25rem]">
                                 <div className="flex justify-between items-center px-2 pt-3.5 text-primary">
-                                    <div className="font-semibold text-[1.05rem] cp:text-[1rem] ">Caprese Carnival Crust</div>
+                                    <div className="font-semibold text-[1.05rem] cp:text-[1rem] ">Chai Latte</div>
                                     <div className="text-[1.2rem] font-bold mr-2.5 cp:text-[0.9rem]">$35.00</div>
                                 </div>
                                 <div>
@@ -66,7 +66,7 @@ export default function Beverages() {
                             {/*For Text*/}
                             <div className="w-[25rem]">
                                 <div className="flex justify-between items-center px-2 pt-3.5 text-primary">
-                                    <div className="font-semibold text-[1.05rem] cp:text-[1rem] ">Udon Noodles</div>
+                                    <div className="font-semibold text-[1.05rem] cp:text-[1rem] ">Vintage Lemonade</div>
                                     <div className="text-[1.2rem] font-bold mr-2.5 cp:text-[0.9rem]">$35.00</div>
                                 </div>
                                 <div>
@@ -87,7 +87,7 @@ export default function Beverages() {
                             {/*For Text*/}
                             <div className="w-[25rem]">
                                 <div className="flex justify-between items-center px-2 pt-3.5 text-primary">
-                                    <div className="font-semibold text-[1.05rem] cp:text-[1rem] ">Lamb Chops with Mint Sauce</div>
+                                    <div className="font-semibold text-[1.05rem] cp:text-[1rem] ">Fresh Juices</div>
                                     <div className="text-[1.2rem] font-bold mr-2.5 cp:text-[0.9rem]">$35.00</div>
                                 </div>
                                 <div>
@@ -108,7 +108,7 @@ export default function Beverages() {
                             {/*For Text*/}
                             <div className="w-[25rem]">
                                 <div className="flex justify-between items-center px-2 pt-3.5 text-primary">
-                                    <div className="font-semibold text-[1.05rem] cp:text-[1rem] ">Shepherd Pie</div>
+                                    <div className="font-semibold text-[1.05rem] cp:text-[1rem] ">Mojito Mocktail</div>
                                     <div className="text-[1.2rem] font-bold mr-2.5 cp:text-[0.9rem]">$35.00</div>
                                 </div>
                                 <div>
@@ -131,7 +131,7 @@ export default function Beverages() {
                             {/*For Text*/}
                             <div className="w-[25rem]">
                                 <div className="flex justify-between items-center px-2 pt-3.5 text-primary">
-                                    <div className="font-semibold text-[1.05rem] cp:text-[1rem]">Pepperoni Paradise Pie</div>
+                                    <div className="font-semibold text-[1.05rem] cp:text-[1rem]">Bubble Tea</div>
                                     <div className="text-[1.2rem] font-bold mr-2.5 cp:text-[0.9rem]">$35.00</div>
                                 </div>
                                 <div>
@@ -152,7 +152,7 @@ export default function Beverages() {
                             {/*For Text*/}
                             <div className="w-[25rem]">
                                 <div className="flex justify-between items-center px-2 pt-3.5 text-primary">
-                                    <div className="font-semibold text-[1.05rem] cp:text-[1rem]">Quinoa Tacos</div>
+                                    <div className="font-semibold text-[1.05rem] cp:text-[1rem]">Virgin Pina Colada</div>
                                     <div className="text-[1.2rem] font-bold mr-2.5 cp:text-[0.9rem]">$35.00</div>
                                 </div>
                                 <div>
@@ -173,7 +173,7 @@ export default function Beverages() {
                             {/*For Text*/}
                             <div className="w-[25rem]">
                                 <div className="flex justify-between items-center px-2 pt-3.5 text-primary">
-                                    <div className="font-semibold text-[1.05rem] cp:text-[1rem]">Beef Stir Fry</div>
+                                    <div className="font-semibold text-[1.05rem] cp:text-[1rem]">Smoothies</div>
                                     <div className="text-[1.2rem] font-bold mr-2.5 cp:text-[0.9rem]">$35.00</div>
                                 </div>
                                 <div>
@@ -194,7 +194,7 @@ export default function Beverages() {
                             {/*For Text*/}
                             <div className="w-[25rem]">
                                 <div className="flex justify-between items-center px-2 pt-3.5 text-primary">
-                                    <div className="font-semibold text-[1.05rem] cp:text-[1rem]">Chicken Alfredo Pasta</div>
+                                    <div className="font-semibold text-[1.05rem] cp:text-[1rem]">Milkshakes</div>
                                     <div className="text-[1.2rem] font-bold mr-2.5 cp:text-[0.9rem]">$35.00</div>
                                 </div>
                                 <div>
@@ -215,7 +215,7 @@ export default function Beverages() {
                             {/*For Text*/}
                             <div className="w-[25rem]">
                                 <div className="flex justify-between items-center px-2 pt-3.5 text-primary">
-                                    <div className="font-semibold text-[1.05rem] cp:text-[1rem]">Peking Duck</div>
+                                    <div className="font-semibold text-[1.05rem] cp:text-[1rem]">Peach Iced Tea Lemonade</div>
                                     <div className="text-[1.2rem] font-bold mr-2.5 cp:text-[0.9rem]">$35.00</div>
                                 </div>
                                 <div>

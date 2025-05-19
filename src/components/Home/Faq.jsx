@@ -6,22 +6,21 @@ export default function Faq() {
 
     return (
         <div>
-            <div className='mb-[-3rem]'>
-                <Wave fill='#faf8f7'
+            <div className='mt-[-9rem]'>
+                <Wave fill='#f9f3ee'
                     paused={false}
                     style={{
-                        display: 'flex',
-                        rotate: '180deg'
+                        display: 'flex'
                     }}
                     options={{
-                        height: 10,
-                        amplitude: 30,
-                        speed: 0.20,
-                        points: 15
+                        height: 100,
+                        amplitude: 10,
+                        speed: 0.15,
+                        points: 10
                     }}
                 />
             </div>
-            <div className="bg-secondary h-[68rem] overflow-hidden tablet:h-[95rem] cp:h-[86rem]">
+            <div className="bg-secondary h-[68rem]overflow-hidden tablet:h-[95rem] cp:h-[86rem]">
                 <div>
                     <div>
                         <div className="flex justify-center items-center gap-1 pt-[8rem] text-center text-primary pb-[1rem] max-sm:pt-[3rem]">
@@ -35,7 +34,7 @@ export default function Faq() {
                         <div className="text-center font-semibold">
                             <h1 className="text-[2.5rem] cp:text-[1.8rem]">Question?<span className="text-primary ml-[0.5rem]">Look here.</span></h1>
                         </div>
-                        <div className="flex justify-center items-center gap-7 mt-[2rem] tablet:flex-col-reverse">
+                        <div className="flex justify-center items-center gap-7 mt-[2rem] overflow-hidden tablet:flex-col-reverse">
                             <div>
                                 <div className="w-[40rem] h-[4.5rem] bg-white rounded-[1rem] flex justify-between items-center shadow-sm relative cp:w-[25rem] cpM:w-[22rem] myPhone:w-[20.5rem] sCP:w-[18rem] ">
                                     <h1 className="text-[1.1rem] font-medium ml-[1rem] max-xs:text-[1rem] max-2xs:text-[0.8rem]">Where is your restaurant located?</h1>

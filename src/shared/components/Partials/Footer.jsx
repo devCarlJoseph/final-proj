@@ -4,21 +4,21 @@ import Wave from "react-wavify"
 export default function Footer() {
   return (
     <div>
-      <div className='mt-[-6.5rem]'>
+      <div className='mt-[-9rem]'>
         <Wave fill='#212121'
           paused={false}
           style={{ display: 'flex' }}
           options={{
-            height: 20,
-            amplitude: 30,
-            speed: 0.20,
-            points: 15
+            height: 100,
+            amplitude: 10,
+            speed: 0.15,
+            points: 10
           }}
         />
       </div>
-      <div className="bg-tertiary mt-[-0.5rem] tablet:mt-[-4.5rem]">
+      <div className="bg-tertiary">
         <div>
-          <div className="text-white flex justify-evenly pt-[1rem] tablet:flex-col tablet:items-center">
+          <div className="text-white flex justify-evenly pt-[1rem] overflow-hidden tablet:flex-col tablet:items-center">
             <div>
               <div className="flex justify-start items-start text-white gap-2">
                 <div className="w-[3rem] h-[3rem] bg-primary rounded-[50%]">

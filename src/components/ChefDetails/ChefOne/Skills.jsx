@@ -4,10 +4,10 @@
 export default function Skills() {
     return (
         <div>
-            <div className="bg-background h-[30rem] tablet:h-[50rem] cp:h-[60rem]">
+            <div className="bg-background h-[30rem] tablet:h-[50rem] cp:h-[60rem] myPhone:h-[65rem] sCP:h-[68rem]">
                 <div>
-                    <h1 className="ml-[10.7rem] text-[1.7rem] tablet:ml-[4rem] cp:mt-[-2.5rem] cp:ml-[1.35rem]">Skills</h1>
-                    <div className="w-[73.7rem] ml-[10.7rem] text-justify tablet:w-[40rem] tablet:ml-[4rem] cp:w-[24rem] cp:ml-[1.35rem]">
+                    <h1 className="ml-[10.7rem] text-[1.7rem] tablet:ml-[4rem] cp:mt-[-2.5rem] cp:ml-[1.35rem] cpM:mt-[-5rem] sCP:mt-[-6rem]">Skills</h1>
+                    <div className="w-[73.7rem] ml-[10.7rem] text-justify tablet:w-[40rem] tablet:ml-[4rem] cp:w-[24rem] cp:ml-[1.35rem] cpM:w-[21rem] myPhone:w-[20rem] sCP:w-[18rem] sCP:pr-[0.8rem]">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt dicta modi quam sequi, facere doloremque quia culpa earum delectus ad saepe odit atque ipsa, eius, dolorem quasi commodi corrupti ullam.
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio soluta iure deserunt rerum minus, dicta asperiores ex animi, pariatur perferendis, porro ad amet voluptas ipsam laborum neque beatae voluptatum totam. </p>
 

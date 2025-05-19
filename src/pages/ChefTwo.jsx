@@ -1,6 +1,6 @@
 import Header from "../shared/components/Partials/Header"
 import Intro from "../components/ChefDetails/ChefOne/Intro"
-import ChefImage from "../components/ChefDetails/ChefOne/ChefOne"
+import ChefImage from "../components/ChefDetails/ChefTwo/ChefTwo"
 import Skills from "../components/ChefDetails/ChefOne/Skills"
 import Reserve from "../components/Home/Reserve"
 import Gallery from "../components/Home/Gallery"

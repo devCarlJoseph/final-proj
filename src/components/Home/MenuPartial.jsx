@@ -17,18 +17,18 @@ export default function SectionThree() {
     return (
         <div className='box-border w-full'>
             <div className='mt-[-6rem]'>
-                <Wave fill='#edeceb'
+                <Wave fill='#f9f3ee'
                     paused={false}
                     style={{ display: 'flex' }}
                     options={{
-                        height: 20,
-                        amplitude: 30,
-                        speed: 0.20,
-                        points: 15
+                        height: 100,
+                        amplitude: 10,
+                        speed: 0.15,
+                        points: 10
                     }}
                 />
             </div>
-            <div className='h-[80rem] bg-secondary box-border mt-[-1rem] tablet:h-[130rem] cp:h-[110rem]'>
+            <div className='h-[80rem] bg-secondary box-border overflow-hidden mt-[-1rem] tablet:h-[130rem] cp:h-[110rem]'>
                 <div className=''>
                     <div class="flex justify-center items-center gap-1.5 text-primary pb-[1rem] cp:pb-[0.6rem] ">
                         <i className="fa-solid fa-diamond cp:text-[0.9rem]"></i>
@@ -43,7 +43,7 @@ export default function SectionThree() {
                             <div className="text-[2.5rem] cp:text-[1.5rem]">Timeless <span class="text-primary">Culinary Delights</span></div>
                         </div>
                     </div>
-                    <div className="flex justify-center items-center gap-[3rem] mt-[4rem] box-border tablet:flex-col">
+                    <div className="flex justify-center items-center gap-[3rem] mt-[4rem] overflow-hidden tablet:flex-col">
                         <div className="flex flex-col gap-5">
                             <div className="w-[34rem] h-[8.5rem] bg-white shadow-sm cp:w-[20rem] cp:h-[6.5rem]">
                                 <div className="flex gap-1">

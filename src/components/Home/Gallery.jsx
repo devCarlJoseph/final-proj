@@ -19,14 +19,14 @@ export default function Gallery() {
                     paused={false}
                     style={{ display: 'flex' }}
                     options={{
-                        height: 20,
-                        amplitude: 30,
-                        speed: 0.20,
-                        points: 15
+                        height: 100,
+                        amplitude: 10,
+                        speed: 0.15,
+                        points: 10
                     }}
                 />
             </div>
-            <div className="h-[90rem] bg-background mt-[-0.5rem] tablet:h-[60rem] cp:h-[110rem]">
+            <div className="h-[90rem] bg-background mt-[-0.5rem] overflow-hidden tablet:h-[60rem] cp:h-[110rem]">
                 <div>
                     <div class="flex justify-center gap-1 pt-[2rem] text-center text-primary pb-[1rem] max-sm:pt-[3rem]">
                         <i class="fa-solid fa-diamond"></i>

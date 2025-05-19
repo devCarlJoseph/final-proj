@@ -27,7 +27,7 @@ export default function Mission() {
                 <div class="relative">
                     <div>
                         <div class="flex justify-center items-center gap-[2rem] mt-[2rem] tablet:gap-[1rem] cp:flex-col">
-                            <div class="bg-primary w-[37rem] h-[12.5rem] rounded-[1.5rem] relative overflow-hidden tablet:w-[22.5rem] tablet:h-[17rem]">
+                            <div class="bg-primary w-[37rem] h-[12.5rem] rounded-[1.5rem] relative overflow-hidden tablet:w-[22.5rem] tablet:h-[17rem] cpM:w-[21rem] myPhone:w-[20rem] sCP:w-[18.5rem]">
                                 <div class="absolute right-[-0.5rem] top-[-1rem]">
                                     <i class="fa-solid fa-rocket text-white/40 text-[5.8rem] pt-[0.9rem]"></i>
                                 </div>
@@ -39,11 +39,11 @@ export default function Mission() {
                                         <h1 class="text-white text-[1.5rem] font-medium">Our Vision</h1>
                                     </div>
                                 </div>
-                                <div class="ml-[1.5rem] mt-[1rem]">
+                                <div class="ml-[1.5rem] mt-[1rem] myPhone:ml-[1rem] sCP:text-justify sCP:mr-[1rem] sCP:mt-[0.5rem]">
                                     <p class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic, totam tempora? Iure, sapiente odit quae cupiditate, in voluptate perferendis magnam minima exercitationem natus error optio. Quam magni ullam ad est!</p>
                                 </div>
                             </div>
-                            <div class="bg-white w-[37rem] h-[12.5rem] rounded-[1.5rem] relative overflow-hidden tablet:w-[22.5rem] tablet:h-[17rem]">
+                            <div class="bg-white w-[37rem] h-[12.5rem] rounded-[1.5rem] relative overflow-hidden tablet:w-[22.5rem] tablet:h-[17rem] cpM:w-[21rem] myPhone:w-[20rem] sCP:w-[18.5rem]">
                                 <div class="absolute right-[-0.5rem] top-[-1rem]">
                                     <i class="fa-solid fa-eye text-gray-100 text-[5.8rem] pt-[0.9rem]"></i>
                                 </div>
@@ -55,7 +55,7 @@ export default function Mission() {
                                         <h1 class="text-gray-600 text-[1.5rem] font-medium">Our Mission</h1>
                                     </div>
                                 </div>
-                                <div class="ml-[1.5rem] mt-[1rem]">
+                                <div class="ml-[1.5rem] mt-[1rem] myPhone:ml-[1rem] sCP:text-justify sCP:mr-[1rem] sCP:mt-[0.5rem]">
                                     <p class="text-gray-600">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae vitae et dignissimos consequuntur nesciunt culpa laborum quidem repellat? Soluta aliquid animi suscipit alias voluptatum odit! Tempore laboriosam.</p>
                                 </div>
                             </div>
@@ -63,7 +63,7 @@ export default function Mission() {
                     </div>
                     <div>
                         <div class="flex justify-center items-center mt-[5rem]">
-                            <img class="w-[75.5rem] h-[43.8rem] rounded-[1.5rem] object-obtain tablet:w-[45rem] tablet:h-[25rem] cp:w-[25rem] cp:h-[14rem]" src={image1} />
+                            <img class="w-[75.5rem] h-[43.8rem] rounded-[1.5rem] object-obtain tablet:w-[45rem] tablet:h-[25rem] cp:w-[25rem] cp:h-[14rem] myPhone:w-[21rem] myPhone:h-[11.8rem]" src={image1} />
                             <div>
                                 <Video playStatus={playStatus} />
                             </div>

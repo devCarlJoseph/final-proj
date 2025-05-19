@@ -1,8 +1,8 @@
-import ChefImage from "../../../assets/pictures/executive.jpg"
+import Chef from "../../../assets/pictures/pastry.jpg"
 import Wave from "react-wavify"
 
 
-export default function ChefOne() {
+export default function ChefThree() {
     return (
         <div>
             <div className='mt-[-9.5rem]'>
@@ -20,12 +20,12 @@ export default function ChefOne() {
             <div className="bg-background h-[35.5rem] tablet:h-[58rem]">
                 <div className="flex justify-center items-center gap-[2rem] mt-[-0.5rem] tablet:flex-col">
                     <div>
-                        <a href="/chef"><img src={ChefImage} className="w-[32rem] h-[32rem] rounded-[1rem] object-cover rounded-t-[50%] cp:w-[24rem] cp:h-[24rem]" /></a>
+                        <a href="/chef"><img src={Chef} className="w-[32rem] h-[32rem] rounded-[1rem] object-cover rounded-t-[50%] cp:w-[24rem] cp:h-[24rem] cpM:w-[22rem] cpM:h-[22rem] myPhone:w-[21rem] myPhone:h-[21rem] sCP:w-[19rem] sCP:h-[19rem]" /></a>
                     </div>
-                    <div className="w-[40rem] mt-[1.3rem] tablet:mt-[0.5rem] cp:w-[24rem] cp:mt-0">
+                    <div className="w-[40rem] mt-[1.3rem] tablet:mt-[0.5rem] cp:w-[24rem] cp:mt-0 cpM:w-[21rem] myPhone:w-[20rem] sCP:w-[18rem]">
                         <div className="tablet:text-center">
-                            <h1 className="text-[2.3rem] cp:text-[1.8rem]">Manang Linda</h1>
-                            <p className="text-[1.2rem] pt-[0.5rem] text-primary">Executive Chef</p>
+                            <h1 className="text-[2.3rem] cp:text-[1.8rem]">Daniel Mc'Nod</h1>
+                            <p className="text-[1.2rem] pt-[0.5rem] text-primary">Pastry Chef</p>
                         </div>
                         <div className="pt-[1.2rem]">
                             <p className="text-gray-500">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa tenetur, saepe quia tempora aliquam neque quasi, a maxime nobis fugiat consequuntur vitae doloribus reiciendis odio nihil earum, sed obcaecati iusto.</p>

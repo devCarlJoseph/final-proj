@@ -49,15 +49,15 @@ export default function Reserve() {
 
     return (
         <div>
-            <div className='mt-[-4.5rem]'>
-                <Wave fill='#fef1e1'
+            <div className='mt-[-9.5rem]'>
+                <Wave fill='#f9f3ee'
                     paused={false}
                     style={{ display: 'flex' }}
                     options={{
-                        height: 20,
-                        amplitude: 30,
-                        speed: 0.20,
-                        points: 15
+                        height: 100,
+                        amplitude: 10,
+                        speed: 0.15,
+                        points: 10
                     }}
                 />
             </div>

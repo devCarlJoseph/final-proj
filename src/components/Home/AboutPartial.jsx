@@ -4,19 +4,19 @@ import Wave from 'react-wavify'
 export default function SectionTwo() {
     return (
         <div>
-            <div className='mt-[-9rem] tablet:mt-[-5rem]'>
-                <Wave fill='#faf8f7'
+            <div className='mt-[-9rem]'>
+                <Wave fill='#faf9f7'
                     paused={false}
                     style={{ display: 'flex' }}
                     options={{
-                        height: 20,
+                        height: 100,
                         amplitude: 10,
                         speed: 0.15,
                         points: 10
                     }}
                 />
             </div>
-            <div className="w-full box-border h-[48rem] overflow-hidden max-sm:h-[20rem] tablet:h-[70rem] tablet:pt-[11rem] cp:h-[72rem] cp:pt-[13rem]">
+            <div className="w-full bg-background box-border h-[40rem] overflow-hidden max-sm:h-[20rem] tablet:h-[70rem] tablet:pt-[11rem] cp:h-[72rem] cp:pt-[13rem]">
                 <div>
                     <div className="flex justify-center items-center gap-[3rem] h-[40rem] tablet:flex-col">
                         <div className="relative ml-[1rem] tablet:ml-0 ">
