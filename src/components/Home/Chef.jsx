@@ -56,14 +56,14 @@ export default function Dine() {
                             </div>
                         </div>
                         <div>
-                            <a href="/"><img class="w-[25rem] h-[25rem] rounded-[2rem] object-cover cp:w-[22rem] cp:h-[22rem]" src={ChefTwo} /></a>
+                            <a href="/ChefTwo"><img class="w-[25rem] h-[25rem] rounded-[2rem] object-cover cp:w-[22rem] cp:h-[22rem]" src={ChefTwo} /></a>
                             <div class="text-center pt-[1rem]">
                                 <h1 class="text-[1.5rem] font-medium">Manang Linda</h1>
                                 <h1 class="text-primary">Sous Chef</h1>
                             </div>
                         </div>
                         <div class="max-xl:mr-[0.5rem] max-lg:mr-0">
-                            <a href="/"><img class="w-[25rem] h-[25rem] rounded-[2rem] object-cover cp:w-[22rem] cp:h-[22rem]" src={ChefThree} /></a>
+                            <a href="/ChefThree"><img class="w-[25rem] h-[25rem] rounded-[2rem] object-cover cp:w-[22rem] cp:h-[22rem]" src={ChefThree} /></a>
                             <div class="text-center pt-[1rem]">
                                 <h1 class="text-[1.5rem] font-medium">Manang Linda</h1>
                                 <h1 class="text-primary">Executive Chef</h1>
