@@ -11,8 +11,8 @@ export default function Mission() {
 
     return (
         <div>
-            <div className='mt-[-6rem]'>
-                <Wave fill='#fef1e1'
+            <div className='mt-[-9rem]'>
+                <Wave fill='#f9f3ee'
                     paused={false}
                     style={{ display: 'flex' }}
                     options={{
