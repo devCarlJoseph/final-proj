@@ -37,11 +37,11 @@ export default function Faq() {
                         </div>
                         <div className="flex justify-center items-center gap-7 mt-[2rem] tablet:flex-col-reverse">
                             <div>
-                                <div className="w-[40rem] h-[4.5rem] bg-white rounded-[1rem] flex justify-between items-center shadow-sm relative cp:w-[25rem] ">
+                                <div className="w-[40rem] h-[4.5rem] bg-white rounded-[1rem] flex justify-between items-center shadow-sm relative cp:w-[25rem] cpM:w-[22rem] myPhone:w-[20.5rem] sCP:w-[18rem] ">
                                     <h1 className="text-[1.1rem] font-medium ml-[1rem] max-xs:text-[1rem] max-2xs:text-[0.8rem]">Where is your restaurant located?</h1>
                                     <i className="fa-solid fa-plus text-[1.5rem] mr-[1rem] cursor-pointer js-faq-btn max-xs:text-[1rem]" data-content="faq_content_1"></i>
                                 </div>
-                                <div className="w-[40rem] h-[6.5rem] bg-white mt-[-0.8rem] rounded-b-[1rem] shadow-sm absolute faq_content_1 hidden overflow-hidden cp:w-[25rem] max-xs:w-[22rem] max-2xs:w-[18.5rem] max-2xs:h-[5.5rem]">
+                                <div className="w-[40rem] h-[6.5rem] bg-white mt-[-0.8rem] rounded-b-[1rem] shadow-sm absolute faq_content_1 hidden overflow-hidden cp:w-[25rem] cpM:w-[22rem] myPhone:w-[20.5rem] sCP:w-[18rem] ">
                                     <div className="relative">
                                         <div className="text-gray-500">
                                             <div className="font-medium ml-[1rem] pt-[0.5rem] cp:pt-[0.2rem] max-2xs:text-[0.9rem]">Wee are located at LOCATION!!!!</div>
@@ -81,11 +81,11 @@ export default function Faq() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="w-[40rem] h-[4.5rem] bg-white rounded-[1rem] shadow-sm mt-[1rem] flex justify-between items-center cp:w-[25rem] max-xs:w-[22rem] max-2xs:w-[18.5rem] max-2xs:h-[3.5rem]">
+                                <div className="w-[40rem] h-[4.5rem] bg-white rounded-[1rem] shadow-sm mt-[1rem] flex justify-between items-center cp:w-[25rem] cpM:w-[22rem] myPhone:w-[20.5rem] sCP:w-[18rem] max-xs:w-[22rem] max-2xs:w-[18.5rem] max-2xs:h-[3.5rem]">
                                     <h1 className="text-[1.1rem] font-medium ml-[1rem] max-xs:text-[1rem] max-2xs:text-[0.8rem]">What type of cuisine do you serve?</h1>
                                     <i className="fa-solid fa-plus text-[1.5rem] mr-[1rem] cursor-pointer js-faq-btn max-xs:text-[1rem]" data-content="faq_content_2"></i>
                                 </div>
-                                <div className="w-[40rem] h-[6.5rem] bg-white mt-[-0.8rem] rounded-b-[1rem] shadow-sm absolute overflow-hidden hidden faq_content_2 cp:w-[25rem] max-xs:w-[22rem] max-2xs:w-[18.5rem] max-2xs:h-[5.5rem]">
+                                <div className="w-[40rem] h-[6.5rem] bg-white mt-[-0.8rem] rounded-b-[1rem] shadow-sm absolute overflow-hidden hidden faq_content_2 cp:w-[25rem] cpM:w-[22rem] myPhone:w-[20.5rem] sCP:w-[18rem] ">
                                     <div className="relative">
                                         <div className="text-gray-500">
                                             <div className="font-medium ml-[1rem] pt-[0.5rem] cp:pt-[0.2rem] max-2xs:text-[0.9rem]">Di ko mo saba!!</div>
@@ -125,11 +125,11 @@ export default function Faq() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="w-[40rem] h-[4.5rem] bg-white rounded-[1rem] shadow-sm mt-[1rem] flex justify-between items-center cp:w-[25rem] max-xs:w-[22rem] max-2xs:w-[18.5rem]">
+                                <div className="w-[40rem] h-[4.5rem] bg-white rounded-[1rem] shadow-sm mt-[1rem] flex justify-between items-center cp:w-[25rem] cpM:w-[22rem] myPhone:w-[20.5rem] sCP:w-[18rem] max-xs:w-[22rem] max-2xs:w-[18.5rem]">
                                     <h1 className="text-[1.1rem] font-medium ml-[1rem]  max-xs:text-[1rem] max-2xs:text-[0.8rem]">What are your restaurant's opening and closing hours?</h1>
                                     <i className="fa-solid fa-plus text-[1.5rem] mr-[1rem] cursor-pointer js-faq-btn  max-xs:text-[1rem]" data-content="faq_content_3"></i>
                                 </div>
-                                <div className="w-[40rem] h-[6.5rem] bg-white mt-[-0.8rem] rounded-b-[1rem] shadow-sm absolute hidden overflow-hidden faq_content_3 cp:w-[25rem] max-xs:w-[22rem]">
+                                <div className="w-[40rem] h-[6.5rem] bg-white mt-[-0.8rem] rounded-b-[1rem] shadow-sm absolute hidden overflow-hidden faq_content_3 cp:w-[25rem] cpM:w-[22rem] myPhone:w-[20.5rem] sCP:w-[18rem] max-xs:w-[22rem]">
                                     <div className="relative">
                                         <div className="text-gray-500">
                                             <div className="font-medium ml-[1rem] pt-[0.5rem] max-sm:pt-[0.2rem] max-2xs:text-[0.9rem]">Di mi manirado!!</div>
@@ -169,11 +169,11 @@ export default function Faq() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="w-[40rem] h-[4.5rem] bg-white rounded-[1rem] shadow-sm mt-[1rem] flex justify-between items-center cp:w-[25rem] max-xs:w-[22rem] max-2xs:w-[18.5rem] max-2xs:h-[3.5rem]">
+                                <div className="w-[40rem] h-[4.5rem] bg-white rounded-[1rem] shadow-sm mt-[1rem] flex justify-between items-center cp:w-[25rem] cpM:w-[22rem] myPhone:w-[20.5rem] sCP:w-[18rem] max-xs:w-[22rem] max-2xs:w-[18.5rem] max-2xs:h-[3.5rem]">
                                     <h1 className="text-[1.1rem] font-medium ml-[1rem]  max-xs:text-[1rem] max-2xs:text-[0.8rem]">What is your cancellation policy for reservations?</h1>
                                     <i className="fa-solid fa-plus text-[1.5rem] mr-[1rem] cursor-pointer js-faq-btn max-xs:text-[1rem]" data-content="faq_content_4"></i>
                                 </div>
-                                <div className="w-[40rem] h-[6.5rem] bg-white mt-[-0.8rem] rounded-b-[1rem] shadow-sm absolute overflow-hidden hidden faq_content_4 cp:w-[25rem] max-xs:w-[22rem] max-2xs:w-[18.5rem] max-2xs:h-[5.5rem]">
+                                <div className="w-[40rem] h-[6.5rem] bg-white mt-[-0.8rem] rounded-b-[1rem] shadow-sm absolute overflow-hidden hidden faq_content_4 cp:w-[25rem] cpM:w-[22rem] myPhone:w-[20.5rem] sCP:w-[18rem] ">
                                     <div className="relative">
                                         <div className="text-gray-500">
                                             <div className="font-medium ml-[1rem] pt-[0.5rem] max-sm:pt-[0.2rem] max-2xs:text-[0.9rem]">Ahh di mi mo dawat ana!!</div>
@@ -213,11 +213,11 @@ export default function Faq() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="w-[40rem] h-[4.5rem] bg-white rounded-[1rem] shadow-sm mt-[1rem] flex justify-between items-center cp:w-[25rem] max-xs:w-[22rem] max-2xs:w-[18.5rem] max-2xs:h-[3.5rem]">
+                                <div className="w-[40rem] h-[4.5rem] bg-white rounded-[1rem] shadow-sm mt-[1rem] flex justify-between items-center cp:w-[25rem] cpM:w-[22rem] myPhone:w-[20.5rem] sCP:w-[18rem] max-xs:w-[22rem] max-2xs:w-[18.5rem] max-2xs:h-[3.5rem]">
                                     <h1 className="text-[1.1rem] font-medium ml-[1rem]  max-xs:text-[1rem] max-2xs:text-[0.8rem]">Do you have any ongoing promotions or discounts?</h1>
                                     <i className="fa-solid fa-plus text-[1.5rem] mr-[1rem] cursor-pointer js-faq-btn  max-xs:text-[1rem]" data-content="faq_content_5"></i>
                                 </div>
-                                <div className="w-[40rem] h-[6.5rem] bg-white mt-[-0.8rem] rounded-b-[1rem] shadow-sm absolute hidden overflow-hidden faq_content_5 cp:w-[25rem] max-xs:w-[22rem] max-2xs:w-[18.5rem] max-2xs:h-[5.5rem]">
+                                <div className="w-[40rem] h-[6.5rem] bg-white mt-[-0.8rem] rounded-b-[1rem] shadow-sm absolute hidden overflow-hidden faq_content_5 cp:w-[25rem] cpM:w-[22rem] myPhone:w-[20.5rem] sCP:w-[18rem] ">
                                     <div className="relative">
                                         <div className="text-gray-500">
                                             <div className="font-medium ml-[1rem] pt-[0.5rem] max-sm:pt-[0.2rem] max-2xs:text-[0.9rem]">Wa oy kinsa man ka!!</div>
@@ -257,11 +257,11 @@ export default function Faq() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="w-[40rem] h-[4.5rem] bg-white rounded-[1rem] shadow-sm mt-[1rem] flex justify-between items-center cp:w-[25rem] max-xs:w-[22rem] max-2xs:w-[18.5rem] max-2xs:h-[3.5rem]">
+                                <div className="w-[40rem] h-[4.5rem] bg-white rounded-[1rem] shadow-sm mt-[1rem] flex justify-between items-center cp:w-[25rem] cpM:w-[22rem] myPhone:w-[20.5rem] sCP:w-[18rem] max-xs:w-[22rem] max-2xs:w-[18.5rem] max-2xs:h-[3.5rem]">
                                     <h1 className="text-[1.1rem] font-medium ml-[1rem]  max-xs:text-[1rem] max-2xs:text-[0.8rem]">What payment methods do you accept?</h1>
                                     <i className="fa-solid fa-plus text-[1.5rem] mr-[1rem] cursor-pointer js-faq-btn  max-xs:text-[1rem]" data-content="faq_content_6"></i>
                                 </div>
-                                <div className="w-[40rem] h-[6.5rem] bg-white mt-[-0.8rem] rounded-b-[1rem] shadow-sm absolute hidden overflow-hidden faq_content_6 cp:w-[25rem] max-xs:w-[22rem] max-2xs:w-[18.5rem] max-2xs:h-[5.5rem]">
+                                <div className="w-[40rem] h-[6.5rem] bg-white mt-[-0.8rem] rounded-b-[1rem] shadow-sm absolute hidden overflow-hidden faq_content_6 cp:w-[25rem] cpM:w-[22rem] myPhone:w-[20.5rem] sCP:w-[18rem] ">
                                     <div className="relative">
                                         <div className="text-gray-500">
                                             <div className="font-medium ml-[1rem] pt-[0.5rem] max-sm:pt-[0.2rem] max-2xs:text-[0.9rem]">Bisag unsa!!</div>
@@ -303,17 +303,17 @@ export default function Faq() {
                                 </div>
                             </div>
                             <div className="flex flex-col items-center sticky">
-                                <div className="bg-[url('../../assets/pictures/ambot.jpg')] h-[20rem] w-[27rem] bg-cover rounded-[1rem] cp:w-[20rem] cp:h-[15rem]">
+                                <div className="bg-[url('../../assets/pictures/ambot.jpg')] h-[20rem] w-[27rem] bg-cover rounded-[1rem] cp:w-[20rem] cp:h-[15rem] sCP:w-[19rem]">
                                     <div className="text-center">
                                         <div className="relative">
                                             <i className="fa-solid fa-comment-dots text-primary text-[3.5rem] mt-[2rem] cp:text-[2.5rem] cp:mt-[1rem]"></i>
-                                            <i className="fa-regular fa-comment-dots text-white text-[3.8rem] absolute top-[1.95rem] left-[11.6rem] cp:text-[2.8rem] cp:left-[8.6rem] cp:top-[0.95rem] max-2xs:left-[7.6rem] max-2xs:top-[0.87rem]"></i>
+                                            <i className="fa-regular fa-comment-dots text-white text-[3.8rem] absolute top-[1.95rem] left-[11.6rem] cp:text-[2.8rem] cp:left-[8.6rem] cp:top-[0.95rem] sCP:left-[8.1rem] sCP:top-[0.9rem]"></i>
                                         </div>
                                         <div>
                                             <h1 className="mt-[1.5rem] text-white text-[1.5rem] font-medium cp:text-[1.3rem] cp:mt-[1rem] max-2xs:text-[1rem]">You have different questions?</h1>
                                             <p className="mt-[1rem] text-gray-300 cp:mt-[0.5rem] max-2xs:text-[0.9rem]">Our team will answer all your questions.<br /> We ensure a quick response.</p>
                                         </div>
-                                        <div className="w-[10rem] h-[3rem] bg-primary rounded-[1.5rem] mt-[1.5rem] ml-[8.3rem] cursor-pointer hover:bg-tertiary/70 cp:ml-[5.3rem] cp:mt-[1rem] max-2xs:ml-[4.1rem]">
+                                        <div className="w-[10rem] h-[3rem] bg-primary rounded-[1.5rem] mt-[1.5rem] ml-[8.3rem] cursor-pointer hover:bg-tertiary/70 cp:ml-[5.3rem] cp:mt-[1rem] sCP:ml-[4.8rem]">
                                             <button className="mt-[0.65rem] text-white font-medium cursor-pointer">Contact Us</button>
                                         </div>
                                     </div>

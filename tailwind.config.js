@@ -19,6 +19,9 @@ export default {
       screens: {
         'tablet': { 'max': '768px' }, 
         'cp' : {'max': '431px'},
+        'cpM' : {'max' : '376px'},
+        'myPhone' : {'max' : '361px'},
+        'sCP' : {'max' : '320px'},
       } 
     },
   },

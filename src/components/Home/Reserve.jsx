@@ -61,7 +61,7 @@ export default function Reserve() {
                     }}
                 />
             </div>
-            <div className="bg-secondary h-[70rem] tablet:h-[120rem] overflow-hidden cp:h-[98rem]">
+            <div className="bg-secondary h-[70rem] tablet:h-[120rem] overflow-hidden cp:h-[98rem] sCP:h-[100rem]">
                 <div>
                     <div class="flex justify-center items-center gap-1 pt-[1rem] text-center text-primary pb-[1rem]">
                         <i class="fa-solid fa-diamond cp:text-[0.9rem]"></i>
@@ -119,7 +119,7 @@ export default function Reserve() {
                             </div>
                         </form>
                     </div>
-                    <div class="bg-three bg-[url('../../assets/pictures/ambot.jpg')] bg-cover h-[35rem] w-[27rem] rounded-[1rem] mr-[12.5rem] tablet:mr-0 cp:w-[20rem] cp:h-[20rem]">
+                    <div class="bg-three bg-[url('../../assets/pictures/ambot.jpg')] bg-cover h-[35rem] w-[27rem] rounded-[1rem] mr-[12.5rem] tablet:mr-0 cp:w-[20rem] cp:h-[20rem] sCP:w-[19rem] sCP:h-[19rem]">
                         <div class="text-white text-justify mt-[1.5rem] ml-[1.5rem] ">
                             <h1 class="text-[1.5rem] font-medium cp:text-[1.2rem]">Address</h1>
                             <p class="pt-[0.5rem] text-gray-200 cp:text-[0.9rem]">Cordova 2041 Ln. Yeh, New York Sandwich</p>

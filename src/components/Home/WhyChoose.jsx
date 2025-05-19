@@ -36,8 +36,8 @@ export default function WhyChoose() {
                 <div class="flex justify-center items-center box-border gap-[1.5rem] mt-[3rem] tablet:flex-col">
                     <div class="relative w-[25%] tablet:w-[50%] cp:w-[80%]">
                         <img src={image1} class="w-[30rem] h-[30rem] rounded-[40%] object-cover cp:w-[20rem] cp:h-[25rem]" />
-                        <div class="w-[22rem] h-[28rem] border-[3px] border-white rounded-[40%] absolute top-[1rem] left-[0.9rem] cp:w-[18.15rem] cp:h-[23rem]"></div>
-                        <div class="w-[17rem] h-[6rem] bg-primary rounded-[1.2rem] border-[5px] border-white absolute top-[25.5rem] left-[3.5rem] cp:w-[15rem] cp:h-[5rem] cp:top-[20rem] cp:left-[2.7rem]">
+                        <div class="w-[22rem] h-[28rem] border-[3px] border-white rounded-[40%] absolute top-[1rem] left-[0.9rem] cp:w-[18.15rem] cp:h-[23rem] cpM:w-[17rem] myPhone:w-[16.3rem] sCP:w-[14.4rem]"></div>
+                        <div class="w-[17rem] h-[6rem] bg-primary rounded-[1.2rem] border-[5px] border-white absolute top-[25.5rem] left-[3.5rem] cp:w-[15rem] cp:h-[5rem] cp:top-[20rem] cp:left-[2.7rem] cpM:left-[2.3rem] myPhone:left-[2rem] sCP:left-[0.7rem]">
                             <div class="relative">
                                 <div>
                                     <img src={person1} class="w-[3.5rem] h-[3.5rem] rounded-[50%] border-[3px] border-white absolute top-[1rem] left-[1rem] cp:w-[3rem] cp:h-[3rem] cp:top-[0.65rem]"/>

@@ -6,7 +6,7 @@ export default function One() {
     return (
         <div>
             <div class="flex justify-center items-center gap-4 mt-[3rem] tablet:flex-col">
-                <div class="w-[35rem] h-[20.3rem] backdrop-blur-md bg-white/20 rounded-[1rem] border-1 border-white/20 cp:w-[20.5rem] cp:h-[18rem]">
+                <div class="w-[35rem] h-[20.3rem] backdrop-blur-md bg-white/20 rounded-[1rem] border-1 border-white/20 cp:w-[20.5rem] cp:h-[18rem] sCP:w-[19rem] sCP:h-[18.9rem]">
                     <div class="flex gap-2 ml-[1rem] mt-[1rem] cp:mt-[0.5rem]">
                         <div class="flex gap-1 items-center text-[1.3rem] text-yellow-500">
                             <i class="fa-solid fa-star cp:text-[0.9rem]"></i>
@@ -30,7 +30,7 @@ export default function One() {
                         </div>
                     </div>
                 </div>
-                <div class="w-[35rem] h-[20.3rem] backdrop-blur-md bg-white/20 rounded-[1rem] border-1 border-white/20 cp:w-[20.5rem] cp:h-[18rem]">
+                <div class="w-[35rem] h-[20.3rem] backdrop-blur-md bg-white/20 rounded-[1rem] border-1 border-white/20 cp:w-[20.5rem] cp:h-[18rem] sCP:w-[19rem] sCP:h-[18.9rem]">
                     <div class="flex gap-2 ml-[1rem] mt-[1rem] cp:mt-[0.5rem]">
                         <div class="flex gap-1 items-center text-[1.3rem] text-yellow-500">
                             <i class="fa-solid fa-star cp:text-[0.9rem]"></i>

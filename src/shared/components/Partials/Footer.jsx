@@ -54,11 +54,11 @@ export default function Footer() {
               <div>
                 <h1 className="tablet:text-center tablet:mt-[2rem] font-semibold">Links</h1>
                 <div className="mt-[2rem] text-gray-300 tablet:mt-0">
-                  <ul className="tablet:flex gap-[1rem]">
-                    <li className="mt-[1rem] cursor-pointer hover:text-primary"><a href="/Chef">Our Staff</a></li>
-                    <li className="mt-[1rem] cursor-pointer hover:text-primary"><a href="/Contact">Contact Us</a></li>
-                    <li className="mt-[1rem] cursor-pointer hover:text-primary"><a href="/about">About Us</a></li>
-                    <li className="mt-[1rem] cursor-pointer hover:text-primary"><a href="/Testimonial">Testimonials</a></li>
+                  <ul className="tablet:flex gap-[1rem] myPhone:gap-[0.8rem]">
+                    <li className="mt-[1rem] cursor-pointer hover:text-primary myPhone:text-[0.9rem]"><a href="/Chef">Our Staff</a></li>
+                    <li className="mt-[1rem] cursor-pointer hover:text-primary myPhone:text-[0.9rem]"><a href="/Contact">Contact Us</a></li>
+                    <li className="mt-[1rem] cursor-pointer hover:text-primary myPhone:text-[0.9rem]"><a href="/about">About Us</a></li>
+                    <li className="mt-[1rem] cursor-pointer hover:text-primary myPhone:text-[0.9rem]"><a href="/Testimonial">Testimonials</a></li>
                   </ul>
                 </div>
               </div>
@@ -85,7 +85,7 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div className="border-b-[1px] border-b-white w-[85%] mt-[4rem] ml-[7rem] max-2xl:ml-[8.5rem] tablet:mt-[1rem] tablet:ml-[3.7rem] cp:ml-[2rem]"></div>
+          <div className="border-b-[1px] border-b-white w-[85%] mt-[4rem] ml-[7rem] max-2xl:ml-[8.5rem] tablet:mt-[1rem] tablet:ml-[3.7rem] cp:ml-[2rem] myPhone:w-[90%] myPhone:ml-[1rem]"></div>
           <div className="flex justify-between items-center mt-[2rem] pb-[4rem] max-xl:mt-[1rem] cp:justify-center tablet:pb-[2rem]">
             <div className="text-white ml-[7rem] tablet:ml-[3.7rem] cp:ml-0">
               <h1>Copyright 2025</h1>

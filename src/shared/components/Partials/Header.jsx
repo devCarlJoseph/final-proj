@@ -19,9 +19,9 @@ export default function Header() {
                         </div>
                     </div>
                     <div className='mt-[1.5rem] mb-[0.7rem]'>
-                        <i class="fa-solid fa-bars text-[1.3rem] mr-[-6.5rem] text-white cursor-pointer hidden tablet:block tablet:ml-[19rem] cp:ml-[3.5rem]"
+                        <i class="fa-solid fa-bars text-[1.3rem] mr-[-6.5rem] text-white cursor-pointer hidden tablet:block tablet:ml-[19rem] cp:ml-[3.5rem] myPhone:ml-[2rem] sCP:ml-[1rem]"
                         onClick={() => setNavOpen(!navOpen)}></i>
-                        <ul className={`${navOpen ? 'flex flex-col items-center gap-4 mt-4 bg-tertiary w-[41rem] h-[17.2rem] absolute left-0 pt-[0.7rem] rounded-[0.5rem] cp:w-[22rem] lg:hidden' : 'block tablet:hidden'} flex gap-[2rem] cursor-pointer text-white font-medium z-[2]`}>
+                        <ul className={`${navOpen ? 'flex flex-col items-center gap-4 mt-4 bg-tertiary w-[41rem] h-[17.2rem] absolute left-0 pt-[0.7rem] rounded-[0.5rem] cp:w-[23rem] myPhone:w-[20rem] sCP:w-[17rem] lg:hidden' : 'block tablet:hidden'} flex gap-[2rem] cursor-pointer text-white font-medium z-[2]`}>
                             <li class="hover:border-mainH hover:border-b-[2px]"><Link to="/" >Home</Link></li>
                             <li class="hover:border-mainH hover:border-b-[2px]"><Link to="/menu" >Menu</Link></li>
                             <li class="hover:border-mainH hover:border-b-[2px]"><Link to="/about" >About Us</Link></li>
