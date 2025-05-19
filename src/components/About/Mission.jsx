@@ -23,7 +23,7 @@ export default function Mission() {
                     }}
                 />
             </div>
-            <div class="bg-secondary h-[100rem] overflow-hidden tablet:h-[60rem] cp:h-[68rem]">
+            <div class="bg-secondary h-[100rem] overflow-hidden tablet:h-[60rem] cp:h-[67rem] cpM:h-[65rem]">
                 <div class="relative">
                     <div>
                         <div class="flex justify-center items-center gap-[2rem] mt-[2rem] tablet:gap-[1rem] cp:flex-col">

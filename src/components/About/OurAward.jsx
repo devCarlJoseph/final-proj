@@ -4,7 +4,7 @@ import Award from "../../assets/pictures/awards.png"
 export default function OurAward() {
     return (
         <div>
-            <div class="bg-background h-[70rem] overflow-hidden tablet:h-[150rem] myPhone:h-[140rem] sCP:h-[125rem]">
+            <div class="bg-background h-[70rem] overflow-hidden tablet:h-[150rem] cpM:h-[137rem] sCP:h-[125rem]">
                 <div>
                     <div class="pt-[5rem] max-xl:pt-[10rem] max-sm:pt-[7rem]">
                         <div class="flex justify-center items-center gap-1 text-center text-primary pb-[1rem]">

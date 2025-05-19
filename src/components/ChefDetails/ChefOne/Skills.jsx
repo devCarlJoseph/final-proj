@@ -40,7 +40,7 @@ export default function Skills() {
                             </div>
                             <div className="flex flex-col gap-[0.5rem]">
                                 <div className="flex justify-between">
-                                    <div>Culinary Skills</div>
+                                    <div>Creativity & Innovation</div>
                                     <div>85%</div>
                                 </div>
                                 <div>
@@ -59,7 +59,7 @@ export default function Skills() {
                             </div>
                             <div className="flex flex-col gap-[0.5rem]">
                                 <div className="flex justify-between">
-                                    <div>Culinary Skills</div>
+                                    <div>Kitchen Operations & Efficiency</div>
                                     <div>85%</div>
                                 </div>
                                 <div>
@@ -80,7 +80,7 @@ export default function Skills() {
                         <div className="w-[49%] flex flex-col gap-[2rem] tablet:w-[40%] cp:w-[75%]">
                             <div className="flex flex-col gap-[0.5rem]">
                                 <div className="flex justify-between">
-                                    <div>Culinary Skills</div>
+                                    <div>Leadership & Management</div>
                                     <div>85%</div>
                                 </div>
                                 <div>
@@ -99,7 +99,7 @@ export default function Skills() {
                             </div>
                             <div className="flex flex-col gap-[0.5rem]">
                                 <div className="flex justify-between">
-                                    <div>Culinary Skills</div>
+                                    <div>Time Management</div>
                                     <div>85%</div>
                                 </div>
                                 <div>
@@ -118,7 +118,7 @@ export default function Skills() {
                             </div>
                             <div className="flex flex-col gap-[0.5rem]">
                                 <div className="flex justify-between">
-                                    <div>Culinary Skills</div>
+                                    <div>Creativity & Innovation</div>
                                     <div>85%</div>
                                 </div>
                                 <div>

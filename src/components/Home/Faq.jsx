@@ -20,10 +20,10 @@ export default function Faq() {
                     }}
                 />
             </div>
-            <div className="bg-secondary h-[64rem] overflow-hidden tablet:h-[95rem] cp:h-[86rem]">
+            <div className="mt-[-0.5rem] bg-secondary h-[58rem] overflow-hidden tablet:h-[88rem] cp:h-[80rem]">
                 <div>
                     <div>
-                        <div className="flex justify-center items-center gap-1 pt-[8rem] text-center text-primary pb-[1rem] max-sm:pt-[3rem]">
+                        <div className="flex justify-center items-center gap-1 pt-[4rem] text-center text-primary pb-[1rem] max-sm:pt-[3rem]">
                             <i className="fa-solid fa-diamond cp:text-[0.9rem]"></i>
                             <i className="fa-solid fa-diamond cp:text-[0.9rem]"></i>
                             <i className="fa-solid fa-diamond cp:text-[0.9rem]"></i>

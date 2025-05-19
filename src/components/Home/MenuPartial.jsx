@@ -28,7 +28,7 @@ export default function SectionThree() {
                     }}
                 />
             </div>
-            <div className='h-[78rem] bg-secondary box-border overflow-hidden mt-[-1rem] tablet:h-[130rem] cp:h-[110rem]'>
+            <div className='h-[78rem] bg-secondary box-border overflow-hidden mt-[-1rem] tablet:h-[125rem] cp:h-[102rem]'>
                 <div className=''>
                     <div class="flex justify-center items-center gap-1.5 text-primary pb-[1rem] cp:pb-[0.6rem] ">
                         <i className="fa-solid fa-diamond cp:text-[0.9rem]"></i>

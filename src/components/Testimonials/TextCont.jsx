@@ -13,8 +13,8 @@ import image10 from "../../assets/pictures/pp10.avif"
 
 export default function TextCont() {
     return (
-        <div className="">
-            <div className='mt-[-6rem]'>
+        <div>
+            <div className='mt-[-9rem]'>
                 <Wave fill='#faf8f7'
                     paused={false}
                     style={{
@@ -28,7 +28,7 @@ export default function TextCont() {
                     }}
                 />
             </div>
-            <div className="bg-background h-[130rem] tablet:h-[240rem]">
+            <div className="bg-background h-[130rem] tablet:h-[240rem] cp:h-[250rem] sCP:h-[290rem]">
                 <div>
                     <div>
                         <div class="pt-[1.5rem]">
@@ -38,10 +38,10 @@ export default function TextCont() {
                                 <i class="fa-solid fa-diamond"></i>
                             </div>
                             <div class="text-center text-primary">
-                                <h1 class="text-[1.2rem] font-medium pb-[1rem] max-sm:pb-[0.5rem]">TESTIMONIALS</h1>
+                                <h1 class="text-[1.2rem] font-medium pb-[1rem] cp:text-[1rem]">TESTIMONIALS</h1>
                             </div>
                             <div class="text-center font-semibold">
-                                <h1 class="text-[2.5rem] text-black max-sm:text-[2rem] max-xs:text-[1.5rem]">Testimonials from Our <br /><span class="text-primary">Valued Guests</span></h1>
+                                <h1 class="text-[2.5rem] text-black cp:text-[2rem] myPhone:text-[1.6rem]">Testimonials from Our <br /><span class="text-primary">Valued Guests</span></h1>
                             </div>
                         </div>
                     </div>
