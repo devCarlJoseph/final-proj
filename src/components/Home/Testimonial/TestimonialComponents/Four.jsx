@@ -19,8 +19,8 @@ export default function Four() {
                         <h1 class="text-[1.3rem] text-white font-medium cp:text-[1rem]">5.0</h1>
                     </div>
                     <div class="ml-[1rem] mt-[1rem] cp:mt-[0.5rem]">
-                        <h1 class="text-[1.5rem] text-white font-medium cp:text-[1.1rem]">Fresh, flavorful, and unforgettable.</h1>
-                        <p class="text-gray-300 pr-5 mt-[0.5rem] cp:text-[0.8rem]">Every bite of our meal was packed with flavor and made from the freshest ingredients. You can tell the kitchen takes pride in what they serve. The presentation was beautiful without being overdone. The service was prompt and professional, adding to the overall experience. I’m still thinking about the pasta it was that good. </p>
+                        <h1 class="text-[1.5rem] text-white font-medium cp:text-[1.1rem]">Absolutely fantastic!</h1>
+                        <p class="text-gray-300 pr-5 mt-[0.5rem] cp:text-[0.8rem]">We were greeted with warm smiles the moment we walked in. The staff made us feel welcomed and taken care of the entire evening. The food was beautifully presented and packed with flavor. The cozy and inviting atmosphere added to the experience. I especially loved the house special—it was unforgettable. We’ll definitely be back soon! </p>
                     </div>
                     <div class="flex items-center gap-3 relative mt-[1rem] ml-[1rem] cp:mt-[0.5rem]">
                         <img class="w-[4rem] h-[4rem] rounded-[50%] border-1 border-white cp:w-[3.5rem] cp:h-[3.5rem]" src={GuestTwo} />
@@ -43,8 +43,8 @@ export default function Four() {
                         <h1 class="text-[1.3rem] text-white font-medium cp:text-[1rem]">5.0</h1>
                     </div>
                     <div class="ml-[1rem] mt-[1rem] cp:mt-[0.5rem]">
-                        <h1 class="text-[1.5rem] text-white font-medium cp:text-[1.2rem] max-2xs:text-[1.1rem]">Consistently excellent.</h1>
-                        <p class="text-gray-300 pr-5 mt-[0.5rem] max-xl:mt-[0.5rem] cp:text-[0.8rem] max-xs:mt-[0.2rem] max-2xs:text-[0.75rem] max-xs:pr-3">I’ve been coming here for months, and it never disappoints. The food is always delicious, consistent, and thoughtfully prepared. The staff treats you like a regular, even if it’s your first time. Whether I’m here with friends or eating solo, I always feel welcome. It’s rare to find such consistent quality and service. That’s why it remains my favorite spot in town.</p>
+                        <h1 class="text-[1.5rem] text-white font-medium cp:text-[1.2rem] max-2xs:text-[1.1rem]">A hidden gem!</h1>
+                        <p class="text-gray-300 pr-5 mt-[0.5rem] max-xl:mt-[0.5rem] cp:text-[0.8rem] max-xs:mt-[0.2rem] max-2xs:text-[0.75rem] max-xs:pr-3">This place completely exceeded our expectations. Every dish was flavorful, fresh, and clearly prepared with care. The staff was kind, attentive, and very knowledgeable about the menu. The ambiance was intimate and perfect for a relaxing dinner. I’m already planning another visit. It’s one of the best dining experience.</p>
                     </div>
                     <div class="flex items-center gap-3 relative mt-[1rem] ml-[1rem] cp:mt-[0.5rem]">
                         <img class="w-[4rem] h-[4rem] rounded-[50%] border-1 border-white cp:w-[3.5rem] cp:h-[3.5rem]" src={GuestOne} />

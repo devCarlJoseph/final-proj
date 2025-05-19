@@ -17,7 +17,7 @@ export default function Offer() {
                     }}
                 />
             </div>
-            <div class="overflow-hidden bg-background h-[40rem] tablet:h-[70rem] cp:h-[45rem]">
+            <div class="overflow-hidden bg-background h-[44rem] tablet:h-[70rem] cp:h-[45rem]">
                 <div class="w-full">
                     <div class="text-center">
                         <div class="flex justify-center gap-1.5 pt-[2rem] text-center text-primary pb-[1rem] cp:pb-[0.5rem]">

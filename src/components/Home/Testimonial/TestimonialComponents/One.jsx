@@ -18,8 +18,8 @@ export default function One() {
                         <h1 class="text-[1.3rem] text-white font-medium cp:text-[1rem]">5.0</h1>
                     </div>
                     <div class="ml-[1rem] mt-[1rem] cp:mt-[0.5rem]">
-                        <h1 class="text-[1.5rem] text-white font-medium cp:text-[1.1rem]">Fresh, flavorful, and unforgettable.</h1>
-                        <p class="text-gray-300 pr-5 mt-[0.5rem] cp:text-[0.8rem]">Every bite of our meal was packed with flavor and made from the freshest ingredients. You can tell the kitchen takes pride in what they serve. The presentation was beautiful without being overdone. The service was prompt and professional, adding to the overall experience. I’m still thinking about the pasta it was that good. </p>
+                        <h1 class="text-[1.5rem] text-white font-medium cp:text-[1.1rem]">Best dining experience we've had </h1>
+                        <p class="text-gray-300 pr-5 mt-[0.5rem] cp:text-[0.8rem]">Everything we ordered was exceptional, from appetizers to dessert. The pacing of the meal was perfect, and we never felt rushed. Our server made great recommendations and added a personal touch to the night. The chef even came out to greet guests, which was a lovely surprise. The ambiance was elegant yet comfortable. </p>
                     </div>
                     <div class="flex items-center gap-3 relative mt-[1rem] ml-[1rem] cp:mt-[0.5rem]">
                         <img class="w-[4rem] h-[4rem] rounded-[50%] border-1 border-white cp:w-[3.5rem] cp:h-[3.5rem]" src={GuestTwo} />

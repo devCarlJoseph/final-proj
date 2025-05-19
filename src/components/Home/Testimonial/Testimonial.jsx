@@ -9,7 +9,7 @@ export default function Testimonial() {
 
     return (
         <div>
-            <div className='mb-[-4rem]'>
+            <div className='mb-[-9rem]'>
                 <Wave fill='#faf8f7'
                     paused={false}
                     style={{
@@ -17,10 +17,10 @@ export default function Testimonial() {
                         rotate: '180deg'
                     }}
                     options={{
-                        height: 20,
-                        amplitude: 30,
-                        speed: 0.20,
-                        points: 15
+                        height: 100,
+                        amplitude: 10,
+                        speed: 0.15,
+                        points: 10
                     }}
                 />
             </div>

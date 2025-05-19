@@ -10,10 +10,10 @@ export default function ChefFive() {
                     paused={false}
                     style={{ display: 'flex' }}
                     options={{
-                        height: 20,
-                        amplitude: 30,
-                        speed: 0.20,
-                        points: 15
+                        height: 100,
+                        amplitude: 10,
+                        speed: 0.15,
+                        points: 10
                     }}
                 />
             </div>

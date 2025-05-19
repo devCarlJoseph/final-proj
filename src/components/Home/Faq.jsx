@@ -20,7 +20,7 @@ export default function Faq() {
                     }}
                 />
             </div>
-            <div className="bg-secondary h-[68rem]overflow-hidden tablet:h-[95rem] cp:h-[86rem]">
+            <div className="bg-secondary h-[64rem] overflow-hidden tablet:h-[95rem] cp:h-[86rem]">
                 <div>
                     <div>
                         <div className="flex justify-center items-center gap-1 pt-[8rem] text-center text-primary pb-[1rem] max-sm:pt-[3rem]">

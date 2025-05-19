@@ -16,7 +16,7 @@ import AppetizerTen from "../../assets/pictures/Peach Iced Tea Lemonade.jpg"
 export default function SectionThree() {
     return (
         <div className='box-border w-full'>
-            <div className='mt-[-6rem]'>
+            <div className='mt-[-9rem]'>
                 <Wave fill='#f9f3ee'
                     paused={false}
                     style={{ display: 'flex' }}
@@ -28,7 +28,7 @@ export default function SectionThree() {
                     }}
                 />
             </div>
-            <div className='h-[80rem] bg-secondary box-border overflow-hidden mt-[-1rem] tablet:h-[130rem] cp:h-[110rem]'>
+            <div className='h-[78rem] bg-secondary box-border overflow-hidden mt-[-1rem] tablet:h-[130rem] cp:h-[110rem]'>
                 <div className=''>
                     <div class="flex justify-center items-center gap-1.5 text-primary pb-[1rem] cp:pb-[0.6rem] ">
                         <i className="fa-solid fa-diamond cp:text-[0.9rem]"></i>

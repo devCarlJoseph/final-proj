@@ -50,15 +50,15 @@ export default function BookATable() {
 
     return (
         <div>
-            <div className='mt-[-4.5rem]'>
+            <div className='mt-[-9rem]'>
                 <Wave fill='#faf8f7'
                     paused={false}
                     style={{ display: 'flex' }}
                     options={{
-                        height: 20,
-                        amplitude: 30,
-                        speed: 0.20,
-                        points: 15
+                        height: 100,
+                        amplitude: 10,
+                        speed: 0.15,
+                        points: 10
                     }}
                 />
             </div>

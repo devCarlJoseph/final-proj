@@ -18,7 +18,7 @@ export default function Dine() {
                     }}
                 />
             </div>
-            <div className="mt-[-0.5rem] bg-background h-[50rem] overflow-hidden tablet:h-[108rem] cp:h-[105rem]">
+            <div className="mt-[-0.5rem] bg-background h-[54rem] overflow-hidden tablet:h-[108rem] cp:h-[105rem]">
                 <div>
                     <div>
                         <div class="flex justify-center items-center gap-1 pt-[4rem] text-center text-primary pb-[1rem] ">
